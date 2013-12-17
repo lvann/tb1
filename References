@@ -1,0 +1,734 @@
+@Article{Ross-Ibarra et al 2007,
+author = {Ross-Ibarra, J and Morrell, PL and Gaut, BS}, 
+title = {Plant domestication, a unique opportunity to identify the genetic basis of adaptation}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {104}, 
+number = {1}, 
+pages = {8641-8648}, 
+year = {2007}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Olsen and Gross 2010,
+author = {Olsen, KM and Gross, BL}, 
+title = {Genetic perspectives on crop domestication}, 
+journal = {Trends in Plant Science}, 
+volume = {15}, 
+number = {9}, 
+pages = {529-537}, 
+year = {2010}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Kovach and McCouch 2008,
+author = {Kovach, MJ and McCouch, SR}, 
+title = {Leveraging natural diversity: back through the bottleneck}, 
+journal = {Genome studies and Molecular Genetics}, 
+volume = {11}, 
+number = {2}, 
+pages = {193-200}, 
+year = {2008}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Piperno et al 2009,
+author = {Piperno, DR and Ranere, AJ and Holst, I and Iriarte, J and Dickau, R}, 
+title = {Starch grain and phytolith evidence for early ninth millennium BP maize from the Central Balsas River Valley, Mexico}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {106}, 
+number = {13}, 
+pages = {5019-5024}, 
+year = {2009}, 
+abstract = {Questions that still surround the origin and early dispersals of maize (Zea mays L.) result in large part from the absence of information on its early history from the Balsas River Valley of tropical southwestern Mexico, where its wild ancestor is native. We report starch grain and phytolith data from the Xihuatoxtia shelter, located in the Central Balsas Valley, that indicate that maize was present by 8,700 calendrical years ago (cal. B.P.). Phytolith data also indicate an early preceramic presence of a domesticated species of squash, possibly Cucurbita argyrosperma. The starch and phytolith data also allow an evaluation of current hypotheses about how early maize was used, and provide evidence as to the tempo and timing of human selection pressure on 2 major domestication genes in Zea and Cucurbita. Our data confirm an early Holocene chronology for maize domestication that has been previously indicated by archaeological and paleoecological phytolith, starch grain, and pollen data from south of Mexico, and reshift the focus back to an origin in the seasonal tropical forest rather than in the semiarid highlands.}, 
+location = {Smithsonian Natl Museum Nat Hist, Dept Anthropol, Archaeobiol Program, Washington, DC 20560 USA pipernod@si.edu}, 
+keywords = {early Holocene; maize domestication; phytoliths; starch grains; Zea-mays; Domestication; Teosinte; Origin; Evolution; Ecuador; Poaceae; Locus}}
+
+
+@Article{Matsuoka et al 2002,
+author = {Matsuoka, Y and Vigouroux, Y and Goodman, MM and Sanchez, GJ and Buckler, E and Doebley, J}, 
+title = {A single domestication for maize shown by multilocus microsatellite genotyping}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {99}, 
+number = {9}, 
+pages = {6080-6084}, 
+year = {2002}, 
+abstract = {There exists extraordinary morphological and genetic diversity among the maize landraces that have been developed by pre-Columbian cultivators. To explain this high level of diversity in maize, several authors have proposed that maize landraces were the products of multiple independent domestications from their wild relative (teosinte). We present phylogenetic analyses based on 264 individual plants, each genotyped at 99 microsatellites, that challenge the multiple-origins hypothesis. Instead, our results indicate that all maize arose from a single domestication in southern Mexico about 9,000 years ago. Our analyses also indicate that the oldest surviving maize types are those of the Mexican highlands with maize spreading from this region over the Americas along two major paths. Our phylogenetic work is consistent with a model based on the archaeological record suggesting that maize diversified in the highlands of Mexico before spreading to the lowlands. We also found only modest evidence for postdomestication gene flow from teosinte into maize.}, 
+location = {Univ Wisconsin, Genet Lab, Madison, WI 53706 USA}, 
+keywords = {Zea-mays L.; Genetic Distances; Evolution; Origin; Diversity; Teosinte; Mexico; Loci}}
+
+
+@Article{Hufford et al 2012a,
+author = {Hufford, MB and Bilinski, P and Pyhäjärvi, T and Ross-Ibarra, J}, 
+title = {Teosinte as a model system for population and ecological genomics}, 
+journal = {Trends in Genetics}, 
+volume = {12}, 
+number = {}, 
+pages = {606-615}, 
+year = {2012}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Doebley 2004,
+author = {Doebley, J}, 
+title = {The genetics of maize evolution}, 
+journal = {Annu Rev Genet}, 
+volume = {38}, 
+number = {}, 
+pages = {37-59}, 
+year = {2004}, 
+abstract = {Maize and its closest wild relatives, the teosintes, differ strikingly in the morphology of their female inflorescences or ears. Despite their divergent morphologies, several studies indicate that some varieties of teosinte are cytologically indistinguishable from maize and capable of forming fully fertile hybrids with maize. Molecular analyses identified one form of teosinte (Zea mays ssp. parviglumis) as the progenitor of maize. Analyses of the inheritance of the morphological traits that distinguish maize and teosinte indicates that they are under the control of multiple genes and exhibit quantitative inheritance. Nevertheless, these analyses have also identified a few loci of large effect that appear to represent key innovations during maize domestication. Remaining challenges are to identify additional major and minor effect genes, the polymorphisms within these genes that control the phenotypes, and how the combination of the individual and epistatic effects of these genes transformed teosinte into maize.}, 
+location = {Univ Wisconsin, Genet Lab, Madison, WI 53706 USA jdoebley@wisc.edu}, 
+keywords = {Zea; teosinte branched1 (tb1) teosinte glume architecture1 (tga1); development; domestication; Quantitative Trait Locus; Zea-euchlaena Hybrids; Morphological Differences; Archaeological Maize; Mays L.; Teosinte; Domestication; Inheritance; Origin; Selection}}
+
+
+@Article{Hufford et al 2012b,
+author = {Hufford, MB and Xu, X and van, Heerwaarden, J and Pyhajarvi, T and Chia, JM and Cartwright, RA and Elshire, RJ and Glaubitz, JC and Guill, KE and Kaeppler, SM and Lai, JS and Morrell, PL and Shannon, LM and Song, C and Springer, NM and Swanson-Wagner, RA and Tiffin, P and Wang, J and Zhang, GY and Doebley, J and McMullen, MD and Ware, D and Buckler, ES and Yang, S and Ross-Ibarra, J}, 
+title = {Comparative population genomics of maize domestication and improvement}, 
+journal = {Nat Genet}, 
+volume = {44}, 
+number = {7}, 
+pages = {808-U118}, 
+year = {2012}, 
+abstract = {Domestication and plant breeding are ongoing 10,000-year-old evolutionary experiments that have radically altered wild species to meet human needs. Maize has undergone a particularly striking transformation. Researchers have sought for decades to identify the genes underlying maize evolution(1,2), but these efforts have been limited in scope. Here, we report a comprehensive assessment of the evolution of modern maize based on the genome-wide resequencing of 75 wild, landrace and improved maize lines(3). We find evidence of recovery of diversity after domestication, likely introgression from wild relatives, and evidence for stronger selection during domestication than improvement. We identify a number of genes with stronger signals of selection than those previously shown to underlie major morphological changes(4,5). Finally, through transcriptome-wide analysis of gene expression, we find evidence both consistent with removal of cis-acting variation during maize domestication and improvement and suggestive of modern breeding having increased dominance in expression while targeting highly expressed genes.}, 
+location = {Univ Calif Davis, Dept Plant Sci, Davis, CA 95616 USA esb33@cornell.edu}, 
+keywords = {Arabidopsis Seeds; Rice; Gene; Selection; Patterns; Diversity; Origin; Polymorphism; Expression; Evolution}}
+
+
+@Article{Wilkes 1977,
+author = {Wilkes, HG}, 
+title = {Hybridization of maize and teosinte, in Mexico and Guatemala and the improvement of maize}, 
+journal = {Economic Botany}, 
+volume = {31}, 
+number = {}, 
+pages = {254-293}, 
+year = {1977}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Hufford et al 2013,
+author = {Hufford, MB and Lubinsky, P and Pyhäjärvi, T and Devengenzo, MT and Ellstrand, NC and Ross-Ibarra, J}, 
+title = {The genomic signature of crop-wild introgression in maize}, 
+journal = {PLoS Genetics}, 
+volume = {9}, 
+number = {5}, 
+pages = {e1003477}, 
+year = {2013}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Ross-Ibarra et al 2009,
+author = {Ross-Ibarra, J and Tenaillon, MI and Gaut, BS}, 
+title = {Historical divergence and gene flow in the genus Zea}, 
+journal = {Genetics}, 
+volume = {181}, 
+number = {}, 
+pages = {1399-1413}, 
+year = {2009}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Nybom 2004,
+author = {Nybom, H}, 
+title = {Comparison of different nuclear DNA markers for estimating intraspecific genetic diversity in plants}, 
+journal = {Molecular Ecology}, 
+volume = {13}, 
+number = {}, 
+pages = {1143-1155}, 
+year = {2004}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Doebley et al 1990,
+author = {Doebley, J and Stec, A and Wendel, J and Edwards, M}, 
+title = {Genetic and morphological analysis of a maize teosinte F2 population - implications for the origin of maize}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {87}, 
+number = {24}, 
+pages = {9888-9892}, 
+year = {1990}, 
+abstract = {}, 
+location = {IOWA STATE UNIV SCI & TECHNOL,DEPT BOT,AMES,IA 50011}, 
+keywords = {}}
+
+
+@Article{Doebley and Stec 1991,
+author = {Doebley, J and Stec, A}, 
+title = {Genetic-analysis of the morphological differences between maize and teosinte}, 
+journal = {Genetics}, 
+volume = {129}, 
+number = {1}, 
+pages = {285-295}, 
+year = {1991}, 
+abstract = {Molecular marker loci were used to investigate the inheritance of morphological traits that distinguish maize (Zea mays ssp. mays) from a closely related wild relative, teosinte (Z. mays ssp. mexicana). Regression and interval mapping analyses gave largely congruent results concerning the numbers of loci controlling the morphological traits and the magnitudes of their effects; however, interval mapping tended to give larger estimates for the magnitudes of the effects of the morphological trait loci. This tendency was exaggerated for traits that were non-normally distributed. Variation for most inflorescence traits is controlled by one or two regions of the genome with large effects plus several other regions with relatively small effects. As such, the data are congruent with a mode of inheritance for most traits involving one or two major loci plus several minor loci. Regions of the genome with large effects on one trait consistently had smaller effects on several other traits, possibly as a result of pleiotropy. Most of the variation for the dramatic differences in inflorescence morphology between maize and teosinte is explained by five restricted regions of the genome. One of these regions encompasses a previously described gene, tb1 (teosinte branched), and the effects of this region on inflorescence architecture are similar to the known effects of tb1. Implications of this work for the genetic basis of morphological evolution in plants are discussed.}, 
+location = {}, 
+keywords = {Quantitative-trait Loci; Hawaiian Drosophila; Linkage Maps; Evolution; Macroevolution; Polymorphisms; Populations; Divergence; Tomato; Plants}}
+
+
+@Article{Lukens and Doebley 1999,
+author = {Lukens, LN and Doebley, J}, 
+title = {Epistatic and environmental interactions for quantitative trait loci involved in maize evolution}, 
+journal = {Genet Res}, 
+volume = {74}, 
+number = {3}, 
+pages = {291-302}, 
+year = {1999}, 
+abstract = {To test for epistasis and allele-specific environmental responses among quantitative trait loci (QTL) involved in the evolution of maize from its ancestor (teosinte), teosinte alleles of two QTL previously shown to control much of the morphological difference between these plants were introgressed into an isogenic maize background. Plants of each of the four two-locus homozygous classes for the two QTL were grown in two environments. Three morphological traits and the level of mRNA accumulation for one QTL (teosinte branched1, tb1) were measured. tb1 has a large additive effect on morphology that was correlated with its message level. The second QTL had only negligible effects on morphology when isolated in an isogenic background, but exhibited a strong interaction effect on morphology in combination with tb1. This interaction is also evident in tb1 message levels, suggesting that this second QTL may act as an upstream regulator of tb1. The combined effect of the maize alleles at the two QTL makes tb1 message levels over fourfold higher. Plants homozygous for the teosinte allele at tb1 showed greater phenotypic plasticity across environments than plants homozygous for the maize allele. Our results support two hypotheses. First, maize plant architecture may have evolved by selection for a gene complex rather than the additive effects of individual loci alone. Secondly, selection during maize domestication for an allele of tb1 which lacks environmental plasticity may have led to the fixation of a morphological form that can be induced in teosinte by environmental conditions.}, 
+location = {Univ Minnesota, Dept Plant Biol, St Paul, MN 55108 USA}, 
+keywords = {Morphological Differences; Drosophila-melanogaster; Phenotypic Plasticity; Molecular Markers; Genetic-analysis; Bristle Number; Dominance; Teosinte; Ultrabithorax; Populations}}
+
+
+@Article{Studer et al 2011,
+author = {Studer, A and Zhao, Q and Ross-Ibarra, J and Doebley, J}, 
+title = {Identification of a functional transposon insertion in the maize domestication gene tb1}, 
+journal = {Nat Genet}, 
+volume = {43}, 
+number = {11}, 
+pages = {1160-U164}, 
+year = {2011}, 
+abstract = {Genetic diversity created by transposable elements is an important source of functional variation upon which selection acts during evolution(1-6). Transposable elements are associated with adaptation to temperate climates in Drosophila(7), a SINE element is associated with the domestication of small dog breeds from the gray wolf(8) and there is evidence that transposable elements were targets of selection during human evolution(9). Although the list of examples of transposable elements associated with host gene function continues to grow, proof that transposable elements are causative and not just correlated with functional variation is limited. Here we show that a transposable element (Hopscotch) inserted in a regulatory region of the maize domestication gene, teosinte branched1 (tb1), acts as an enhancer of gene expression and partially explains the increased apical dominance in maize compared to its progenitor, teosinte. Molecular dating indicates that the Hopscotch insertion predates maize domestication by at least 10,000 years, indicating that selection acted on standing variation rather than new mutation.}, 
+location = {Univ Wisconsin, Dept Genet, Madison, WI 53706 USA jdoebley@wisc.edu}, 
+keywords = {Drosophila-melanogaster; Element Insertions; Evolution; Retrotransposon; Polymorphism; Expression; Plant; Coalescent; Diversity; Haplotype}}
+
+
+@Article{Studer and Doebley 2012,
+author = {Studer, AJ and Doebley, JF}, 
+title = {Evidence for a Natural Allelic Series at the Maize Domestication Locus teosinte branched1}, 
+journal = {Genetics}, 
+volume = {19}, 
+number = {3}, 
+pages = {951-958}, 
+year = {2012}, 
+abstract = {Despite numerous quantitative trait loci and association mapping studies, our understanding of the extent to which natural allelic series contribute to the variation for complex traits is limited. In this study, we investigate the occurrence of a natural allelic series for complex traits at the teosinte branched1 (tb1) gene in natural populations of teosinte (Zea mays ssp. parviglumis, Z. mays ssp. mexicana, and Z. diploperennis). Previously, tb1 was shown to confer large effects on both plant architecture and ear morphology between domesticated maize and teosinte; however, the effect of tb1 on trait variation in natural populations of teosinte has not been investigated. We compare the effects of nine teosinte alleles of tb1 that were introgressed into an isogenic maize inbred background. Our results provide evidence for a natural allelic series at tb1 for several complex morphological traits. The teosinte introgressions separate into three distinct phenotypic classes, which correspond to the taxonomic origin of the alleles. The effects of the three allelic classes also correspond to known morphological differences between the teosinte taxa. Our results suggest that tb1 contributed to the morphological diversification of teosinte taxa as well as to the domestication of maize.}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Doyle and Doyle 1990,
+author = {Doyle, JJ and Doyle, JL}, 
+title = {A rapid total DNA preparation procedure for small quantities of fresh tissue}, 
+journal = {Phytochemical Bulletin}, 
+volume = {19}, 
+number = {}, 
+pages = {11-15}, 
+year = {1990}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Maloof et al 1984,
+author = {Maloof, MA and Soliman, KM and Jorgensen, RA and Allard, RW}, 
+title = {Ribosomal DNA spacer length polymorphisms in barley - Mendelian inheritance, chromosomal location, and population dynamics.}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {81}, 
+number = {}, 
+pages = {8014-8018}, 
+year = {1984}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Rozen and Skaletsky 2000,
+author = {Rozen, S and Skaletsky, H}, 
+title = {Primer3 on the WWW for general users and for biologist programmers}, 
+journal = {Methods in Molecular Biology}, 
+volume = {}, 
+number = {}, 
+pages = {365-386}, 
+year = {2000}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Kearse et al 2012,
+author = {Kearse, M and Moir, R and Wilson, A and Stones-Havas, S and Cheung, M and Sturrock, S and Buxton, S and Cooper, A and Markowitz, S and Duran, C and Thierer, T and Ashton, B and Meintjes, P and Drummond, A}, 
+title = {Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data}, 
+journal = {Bioinformatics}, 
+volume = {28}, 
+number = {12}, 
+pages = {1647-1649}, 
+year = {2012}, 
+abstract = {The two main functions of bioinformatics are the organization and analysis of biological data using computational resources. Geneious Basic has been designed to be an easy-to-use and flexible desktop software application framework for the organization and analysis of biological data, with a focus on molecular sequences and related data types. It integrates numerous industry-standard discovery analysis tools, with interactive visualizations to generate publication-ready images. One key contribution to researchers in the life sciences is the Geneious public application programming interface (API) that affords the ability to leverage the existing framework of the Geneious Basic software platform for virtually unlimited extension and customization. The result is an increase in the speed and quality of development of computation tools for the life sciences, due to the functionality and graphical user interface available to the developer through the public API. Geneious Basic represents an ideal platform for the bioinformatics community to leverage existing components and to integrate their own specific requirements for the discovery, analysis and visualization of biological data.}, 
+location = {Biomatters Ltd, Auckland 1010, New Zealand peter@biomatters.com}, 
+keywords = {}}
+
+
+@Article{Wang et al 1999,
+author = {Wang, RL and Stec, A and Hey, J and Lukens, L and Doebley, J}, 
+title = {The limits of selection during maize domestication}, 
+journal = {Nature}, 
+volume = {398}, 
+number = {6724}, 
+pages = {236-239}, 
+year = {1999}, 
+abstract = {The domestication of all major crop plants occurred during a brief period in human history about 10,000 years ago(1). During this time, ancient agriculturalists selected seed of preferred forms and culled out seed of undesirable types to produce each subsequent generation. Consequently favoured alleles at genes controlling traits of interest increased in frequency, ultimately reaching fixation. When selection is strong, domestication has the potential to drastically reduce genetic diversity in a crop. To understand the impact of selection during maize domestication, we examined nucleotide polymorphism in teosinte branched1, a gene involved in maize evolution(2). Here we show that the effects of selection were limited to the gene’s regulatory region and cannot be detected in the protein-coding region. Although selection was apparently strong, high rates of recombination and a prolonged domestication period probably limited its effects. Our results help to explain why maize is such a variable crop. They also suggest that maize domestication required hundreds of years, and confirm precious evidence that maize was domesticated from Balsas teosinte of southwestern Mexico.}, 
+location = {Univ Minnesota, Dept Plant Biol, St Paul, MN 55108 USA}, 
+keywords = {Evolution; Recombination; Gene; Teosinte; Dominance; Sequence; Origin}}
+
+
+@Article{Clark et al 2006,
+author = {Clark, RM and Wagler, TN and Quijada, P and Doebley, J}, 
+title = {A distant upstream enhancer at the maize domestication gene tb1 has pleiotropic effects on plant and inflorescent architecture}, 
+journal = {Nat Genet}, 
+volume = {38}, 
+number = {5}, 
+pages = {594-597}, 
+year = {2006}, 
+abstract = {Although quantitative trait locus (QTL) mapping has been successful in describing the genetic architecture of complex traits(1-4), the molecular basis of quantitative variation is less well understood, especially in plants such as maize that have large genome sizes. Regulatory changes at the teosinte branched1 (tb1) gene have been proposed to underlie QTLs of large effect for morphological differences that distinguish maize (Zea mays ssp. mays) from its wild ancestors, the teosintes (Z. mays ssp. parviglumis and mexicana)(1,5-7). We used a fine mapping approach to show that intergenic sequences similar to 58-69 kb 5’ to the tb1 cDNA confer pleiotropic effects on Z. mays morphology. Moreover, using an allele-specific expression assay, we found that sequences > 41 kb upstream of tb1 act in cis to alter tb1 transcription. Our findings show that the large stretches of noncoding DNA that comprise the majority of many plant genomes can be a source of variation affecting gene expression and quantitative phenotypes.}, 
+location = {Univ Wisconsin, Genet Lab, Madison, WI 53706 USA jdoebley@wisc.edu}, 
+keywords = {Morphological Differences; Quantitative Traits; Genome Evolution; Flowering Plants; Fruit Size; Teosinte; Origin; Mechanisms; Expression; Dominance}}
+
+
+@Article{Goudet 2005,
+author = {Goudet, J}, 
+title = {HIERFSTAT, a package for R to compute and test hierarchical F-statistics}, 
+journal = {Mol Ecol Notes}, 
+volume = {5}, 
+number = {1}, 
+pages = {184-186}, 
+year = {2005}, 
+abstract = {The package HIERFSTAT for the statistical software R, created by the R Development Core Team, allows the estimate of hierarchical F-statistics from a hierarchy with any numbers of levels. In addition, it allows testing the statistical significance of population differentiation for these different levels, using a generalized likelihood-ratio test. The package HIERFSTAT is available at http://www.unil.ch/popgen/softwares/hierfstat.htm.}, 
+location = {UNIL, BB, Dept Ecol & Evolut, CH-1015 Lausanne, Switzerland jerome.goudet@unil.ch}, 
+keywords = {population structure; randomisation tests; statistics}}
+
+
+@Article{Coop et al 2010,
+author = {Coop, G and Witonsky, D and Di, Rienzo, A and Pritchard, JK}, 
+title = {Using Environmental Correlations to Identify Loci Underlying Local Adaptation}, 
+journal = {Genetics}, 
+volume = {185}, 
+number = {4}, 
+pages = {1411-1423}, 
+year = {2010}, 
+abstract = {Loci involved in local adaptation can potentially be identified by an unusual correlation between allele frequencies and important ecological variables or by extreme allele frequency differences between geographic regions. However, such comparisons are complicated by differences in sample sizes and the neutral correlation of allele frequencies across populations due to shared history and gene flow. To overcome these difficulties, we have developed a Bayesian method that estimates the empirical pattern of covariance in allele frequencies between populations from a set of markers and then uses this as a null model for a test at individual SNPs. In our model the sample frequencies of an allele across populations are drawn from a set of underlying population frequencies; a transform of these population frequencies is assumed to follow a multivariate normal distribution. We first estimate the covariance matrix of this multivariate normal across loci using a Monte Carlo Markov chain. At each SNP, we then provide a measure of the support, a Bayes factor, for a model where an environmental variable has a linear effect on the transformed allele frequencies compared to a model given by the covariance matrix alone. This test is shown through power simulations to outperform existing correlation tests. We also demonstrate that our method can be used to identify SNPs with unusually large allele frequency differentiation and offers a powerful alternative to tests based on pairwise or global F-ST. Software is available at http://www.eve.ucdavis.edu/gmcoop/.}, 
+location = {Univ Calif Davis, Dept Ecol & Evolut, Davis, CA 95616 USA gmcoop@ucdavis.edu}, 
+keywords = {Drosophila-melanogaster; Natural-selection; Population Differentiation; Positive Selection; Human Evolution; Gene Frequency; Pocket Mice; Genome; Pigmentation; Polymorphism}}
+
+
+@Article{Pyhajarvi et al 2013,
+author = {Pyhäjärvi, T and Hufford, MB and Ross-Ibarra, J}, 
+title = {Complex patterns of local adaptation in the wild relatives of maize}, 
+journal = {Genome Biology and Evolution}, 
+volume = {5}, 
+number = {}, 
+pages = {1594-1609}, 
+year = {2013}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Thornton 2003,
+author = {Thornton, K}, 
+title = {libsequence: a C++ class library for evolutionary genetic analysis}, 
+journal = {Bioinformatics}, 
+volume = {19}, 
+number = {17}, 
+pages = {2325-2327}, 
+year = {2003}, 
+abstract = {A C++ class library is available to facilitate the implementation of software for genomics and sequence polymorphism analysis. The library implements methods for data manipulation and the calculation of several statistics commonly used to analyze SNP data. The object-oriented design of the library is intended to be extensible, allowing users to design custom classes for their own needs. In addition, routines are provided to process samples generated by a widely used coalescent simulation.}, 
+location = {Univ Chicago, Comm Genet, Chicago, IL 60637 USA}, 
+keywords = {Statistical Tests; Dna Polymorphism; Recombination; Neutrality; Model; Sequences; Selection; Substitutions; Populations; Number}}
+
+
+@Article{Chia et al 2012,
+author = {Chia, JM and Song, C and Bradbury, PJ and Costich, D and de, Leon, N and Doebley, J and Elshire, RJ and Gaut, B and Geller, L and Glaubitz, JC and Gore, M and Guill, KE and Holland, J and Hufford, MB and Lai, JS and Li, M and Liu, X and Lu, YL and McCombie, R and Nelson, R and Poland, J and Prasanna, BM and Pyhajarvi, T and Rong, TZ and Sekhon, RS and Sun, Q and Tenaillon, MI and Tian, F and Wang, J and Xu, X and Zhang, ZW and Kaeppler, SM and Ross-Ibarra, J and McMullen, MD and Buckler, ES and Zhang, GY and Xu, YB and Ware, D}, 
+title = {Maize HapMap2 identifies extant variation from a genome in flux}, 
+journal = {Nat Genet}, 
+volume = {44}, 
+number = {7}, 
+pages = {803-U238}, 
+year = {2012}, 
+abstract = {Whereas breeders have exploited diversity in maize for yield improvements, there has been limited progress in using beneficial alleles in undomesticated varieties. Characterizing standing variation in this complex genome has been challenging, with only a small fraction of it described to date. Using a population genetics scoring model, we identified 55 million SNPs in 103 lines across pre-domestication and domesticated Zea mays varieties, including a representative from the sister genus Tripsacum. We find that structural variations are pervasive in the Z. mays genome and are enriched at loci associated with important traits. By investigating the drivers of genome size variation, we find that the larger Tripsacum genome can be explained by transposable element abundance rather than an allopolyploid origin. In contrast, intraspecies genome size variation seems to be controlled by chromosomal knob content. There is tremendous overlap in key gene content in maize and Tripsacum, suggesting that adaptations from Tripsacum (for example, perennialism and frost and drought tolerance) can likely be integrated into maize.}, 
+location = {Cornell Univ, Inst Genom Div, Ithaca, NY USA mcmullenm@missouri.edu}, 
+keywords = {Association Mapping Population; Quantitative Resistance; Transposable Elements; Wide Association; Leaf-blight; Alignment; Diversity; Evolution; Zea; Bioconductor}}
+
+
+@Article{Bradbury 2007,
+author = {Bradbury, PJ and Zhang, Z and Kroon, DE and Casstevens, TM and Ramdoss, Y and Buckler, ES}, 
+title = {TASSEL: software for association mapping of complex traits in diverse samples}, 
+journal = {Bioinformatics}, 
+volume = {23}, 
+number = {19}, 
+pages = {2633-2635}, 
+year = {2007}, 
+abstract = {Association analyses that exploit the natural diversity of a genome to map at very high resolutions are becoming increasingly important. In most studies, however, researchers must contend with the confounding effects of both population and family structure. TASSEL (Trait Analysis by aSSociation, Evolution and Linkage) implements general linear model and mixed linear model approaches for controlling population and family structure. For result interpretation, the program allows for linkage disequilibrium statistics to be calculated and visualized graphically. Database browsing and data importation is facilitated by integrated middle-ware. Other features include analyzing insertions/deletions, calculating diversity statistics, integration of phenotypic and genotypic data, imputing missing data and calculating principal components.}, 
+location = {Cornell Univ, USDA ARS, Ithaca, NY 14853 USA}, 
+keywords = {Model}}
+
+
+@Article{Falush et al 2003,
+author = {Falush, D and Stephens, M and Pritchard, JK}, 
+title = {Inference of population structure using multilocus genotype data: Linked loci and correlated allele frequencies}, 
+journal = {Genetics}, 
+volume = {164}, 
+number = {4}, 
+pages = {1567-1587}, 
+year = {2003}, 
+abstract = {We describe extensions to the method of Pritchard et al. for inferring population structure from multilocus genotype data. Most importantly, we develop methods that allow for linkage between loci. The new model accounts for the correlations between linked loci that arise in admixed populations (”admixture linkage disequilibium”). This modification has several advantages, allowing (1) detection of admixture events farther back into the past, (2) inference of the population of origin of chromosomal regions, and (3) more accurate estimates of statistical uncertainty when linked loci are used. It is also of potential use for admixture mapping. In addition, we describe a new prior model for the allele frequencies within each population, which allows, identification oof subtle population subdivisions that were not detectable using the existing method. We present results applying the new methods to study admixture in African-Americans, recombination in Helicobacter pylori, and drift in populations of Drosophila melanogaster. The methods are implemented in a program, structure, version 2.0, which is available at http://pritch.bsd.uchicago.edu.}, 
+location = {Max Planck Inst Infektionsbiol, Dept Mol Biol, D-10117 Berlin, Germany}, 
+keywords = {Admixture Proportions; Admixed Populations; Genetic-structure; Linkage Disequilibrium; Bayesian-approach; Blood-pressure; Hybrid Zones; Association; Genome; Model}}
+
+
+@Article{Cook et al 2012,
+author = {Cook, JP and McMullen, MD and Holland, JB and Tian, F and Bradbury, P and Ross-Ibarra, J and Buckler, ES and Flint-Garcia, SA}, 
+title = {Genetic Architecture of Maize Kernel Composition in the Nested Association Mapping and Inbred Association Panels}, 
+journal = {Plant Physiol}, 
+volume = {158}, 
+number = {2}, 
+pages = {824-834}, 
+year = {2012}, 
+abstract = {The maize (Zea mays) kernel plays a critical role in feeding humans and livestock around the world and in a wide array of industrial applications. An understanding of the regulation of kernel starch, protein, and oil is needed in order to manipulate composition to meet future needs. We conducted joint-linkage quantitative trait locus mapping and genome-wide association studies (GWAS) for kernel starch, protein, and oil in the maize nested association mapping population, composed of 25 recombinant inbred line families derived from diverse inbred lines. Joint-linkage mapping revealed that the genetic architecture of kernel composition traits is controlled by 21-26 quantitative trait loci. Numerous GWAS associations were detected, including several oil and starch associations in acyl-CoA: diacylglycerol acyltransferase1-2, a gene that regulates oil composition and quantity. Results from nested association mapping were verified in a 282 inbred association panel using both GWAS and candidate gene association approaches. We identified many beneficial alleles that will be useful for improving kernel starch, protein, and oil content.}, 
+location = {Univ Missouri, Div Plant Sci, Columbia, MO 65211 USA Sherry.Flint-Garcia@ars.usda.gov}, 
+keywords = {Heterogeneous Stock Mice; Genome-wide Association; Quantitative Trait Loci; Epistatic Interactions; Oil Concentration; Complex Traits; Transcriptional Activator; Artificial Selection; Chemical-composition; Flowering Time}}
+
+@Article{Gerke et al 2013,
+author = {Gerke, JP and Edwards, JP and Guill KE and Ross-Ibarra, J and McMullen, MD},
+title = {The genomic impacts of drift and selection for hybrid performance in maize},
+journal = {arXiv},
+volume = {1307.7313},
+number = {},
+pages = {},
+year = {2013},
+abstract ={},
+location ={},
+keywords ={}}
+
+@Article{Ellstrand et al 2007,
+author = {Ellstrand, NC and Garner, LC and Hedge, S and Guadagnuolo, R and Blancas, L},
+title = {Spontaneous hybridization between maize and teosinte},
+journal = {Journal of Heredity},
+volume = {98},
+number = {2},
+pages = {183-187},
+year = {2007}}
+
+@Article{Hufford 2010,
+author = {Hufford, MB}, 
+title = {Genetic and ecological approaches to guide conservation of teosinte (Zea mays ssp. parviglumis), the wild progenitor of maize}, 
+journal = {PhD Dissertation}, 
+volume = {}, 
+number = {}, 
+pages = {130pp}, 
+year = {2010}, 
+abstract = {The teosinte taxon, Zea mays ssp. parviglumis, is the most closely related wild relative to maize and houses a significant amount of genetic diversity that could be important for maize improvement. Populations of parviglumis are found throughout southwest Mexico where recent changes in land use such as conversion to ranching and industrial agriculture threaten their persistence. Five populations of parviglumis in the rapidly changing rural landscape of central Jalisco were investigated in order to assess evidence for recent population bottlenecks and associated impacts of land use. Smaller, more fragmented, relic populations in regions with pervasive cattle grazing were shown to have less genetic diversity and stronger evidence of recent bottlenecks than larger, more continuous populations. Genetic diversity was strongly structured between populations with divergence occurring in populations separated by merely a few kilometers. The striking amount of regional genetic structure can be explained by the prevalence of pollen flow over short distances revealed through indirect paternity analysis in a separate investigation described here. This analysis of pollen flow also revealed trends related to land use and underscored the importance of considering cryptic population structure when estimating mating system parameters. Finally, a common garden comparison of thousands of plants from the five populations provided convincing evidence of inbreeding depression in smaller, more fragmented populations. These data, when considered together, underscore the need for concerted conservation effort toward parviglumis. Protection of these populations can be achieved through extension efforts with local land managers and by establishing parviglumis as a reference species for ecological and evolutionary studies based on the molecular tools available from maize.}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Briggs et al 2007,
+author = {Briggs, WH and McMullen, MD and Gaut, BS and Doebley, J}, 
+title = {Linkage mapping of domestication loci in a large maize-teosinte backcross resource}, 
+journal = {Genetics}, 
+volume = {177}, 
+number = {3}, 
+pages = {1915-1928}, 
+year = {2007}, 
+abstract = {An ultimate objective of QTL mapping is cloning genes responsible for quantitative traits. However, projects seldom go beyond segments <5 cM without subsequent breeding and genotyping lines to identify additional crossovers in a genomic region of interest. We report on a QTL analysis performed as a preliminary step in the development of a resource for map-based cloning of domestication and improvement genes in corn. A large backcross (BC)(1) population derived from a cross between maize (Zea mays ssp. mays) and teosinte (ssp. parviglumis) was grown for the analysis. A total of 1749 progenies were genotyped for 304 markers and measured for 22 morphological traits. The results are in agreement with earlier studies showing a small number of genomic regions having greater impact on the morphological traits distinguishing maize and teosinte. Despite considerable power to detect epistasis, few QTL interactions were identified. To create a permanent resource, seed of BC, plants was archived and 1000 BC2S6 BC1-derived lines are in development for fine mapping and cloning. The identification of four BC1 progeny with crossovers in a single gene, tb1, indicated that enough derived lines already exist to clone many QTL without the need to generate and identify additional crossovers.}, 
+location = {Univ Wisconsin, Genet Lab, Madison, WI 53706 USA william.briggs@syngenta.com}, 
+keywords = {Quantitative-trait Loci; Morphological Differences; Recombination Hotspot; Artificial Selection; Architecture; Gene; Identification; Populations; Genome; Lines}}
+
+
+@Book{Fox and Weisberg 2011,
+author = {Fox, J and Weisberg, S}, 
+title = {An {R} Companion to Applied Regression}, 
+volume = {Second Edition}, 
+pages = {}, 
+editor = {}, 
+publisher = {Sage}, 
+address = {Thousand Oaks, CA}, 
+year = {2011}, 
+abstract = {}, 
+keywords = {}}
+
+@Article{Plantinga et al 2012,
+author = {Plantinga, TS and Alonso, S and Izagirre, N and Hervella, M and Fregel, R and van der Meer, JW and Netea, MG and de la Rua, C}, 
+title = {Low prevalence of lactase persistence in Neolithic South-West Europe.}, 
+journal = {Eur J Hum Genet}, 
+volume = {20}, 
+number = {7}, 
+pages = {778-782}, 
+year = {2012}, 
+abstract = {The ability of humans to digest the milk component lactose after weaning requires persistent production of the lactose-converting enzyme lactase. Genetic variation in the promoter of the lactase gene (LCT) is known to be associated with lactase production and is therefore a genetic determinant for either lactase deficiency or lactase persistence during adulthood. Large differences in this genetic trait exist between populations in Africa and the Middle-East on the one hand, and European populations on the other; this is thought to be due to evolutionary pressures exerted by consumption of dairy products in Neolithic populations in Europe. In this study, we have investigated lactase persistence of 26 out of 46 individuals from Late Neolithic through analysis of ancient South-West European DNA samples, obtained from two burials in the Basque Country originating from 5000 to 4500 YBP. This investigation revealed that these populations had an average frequency of lactase persistence of 27%, much lower than in the modern Basque population, which is compatible with the concept that Neolithic and post-Neolithic evolutionary pressures by cattle domestication and consumption of dairy products led to high lactase persistence in Southern European populations. Given the heterogeneity in the frequency of the lactase persistence allele in ancient Europe, we suggest that in Southern Europe the selective advantage of lactose assimilation in adulthood most likely took place from standing population variation, after cattle domestication, at a post-Neolithic time when fresh milk consumption was already fully adopted as a consequence of a cultural influence.}, 
+location = {Department of Medicine, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.}, 
+keywords = {}}
+
+
+@Article{ Tishkoff et al 2007,
+author = {Tishkoff, SA and Reed, FA and Ranciaro, A and Voight, BF and Babbitt, CC and Silverman, JS and Powell, K and Mortensen, HM and Hirbo, JB and Osman, M and Ibrahim, M and Omar, SA and Lema, G and Nyambo, TB and Ghori, J and Bumpstead, S and Pritchard, JK and Wray, GA and Deloukas, P}, 
+title = {Convergent adaptation of human lactase persistence in Africa and Europe}, 
+journal = {Nat Genet}, 
+volume = {39}, 
+number = {1}, 
+pages = {31-40}, 
+year = {2007}, 
+abstract = {A SNP in the gene encoding lactase (LCT) (C/T-13910) is associated with the ability to digest milk as adults (lactase persistence) in Europeans, but the genetic basis of lactase persistence in Africans was previously unknown. We conducted a genotype-phenotype association study in 470 Tanzanians, Kenyans and Sudanese and identified three SNPs (G/C-14010, T/G-13915 and C/G-13907) that are associated with lactase persistence and that have derived alleles that significantly enhance transcription from the LCT promoter in vitro. These SNPs originated on different haplotype backgrounds from the European C/T-13910 SNP and from each other. Genotyping across a 3-Mb region demonstrated haplotype homozygosity extending > 2.0 Mb on chromosomes carrying C-14010, consistent with a selective sweep over the past similar to 7,000 years. These data provide a marked example of convergent evolution due to strong selective pressure resulting from shared cultural traits - animal domestication and adult milk consumption.}, 
+location = {Univ Maryland, Dept Biol, College Pk, MD 20742 USA Tishkoff@umd.edu}, 
+keywords = {Recent Positive Selection; Adult-type Hypolactasia; Activity In-vitro; Linkage Disequilibrium; Human Genome; Transcriptional Regulation; Haplotype Diversity; Lactose-intolerance; Polymorphism; Dna}}
+
+
+@Article{Kitano et al 2008,
+author = {Kitano, J and Bolnick, DI and Beauchamp, DA and Mazur, MM and Mori, S and Nakano, T and Peichel, CL}, 
+title = {Reverse evolution of armor plates in the threespine stickleback}, 
+journal = {Curr Biol}, 
+volume = {18}, 
+number = {10}, 
+pages = {769-774}, 
+year = {2008}, 
+abstract = {Faced with sudden environmental changes, animals must either adapt to novel environments or go extinct. Thus, study of the mechanisms underlying rapid adaptation is crucial not only for the understanding of natural evolutionary processes but also for the understanding of human-induced evolutionary change, which is an increasingly important problem [1-8]. In the present study, we demonstrate that the frequency of completely plated threespine stickleback fish (Gasterosteus aculeatus) has increased in an urban freshwater lake (Lake Washington, Seattle, Washington) within the last 40 years. This is a dramatic example of “reverse evolution,” [9] because the general evolutionary trajectory is toward armor-plate reduction in freshwater sticklebacks [10]. On the basis of our genetic studies and simulations, we propose that the most likely cause of reverse evolution is increased selection for the completely plated morph, which we suggest could result from higher levels of trout predation after a sudden increase in water transparency during the early 1970s. Rapid evolution was facilitated by the existence of standing allelic variation in Ectodysplasin (Eda), the gene that underlies the major plate-morph locus [11]. The Lake Washington stickleback thus provides a novel example of reverse evolution, which is probably caused by a change in allele frequency at the major plate locus in response to a changing predation regime.}, 
+location = {Fred Hutchinson Canc Res Ctr, Div Human Biol, Seattle, WA 98109 USA cpeichel@fhcrc.org}, 
+keywords = {Gasterosteus-aculeatus; Lake Washington; Maximum-likelihood; Cutthroat Trout; Population; Adaptation; Selection; Model; Migration; Failures}}
+
+
+@Article{Colosimo et al 2005,
+author = {Colosimo, PF and Hosemann, KE and Balabhadra, S and Villarreal, G and Dickson, M and Grimwood, J and Schmutz, J and Myers, RM and Schluter, D and Kingsley, DM}, 
+title = {Widespread parallel evolution in sticklebacks by repeated fixation of ectodysplasin alleles}, 
+journal = {Science}, 
+volume = {307}, 
+number = {5717}, 
+pages = {1928-1933}, 
+year = {2005}, 
+abstract = {Major phenotypic changes evolve in parallel in nature by molecular mechanisms that are largely unknown. Here, we use positional cloning methods to identify the major chromosome locus controlling armor plate patterning in wild threespine sticklebacks. Mapping, sequencing, and transgenic studies show that the Ectodysplasin (EDA) signaling pathway plays a key role in evolutionary change in natural populations and that parallel evolution. of stickleback low-plated phenotypes at most freshwater locations around the world has occurred by repeated selection of Eda alleles derived from an ancestral low-plated haplotype that first appeared more than two million years ago. Members of this clade of tow-plated alleles are present at tow frequencies in marine fish, which suggests that standing genetic variation can provide a molecular basis for rapid, parallel evolution of dramatic phenotypic change in nature.}, 
+location = {Stanford Univ, Sch Med, Dept Dev Biol, Stanford, CA 94305 USA}, 
+keywords = {Hypohidrotic Ectodermal Dysplasia; Threespine Sticklebacks; Gasterosteus-aculeatus; Genetic Architecture; Selective Predation; Mitochondrial-dna; Lateral Plates; Reduction; Populations; Mutations}}
+
+
+@Article{Feder et al 2003,
+author = {Feder, JL and Berlocher, SH and Roethele, JB and Dambroski, H and Smith, JJ and Perry, WL and Gavrilovic, V and Filchak, KE and Rull, J and Aluja, M}, 
+title = {Allopatric genetic origins for sympatric host-plant shifts and race formation in Rhagoletis}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {100}, 
+number = {18}, 
+pages = {10314-10319}, 
+year = {2003}, 
+abstract = {Tephritid fruit flies belonging to the Rhagoletis pomonella sibling species complex are controversial because they have been proposed to diverge in sympatry (in the absence of geographic isolation) by shifting and adapting to new host plants. Here, we report evidence suggesting a surprising source of genetic variation contributing to sympatric host shifts for these flies. From DNA sequence data for three nuclear loci and mtDNA, we infer that an ancestral, hawthorn-infesting R. pomonella population became geographically subdivided into Mexican and North American isolates approximate to1.57 million years ago. Episodes of gene flow from Mexico subsequently infused the North American population with inversion polymorphism affecting key diapause traits, forming adaptive clines. Sometime later (perhaps +/-1 million years), diapause variation in the latitudinal clines appears to have aided North American flies in adapting to a variety of plants with differing fruiting times, helping to spawn several new taxa. Thus, important raw genetic material facilitating the adaptive radiation of R. pomonella originated in a different time and place than the proximate ecological host shifts triggering sympatric divergence.}, 
+location = {Univ Notre Dame, Dept Biol Sci, Galvin Life Sci Ctr, Notre Dame, IN 46556 USA}, 
+keywords = {Apple Maggot Fly; Pomonella Diptera; United-states; Modern Humans; Divergence; Evolution; Hybridization; Tephritidae; Differentiation; Populations}}
+
+
+@Article{Sigmon and Volbrecht 2010,
+author = {Sigmon, B and Vollbrecht, E}, 
+title = {Evidence of selection at the ramosa1 locus during maize domestication}, 
+journal = {Mol Ecol}, 
+volume = {19}, 
+number = {7}, 
+pages = {1296-1311}, 
+year = {2010}, 
+abstract = {Modern maize was domesticated from Zea mays parviglumis, a teosinte, about 9000 years ago in Mexico. Genes thought to have been selected upon during the domestication of crops are commonly known as domestication loci. The ramosa1 (ra1) gene encodes a putative transcription factor that controls branching architecture in the maize tassel and ear. Previous work demonstrated reduced nucleotide diversity in a segment of the ra1 gene in a survey of modern maize inbreds, indicating that positive selection occurred at some point in time since maize diverged from its common ancestor with the sister species Tripsacum dactyloides and prompting the hypothesis that ra1 may be a domestication gene. To investigate this hypothesis, we examined ear phenotypes resulting from minor changes in ra1 activity and sampled nucleotide diversity of ra1 across the phylogenetic spectrum between tripsacum and maize, including a broad panel of teosintes and unimproved maize landraces. Weak mutant alleles of ra1 showed subtle effects in the ear, including crooked rows of kernels due to the occasional formation of extra spikelets, correlating a plausible, selected trait with subtle variations in gene activity. Nucleotide diversity was significantly reduced for maize landraces but not for teosintes, and statistical tests implied directional selection on ra1 consistent with the hypothesis that ra1 is a domestication locus. In maize landraces, a noncoding 3’-segment contained almost no genetic diversity and 5’-flanking diversity was greatly reduced, suggesting that a regulatory element may have been a target of selection.}, 
+location = {Iowa State Univ, Dept Genet Dev & Cell Biol, Ames, IA 50011 USA vollbrec@iastate.edu}, 
+keywords = {maize; plant domestication; positive selection; ramosa1; Mays Ssp Parviglumis; Genetic Diversity; Crop Improvement; Linkage Disequilibrium; Artificial Selection; Plant Domestication; Sequence Diversity; Regulatory Genes; Genomic Region; Evolution}}
+
+
+@Article{Gallavotti et al 2004,
+author = {Gallavotti, A and Zhao, Qiong and Kyozuka, J and Meeley, RB and Ritter, MK and Doebley, JF and Pe, ME and Schmidt, RJ}, 
+title = {The role of barren stalk1 in the architecture of maize}, 
+journal = {Nature}, 
+volume = {432}, 
+number = {}, 
+pages = {630-635}, 
+year = {2004}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Whipple et al 2011,
+author = {Whipple, CJ and Kebrom, TH and Weber, AL and Yang, F and Hall, D and Meeley, R and Schmidt, R and Doebley, J and Brutnell, TP and Jackson, DP}, 
+title = {grassy tillers1 promotes apical dominance in maize and responds to shade signals in the grasses}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {108}, 
+number = {33}, 
+pages = {E506-E512}, 
+year = {2011}, 
+abstract = {The shape of a plant is largely determined by regulation of lateral branching. Branching architecture can vary widely in response to both genotype and environment, suggesting regulation by a complex interaction of autonomous genetic factors and external signals. Tillers, branches initiated at the base of grass plants, are suppressed in response to shade conditions. This suppression of tiller and lateral branch growth is an important trait selected by early agriculturalists during maize domestication and crop improvement. To understand how plants integrate external environmental cues with endogenous signals to control their architecture, we have begun a functional characterization of the maize mutant grassy tillers1 (gt1). We isolated the gt1 gene using positional cloning and found that it encodes a class I homeodomain leucine zipper gene that promotes lateral bud dormancy and suppresses elongation of lateral ear branches. The gt1 expression is induced by shading and is dependent on the activity of teosinte branched1 (tb1), a major domestication locus controlling tillering and lateral branching. Interestingly, like tb1, gt1 maps to a quantitative trait locus that regulates tillering and lateral branching in maize and shows evidence of selection during maize domestication. Branching and shade avoidance are both of critical agronomic importance, but little is known about how these processes are integrated. Our results indicate that gt1 mediates the reduced branching associated with the shade avoidance response in the grasses. Furthermore, selection at the gt1 locus suggests that it was involved in improving plant architecture during the domestication of maize.}, 
+location = {Cold Spring Harbor Lab, Cold Spring Harbor, NY 11724 USA jacksond@cshl.edu}, 
+keywords = {Transposable Element System; Axillary Bud Outgrowth; Molecular Analysis; Zea-mays; Cytokinin Concentration; Root Emergence; Phytochrome-b; Arabidopsis; Gene; Expression}}
+
+
+@Article{Ellstrand et al 1999,
+author = {Ellstrand, NC and Prentice, HC and Hancock, JF}, 
+title = {Gene flow and introgression from domesticated plants into their wild relatives}, 
+journal = {Annu Rev Ecol Syst}, 
+volume = {30}, 
+number = {}, 
+pages = {539-563}, 
+year = {1999}, 
+abstract = {Domesticated plant taxa cannot be regarded as evolutionarily discrete from their wild relatives. Most domesticated plant taxa mate with wild relatives somewhere in the world, and gene flow from crop taxa may have a substantial impact on the evolution of wild populations. In a literature review of the world’s 13 most important food crops, we show that 12 of these crops hybridize with wild relatives in some part of their agricultural distribution. We use population genetic theory to predict the evolutionary consequences of gene flow from crops to wild plants and discuss two applied consequences of crop-to-wild gene flow-the evolution of aggressive weeds and the extinction of rare species. We suggest ways of assessing the likelihood of hybridization, introgression, and the potential for undesirable gene flow from crops into weeds or rare species.}, 
+location = {Univ Calif Riverside, Dept Bot & Plant Sci, Riverside, CA 92521 USA}, 
+keywords = {hybridization; introgression; plant conservation genetics; risks of transgenic crops; weed evolution; Rape Brassica-napus; Transgenic Oilseed Rape; Oryza-sativa L; Pennisetum-glaucum; Sorghum-bicolor; Pearl-millet; Interspecific Hybrids; Gossypium-barbadense; Natural-populations; Engineered Genes}}
+
+
+@Article{Zhang et al 2009,
+author = {Zhang, LB and Zhu, QH and Wu, ZQ and Ross-Ibarra, J and Gaut, BS and Ge, S and Sang, T}, 
+title = {Selection on grain shattering genes and rates of rice domestication}, 
+journal = {New Phytol}, 
+volume = {184}, 
+number = {3}, 
+pages = {708-720}, 
+year = {2009}, 
+abstract = {P>Molecular cloning of major quantitative trait loci (QTLs) responsible for the reduction of rice grain shattering, a hallmark of cereal domestication, provided opportunities for in-depth investigation of domestication processes.}, 
+location = {Chinese Acad Sci, Inst Bot, State Key Lab Systemat & Evolutionary Bot, Beijing 100093, Peoples R China gesong@ibcas.ac.cn}, 
+keywords = {artificial selection; domestication rate; nucleotide diversity; Oryza; qSH1; sh4; Oryza-sativa; Artificial Selection; Cultivated Rice; Maize Domestication; Crop Domestication; Statistical Tests; Dna Polymorphism; Origin; Model; Diversity}}
+
+
+@Article{Thurber et al 2010,
+author = {Thurber, CS and Reagon, M and Gross, BL and Olsen, KM and Jia, YL and Caicedo, AL}, 
+title = {Molecular evolution of shattering loci in US weedy rice}, 
+journal = {Mol Ecol}, 
+volume = {19}, 
+number = {16}, 
+pages = {3271-3284}, 
+year = {2010}, 
+abstract = {Cultivated rice fields worldwide are plagued with weedy rice, a conspecific weed of cultivated rice (Oryza sativa L.). The persistence of weedy rice has been attributed, in part, to its ability to shatter (disperse) seed prior to crop harvesting. In the United States, separately evolved weedy rice groups have been shown to share genomic identity with exotic domesticated cultivars. Here, we investigate the shattering phenotype in a collection of U.S. weedy rice accessions, as well as wild and cultivated relatives. We find that all U.S. weedy rice groups shatter seeds easily, despite multiple origins, and in contrast to a decrease in shattering ability seen in cultivated groups. We assessed allelic identity and diversity at the major shattering locus, sh4, in weedy rice; we find that all cultivated and weedy rice, regardless of population, share similar haplotypes at sh4, and all contain a single derived mutation associated with decreased seed shattering. Our data constitute the strongest evidence to date of an evolution of weeds from domesticated backgrounds. The combination of a shared cultivar sh4 allele and a highly shattering phenotype, suggests that U.S. weedy rice have re-acquired the shattering trait after divergence from their progenitors through alternative genetic mechanisms.}, 
+location = {Univ Massachusetts, Dept Biol, Amherst, MA 01003 USA caicedo@bio.umass.edu}, 
+keywords = {abscission; candidate gene; Oryza sativa; red rice; seed dispersal; Quantitative Trait Loci; Domestication-related Traits; Oryza-sativa L.; Red Rice; Seed Dormancy; Linkage Disequilibrium; Hybrid Populations; Statistical-method; Dna Polymorphism; Identification}}
+
+
+@Article{Baack et al 2008,
+author = {Baack, EJ and Sapir, Y and Chapman, MA and Burke, JM and Rieseberg, LH}, 
+title = {Selection on domestication traits and quantitative trait loci in crop-wild sunflower hybrids}, 
+journal = {Mol Ecol}, 
+volume = {17}, 
+number = {2}, 
+pages = {666-677}, 
+year = {2008}, 
+abstract = {The strength and extent of gene flow from crops into wild populations depends, in part, on the fitness of the crop alleles, as well as that of alleles at linked loci. Interest in crop-wild gene flow has increased with the advent of transgenic plants, but nontransgenic crop-wild hybrids can provide case studies to understand the factors influencing introgression, provided that the genetic architecture and the fitness effects of loci are known. This study used recombinant inbred lines (RILs) generated from a cross between crop and wild sunflowers to assess selection on domestication traits and quantitative trait loci (QTL) in two contrasting environments, in Indiana and Nebraska, USA. Only a small fraction of plants (9%) produced seed in Nebraska, due to adverse weather conditions, while the majority of plants (79%) in Indiana reproduced. Phenotypic selection analysis found that a mixture of crop and wild traits were favoured in Indiana (i.e. had significant selection gradients), including larger leaves, increased floral longevity, larger disk diameter, reduced ray flower size and smaller achene (seed) mass. Selection favouring early flowering was detected in Nebraska. QTLs for fitness were found at the end of linkage groups six (LG6) and nine (LG9) in both field sites, each explaining 11-12% of the total variation. Crop alleles were favoured on LG9, but wild alleles were favoured on LG6. QTLs for numerous domestication traits overlapped with the fitness QTLs, including flowering date, achene mass, head number, and disk diameter. It remains to be seen if these QTL clusters are the product of multiple linked genes, or individual genes with pleiotropic effects. These results indicate that crop trait values and alleles may sometimes be favoured in a noncrop environment and across broad geographical regions.}, 
+location = {Univ British Columbia, Dept Bot, Vancouver, BC V6T 1Z4, Canada baacer01@luther.edu}, 
+keywords = {crop-wild hybridization; hybrid zones; phenotypic selection; QTL analysis; recombinant inbred lines (RILs); sunflower; Eastern North-america; Helianthus-annuus; Gene Flow; Cultivated Sunflower; Disease Resistance; Seed Dormancy; Fitness; Introgression; Populations; Evolution}}
+
+
+@Article{Hubner et al 2012,
+author = {Hubner, S and Gunther, T and Flavell, A and Fridman, E and Graner, A and Korol, A and Schmid, KJ}, 
+title = {Islands and streams: clusters and gene flow in wild barley populations from the Levant}, 
+journal = {Mol Ecol}, 
+volume = {21}, 
+number = {5}, 
+pages = {1115-1129}, 
+year = {2012}, 
+abstract = {The domestication of plants frequently results in a high level of genetic differentiation between domesticated plants and their wild progenitors. This process is counteracted by gene flow between wild and domesticated plants because they are usually able to inter-mate and to exchange genes. We investigated the extent of gene flow between wild barley Hordeum spontaneum and cultivated barley Hordeum vulgare, and its effect on population structure in wild barley by analysing a collection of 896 wild barley accessions (Barley1K) from Israel and all available Israeli H. vulgare accessions from the Israeli gene bank. We compared the performance of simple sequence repeats (SSR) and single nucleotide polymorphisms (SNP) marker data genotyped over a core collection in estimating population parameters. Estimates of gene flow rates with SSR markers indicated a high level of introgression from cultivated barley into wild barley. After removing accessions from the wild barley sample that were recently admixed with cultivated barley, the inference of population structure improved significantly. Both SSR and SNP markers showed that the genetic population structure of wild barley in Israel corresponds to the three major ecogeographic regions: the coast, the Mediterranean north and the deserts in the Jordan valley and the South. Gene flow rates were estimated to be higher from north to south than in the opposite direction. As has been observed in other crop species, there is a significant exchange of alleles between the wild species and domesticated varieties that needs to be accounted for in the population genetic analysis of domestication.}, 
+location = {Univ Hohenheim, Inst Plant Breeding Seed Sci & Populat Genet, D-70593 Stuttgart, Germany karl.schmid@uni-hohenheim.de}, 
+keywords = {barley; domestication; gene flow; Hordeum spontaneum; population structure; Single Nucleotide Polymorphisms; Multilocus Genotype Data; Vulgare Ssp-spontaneum; Chain Monte-carlo; Hordeum-vulgare; Linkage Disequilibrium; Fertile Crescent; Diversity; Domestication; Migration}}
+
+
+@Article{Van Heerwaarden et al 2011,
+author = {van Heerwaarden, J and Doebley, J and Briggs, WH and Glaubitz, JC and Goodman, MM and Gonzalez, JDS and Ross-Ibarra, J}, 
+title = {Genetic signals of origin, spread, and introgression in a large sample of maize landraces}, 
+journal = {P Natl Acad Sci Usa}, 
+volume = {108}, 
+number = {3}, 
+pages = {1088-1092}, 
+year = {2011}, 
+abstract = {The last two decades have seen important advances in our knowledge of maize domestication, thanks in part to the contributions of genetic data. Genetic studies have provided firm evidence that maize was domesticated from Balsas teosinte (Zea mays subspecies parviglumis), a wild relative that is endemic to the mid-to lowland regions of southwestern Mexico. An interesting paradox remains, however: Maize cultivars that are most closely related to Balsas teosinte are found mainly in the Mexican highlands where subspecies parviglumis does not grow. Genetic data thus point to primary diffusion of domesticated maize from the highlands rather than from the region of initial domestication. Recent archeological evidence for early lowland cultivation has been consistent with the genetics of domestication, leaving the issue of the ancestral position of highland maize unresolved. We used a new SNP dataset scored in a large number of accessions of both teosinte and maize to take a second look at the geography of the earliest cultivated maize. We found that gene flow between maize and its wild relatives meaningfully impacts our inference of geographic origins. By analyzing differentiation from inferred ancestral gene frequencies, we obtained results that are fully consistent with current ecological, archeological, and genetic data concerning the geography of early maize cultivation.}, 
+location = {Univ Calif Davis, Dept Plant Sci, Davis, CA 95616 USA jvheerwaarden@gmail.com}, 
+keywords = {Multilocus Genotype Data; Mays Ssp Parviglumis; Population-structure; Starch Grain; Domestication; Teosinte; Mexico; Diversity; Balsas; Dna}}
+
+
+@Article{Barrett 1983,
+author = {Barrett, SCH}, 
+title = {Crop Mimicry in Weeds}, 
+journal = {Econ Bot}, 
+volume = {37}, 
+number = {3}, 
+pages = {255-282}, 
+year = {1983}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Ellstrand et al  2007,
+author = {Ellstrand, NC and Garner, LC and Hegde, S and Guadagnuolo, R and Blancas, L}, 
+title = {Spontaneous Hybridization between Maize and Teosinte}, 
+journal = {Journal of Heredity}, 
+volume = {98}, 
+number = {2}, 
+pages = {183-187}, 
+year = {2007}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Weber et al 2007,
+author = {Weber, A and Clark, RM and Vaughn, L and Sanchez-Gonzalez, JD and Yu, JM and Yandell, BS and Bradbury, P and Doebley, J}, 
+title = {Major regulatory genes in maize contribute to standing variation in teosinte (Zea mays ssp parviglumis)}, 
+journal = {Genetics}, 
+volume = {177}, 
+number = {4}, 
+pages = {2349-2359}, 
+year = {2007}, 
+abstract = {In plants, many major regulatory genes that control plant growth and development have been identified and characterized. Despite a detailed knowledge of the function of these genes little is known about how they contribute to the natural variation for complex traits. To determine whether major regulatory genes of maize contribute to standing variation in Balsas teosinte we conducted association mapping in 584 Balsas teosinte individuals. We tested 48 markers from nine candidate regulatory genes against 13 traits for plant and infloresence architecture. We identified significant associations using a mixed linear model that controls for multiple levels of relatedness. Ten associations involving five candidate genes were significant after correction for multiple testing, and two survive the conservative Bonferroni correction. zfl2, the maize homolog of FLORICAULA of Antirrhinum, was associated with plant height. zap1, the maize homolog of APETALA1 of Arabidopsis, was associated with inflorescence branching. Five SNPs in the maize domestication gene, teosinte branched1, were significantly associated with either plant or inflorescence architecture. Our data suggest that major regulatory genes in maize do play a role in the natural variation for complex traits in teosinte and that some of the minor variants we identified may have been targets of selection during domestication.}, 
+location = {Univ Wisconsin, Genet Lab, Madison, WI 53706 USA allisonweber@wisc.edu}, 
+keywords = {Genome-wide Association; Inflorescence Architecture; Flower Development; Spina-bifida; Arabidopsis; Domestication; Evolution; Leaf; Polymorphisms; Antirrhinum}}
+
+
+@Article{Kebrom and Brutnell 2007,
+author = {Kebrom, TH and Brutnell, TP}, 
+title = {The molecular analysis of the shade avoidance syndrome in the grasses has begun}, 
+journal = {Journal of Experimental Botany}, 
+volume = {58}, 
+number = {12}, 
+pages = {3079-3089}, 
+year = {2007}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Ballare 1999,
+author = {Ballare, CL}, 
+title = {Keeping up with the neighbours: phytochrome sensing and other signaling mechanisms}, 
+journal = {Trends in Plant Science}, 
+volume = {4}, 
+number = {}, 
+pages = {97-102}, 
+year = {1999}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Smith and Whitelam 1997,
+author = {Smith, H and Whitelam, GC}, 
+title = {The shade avoidance syndrome: multiple resources mediated by multiple phytochromes}, 
+journal = {Plant, Cell and Environment}, 
+volume = {20}, 
+number = {}, 
+pages = {840-844}, 
+year = {1997}, 
+abstract = {}, 
+location = {}, 
+keywords = {}}
+
+
+@Article{Doebley et al 1997,
+author = {Doebley, J and Stec, A and Hubbard, L}, 
+title = {The evolution of apical dominance in maize}, 
+journal = {Nature}, 
+volume = {386}, 
+number = {6624}, 
+pages = {485-488}, 
+year = {1997}, 
+abstract = {The domestication of crop plants has often involved an increase in apical dominance (the concentration of resources in the main stem of the plant and a corresponding suppression of axillary branches)(1). A striking example of this phenomenon is seen in maize (Zea mays spp. mays), which exhibits a profound increase in apical dominance compared with its probable wild ancestor, teosinte (Zea mays ssp. parviglumis)(2). Previous research has identified the teosinte branched1 (tb1) gene as a major contributor to this evolutionary change in maize(3). We have cloned tb1 by transposon tagging and show here that it encodes a protein with homology to the cycloidea gene of snapdragon(4). The pattern of tb1 expression and the morphology of tb1 mutant plants suggest that tb1 acts both to repress the growth of axillary organs and to enable the formation of female inflorescences. The maize allele of tb1 is expressed at twice the level of the teosinte allele, suggesting that gene regulatory changes underlie the evolutionary divergence of maize from teosinte.}, 
+location = {UNIV CALIF BERKELEY,USDA,CTR PLANT GENE EXPRESS,ALBANY,CA 94710}, 
+keywords = {Teosinte}}
+
+
