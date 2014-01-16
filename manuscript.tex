@@ -1,11 +1,14 @@
 \documentclass[12pt]{article}
+\usepackage{geometry} 
 \usepackage{hyperref}
-\usepackage[pdftex]{graphicx}  
-\usepackage{caption}
-\usepackage{natbib}
-\bibliographystyle{apalike}
 \usepackage{color}
+\usepackage[pdftex]{graphicx}  
+%\usepackage{caption}
+\usepackage{natbib}
 \usepackage{authblk}
+\renewcommand{\baselinestretch}{1.5}
+\bibliographystyle{apalike}
+
 \newcommand{\jri}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} }
 
 %----------------------------------------
@@ -14,14 +17,12 @@
 \title{Natural variation in teosinte at the domestication locus teosinte branched1 (tb1)}
 
 \author[1]{Laura Vann}
-\author[1]{Thomas Kon\o}
+\author[1]{Thomas Kono}
 \author[1]{Tanja Pyh\"aj\"arvi}
 \author[1]{Matthew Hufford}
 \author[1,2]{Jeffrey Ross-Ibarra\thanks{rossibarra@ucdavis.edu}}
 \affil[1]{Department of Plant Sciences, University of California Davis}
 \affil[2]{Center for Population Biology and Genome Center, University of California Davis}
-
-\date{}
 
 \begin{document}
 
@@ -29,15 +30,17 @@
 
 \jri{Please add addresses for all authors.  All should have plant sciences, but Kono, Tanja, and Huff need their new addresses too. }
 
-\subsection*{ABSTRACT}
+\clearpage
+
+\subsection*{Abstract}
 
 The \emph{teosinte branched1} (\emph{tb1}) gene, a repressor of lateral organ growth, is a major QTL involved in branching differences between maize and its wild progenitor, teosinte. Further studies have shown that the insertion of a transposable element (Hopscotch) upstream of tb1 enhances its expression, causing the reduction in branching observed in domesticated maize. Observations of the maize \emph{tb1} allele in teosinte individuals, coupled with estimates of the age of insertion of the Hopscotch element, led us to investigate the role of \emph{tb1} in teosinte. Results from genotyping across many natural populations suggest that the Hopscotch element is segregating at a higher than expected frequency in a number of populations of both subspecies \emph{parviglumis} and \emph{mexicana}. Analysis of linkage disequilibrium between the Hopscotch element and variation in surrounding regions does not support a hypothesis of recent introgression from maize into teosinte, and we find no evidence of environmental correlations that might suggest recent selection.  Finally, two greenhouse experiments fail to find an important role for \emph{tb1} in controlling tillering in natural populations of \emph{parvilgumis}. \jri{Needs a concluding sentence. "Thus, we think..." or something.} 
 
+\clearpage
 
 \section*{Introduction}
-\jri{plase redo sections not in all caps}
 
-Domesticated crops and their wild progenitors provide an excellent system in which to study adaptation and genomic changes associated with human-mediated selection \cite{Ross-Ibarra et al 2007}. Perhaps the central focus of the study of domestication has been the identification of genetic variation underlying agronomically important traits such as fruit size and plant architecture \cite{Olsen and Gross 2010}. Additionally, many domesticates show reduced genetic diversity when compared to their wild progenitors, and an understanding of the distribution of diversity in the wild and its phenotypic effects has become increasingly useful to crop improvement \cite{Kovach and McCouch 2008}. But while some effort has been invested into understanding how wild alleles behave in their domesticated relatives, very little is known about the role that alleles found most commonly in domesticates play in natural populations of their wild progenitors.
+Domesticated crops and their wild progenitors provide an excellent system in which to study adaptation and genomic changes associated with human-mediated selection \cite{Ross-Ibarra et al 2007}. Perhaps the central focus of the study of domestication has been the identification of genetic variation underlying agronomically important traits such as fruit size and plant architecture \cite{OlsenGross2010}. \jri{I believe you need to remove spaces from the bibtex citation names.  See how this OlsenGross2010 works but the others don't? should be able to work with whitespace but i can't figure out why not.}  Additionally, many domesticates show reduced genetic diversity when compared to their wild progenitors, and an understanding of the distribution of diversity in the wild and its phenotypic effects has become increasingly useful to crop improvement \cite{Kovach and McCouch 2008}. But while some effort has been invested into understanding how wild alleles behave in their domesticated relatives, very little is known about the role that alleles found most commonly in domesticates play in natural populations of their wild progenitors.
 
 % SFS figure
 %-------------------------------------------------------------------
@@ -57,7 +60,7 @@ Maize (\emph{Zea mays} ssp. \emph{mays}) was domesticated from the teosinte \emp
 Many morphological changes are associated with the domestication of maize, and understanding the genetic basis for these changes has been a focus of maize research for a number of years. One of the most dramatic changes is found in plant architecture: domesticated maize is characterized by a central stalk with few tillers and lateral branches terminating in a female inflorescence, while teosinte is highly tillered and bears tassels (male inflorescences) at the end of its lateral branches. The \emph{teosinte branched1} (\emph{tb1}) gene, a repressor of organ growth, was identified as a major QTL involved in branching differences between maize and teosinte \cite{Doebley et al 1990, Doebley and Stec 1991, Lukens and Doebley 1999}. Further studies have shown that the insertion of a 4.9 kb retrotransposon (Hopscotch) in the upstream control region of \emph{tb1} led to increased expression of this gene, causing the reduction in branching observed in domesticated maize \cite{Studer et al 2011}. The effects of this insertion have been observed in tiller number in maize, but little is known about its role, if any, in teosinte \cite{Studer et al 2011}. Dating of this element has suggested that its insertion predates the domestication of maize, leading to the hypothesis that it was segregating as standing variation in ancient populations of teosinte and increased to high frequency in maize due to selection during domestication \cite{Studer et al 2011}. Furthermore, \cite{Studer and Doebley 2012} investigated the phenotypic effects of 9 teosinte \emph{tb1} alleles in an isogenic maize background and found that the introgressions sort into three distinct phenotypic classes, suggesting that variation at the \emph{tb1} locus may play a functional role in teosinte. In this study we aim to characterize the distribution of the Hopscotch insertion in \emph{mexicana}, \emph{parviglumis}, and landrace maize, and to examine the phenotypic effects of the insertion in \emph{parviglumis}. We use a combination of PCR genotyping for the Hopscotch element in our full panel and sequencing of two small regions upstream of \emph{tb1} in a subset of teosinte populations to explore patterns of genetic variation at this locus. Finally, we test for an association between the Hopscotch element and tillering phenotypes in a population of \emph{parviglumis}.
 
  
-\section*{METHODS}
+\section*{Methods}
 
 \subsection*{Sampling and Genotyping}
 
@@ -118,18 +121,18 @@ The lack of clustering of Hopscotch genotypes in our NJ tree as well as the lack
 
 We measured tillering index (TI), the ratio of the sum of tiller lengths to plant height, for 216 plants from 23 sampling locations within the San Lorenzo population, and genotyped plants for the Hopscotch insertion. We found the Hopscotch segregating at a frequency of 0.65; with a 0.4 frequency of homozygotes for the Hopscotch, a 0.5 frequency of heterozygotes, and a 0.1 frequency of homozygotes for the teosinte allele (no Hopscotch), showing no significant deviations from expected frequencies under Hardy-Weinberg equilibrium. After performing a repeated measures ANOVA between our transformed tillering index data and Hopscotch genotype we find a weak positive correlation between presence of the Hopscotch and tillering index on day 40 (p=0.0848), but no correlation between tillering index and genotype on any other day (Figure 4). Additionally we find no significant correlation between tiller number and Hopscotch genotype, or culm diameter and Hopscotch genotype in phenotyping 1.
 
-\subsection*{Phenotyping 2}
+\subsubsection*{Phenotyping 2}
 
 For phenotyping 2 we measured tillering index every five days through day 50 for 302 plants. We followed the same transformations and analyses as described in phenotyping 1. We find the Hopscotch allele segregating at a frequency of 0.69, with a 0.6 frequency of Hopscotch homozygotes, and a 0.2 frequency of both heterozygotes and homozygotes for the teosinte allele. We find similar patterns as in phenotyping 1, with a weak positive correlation between tillering index and Hopscotch genotype at day 40 (p=0.0611), with no significant correlation on any day. Similarly, relationships between Hopscotch genotype and tiller number, and hopscotch genotype and culm diameter are not significant. 
 
 
-\section*{DISCUSSION}
+\section*{Discussion}
 
 Adaptation occurs either due to selection on standing variation or on de novo mutations. Adaptation as a result of selection on standing variation has been well-described in a number of systems, for example, selection on lactase tolerance in humans \cite{Plantinga et al 2012, Tishkoff et al 2007}; variation at the \jri{italics?} Eda locus in three-spined stickleback \cite{Kitano et al 2008, Colosimo et al 2005}; and pupal diapause in the Apple Maggot fly \cite{Feder et al 2003}. Although the role of standing variation with respect to adaptation has been described in many systems, its importance to domestication is not as well studied. 
 
 In maize, alleles at important domestication loci (RAMOSA1, \cite{Sigmon and Vollbrecht 2010}; barren stalk1, \cite{Gallavotti et al 2004}; and \jri{do gene names need to be italicized?} grassy tillers1, \cite{Whipple et al 2011} have been shown to have been selected from standing variation, suggesting that diversity already present in teosinte may have played an important role in the domestication of maize. The \emph{teosinte branched1} gene has long been a central focus of research concerning maize domestication, and, while previous studies have suggested that differences in plant architecture between domesticated maize and teosinte are a result of selection on standing variation, little is known about variation at this locus in teosinte \cite{Clark et al 2006, Studer et al 2011}. Studer et al. (2011) genotyped 90 accessions of teosinte (inbred and non-inbred), and provided the first evidence that the Hopscotch insertion is segregating in teosinte \cite{Studer et al 2011}. 
 
-Given that the Hopscotch insertion has been estimated to predate the domestication of maize, it is not surprising that it is still segregating in populations of teosinte. However, in sampling numerous individuals from many teosinte populations our study provides greater insight into the distribution and prevalence of the Hopscotch in teosinte. While our findings are consistent with a previous study by Studer et al. (2011) in that we identified the Hopscotch allele segregating in teosinte, we find it at higher frequency than previously suggested \cite{Studer et al 2011}. Crop to wild introgression has previously been observed at domestication loci (\cite{Ellstrand et al 1999, Zhang et al 2009, Thurber et al 2010, Baack et al 2008, Hubner et al 2012, Wilkes et al 1977, Van Heerwaarden et al 2011, Barrett 1983}), but our results are more consistent with Hufford et al. (2013) who found resistance to introgression from maize into teosinte \cite{Hufford et al 2013}. Furthermore, \jri{all citations, even citations like these need to reference the bibtex file. check out the difference betweetn cite, citet, and citep as commands.} Hufford et al. (2013) showed that domestication loci, such as \emph{tb1}, are particularly resistant to introgression in both directions of gene flow (i.e., maize to teosinte and teosinte to maize). 
+Given that the Hopscotch insertion has been estimated to predate the domestication of maize, it is not surprising that it is still segregating in populations of teosinte. However, in sampling numerous individuals from many teosinte populations our study provides greater insight into the distribution and prevalence of the Hopscotch in teosinte. While our findings are consistent with a previous study by Studer et al. (2011) in that we identified the Hopscotch allele segregating in teosinte, we find it at higher frequency than previously suggested \cite{Studer et al 2011}. Crop to wild introgression has previously been observed at domestication loci (\cite{Ellstrand et al 1999, Zhang et al 2009, Thurber et al 2010, Baack et al 2008, Hubner et al 2012, Wilkes et al 1977, Van Heerwaarden et al 2011, Barrett 1983}), but our results are more consistent with Hufford et al. (2013) who found resistance to introgression from maize into teosinte \cite{Hufford et al 2013}. Furthermore, \jri{all citations, even citations like these need to reference the bibtex file. check out the difference betweetn cite, citet, and citep as commands. see \url{http://merkel.zoneo.net/Latex/natbib.php} for details} Hufford et al. (2013) showed that domestication loci, such as \emph{tb1}, are particularly resistant to introgression in both directions of gene flow (i.e., maize to teosinte and teosinte to maize). 
 
 We find no evidence of recent introgression in our analyses. Clustering patterns in our NJ trees do not reflect a pattern expected if maize alleles at the \emph{tb1} locus had introgressed into populations of teosinte. We do not have sympatric maize samples from many of our populations, however, so we cannot rule out the possibility that Hopscotch alleles in these teosinte populations are segregating in sympatric maize. On the other hand, analysis of linkage in the \emph{tb1} region does not reveal patterns of high LD relative to the rest of chromosome 1. The similarity in LD in the \emph{tb1} region in populations with and without the Hopscotch provides further support for an explanation other than introgression. Additionally, assignment to maize in this region in our STRUCTURE analysis is in fact lower than the average across chromosome 1 (Figure 3, Table 4). \jri{figure references need to be as in the example using the ref command}
 
@@ -145,7 +148,8 @@ Another explanation for the lack of correlation between Hopscotch genotype and t
 
 In summary, our findings demonstrate that the Hopscotch allele is more widespread in populations of \emph{parviglumis} and \emph{mexicana} than previously thought. Analysis of linkage using SNPs from across chromosome 1 does not suggest that the Hopscotch allele is present in these populations due to recent introgression; however, it seems unlikely that the it would have drifted to high frequency in multiple populations, and there may be another explanation for the high frequency we observe in some of our populations. The Hopscotch insertion does not appear to have any affect on tillering phenotypes in teosinte previously associated with \emph{tb1} and it is possible that variation at other loci may play a larger role in branching architecture in teosinte than in domesticated maize. \jri{seems like we should end with at least a hypothesis. as is we are saying we ruled out drift, introgression, and selection. what else is there? perhaps we should think about selection or introgression scenarios that could explain our data.}
 
+
 \clearpage
-\bibliography{refs}
+\bibliography{refs,bob}
 
 \end{document}
