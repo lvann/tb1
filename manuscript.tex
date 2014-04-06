@@ -68,15 +68,15 @@ Amplification products with successful incorporation of our insert were cleaned 
 
 \subsection*{Genotyping Analysis}
 
-We examined discrepancies between observed and expected genotype frequencies by calculating Hardy-Weinberg Equilibrium (HWE), and to calculate differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) we used HierFstat \citep{Goudet2005}. These analyses only included populations in which 8 or more individuals were sampled. To test the hypothesis that the Hopscotch insertion may be adaptive under certain environmental conditions, we looked for significant associations between the Hopscotch frequency and environmental variables using BayEnv \citep{Coop2010}. BayEnv creates a covariance matrix of relatedness between populations, and then tests a null model that allele frequencies in populations are determined by the covariance matrix of relatedness alone against the alternative model that allele frequencies are determined by a combination of the covariance matrix and an environmental variable, producing a posterior probability (Bayes Factor)\citep{Coop2010}. We used genotyping and covariance data from Pyh\"aj\"arvi et al., (2013) \citep{Pyh\"aj\"arvi2013} for BayEnv, with the Hopscotch insertion coded as an additional SNP (\ref{TableS3BayEnv}). Environmental data were obtained from www.worldclim.org, the Harmonized World Soil Database and www.harvestchoice.org, and summarized by principle component analysis \citet{Pyh\"aj\"arvi2013} \citep{Pyh\"aj\"arvi2013}.
+We examined discrepancies between observed and expected genotype frequencies by calculating Hardy-Weinberg Equilibrium (HWE), and to calculate differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) we used HierFstat \citep{Goudet2005}. These analyses only included populations in which 8 or more individuals were sampled. To test the hypothesis that the Hopscotch insertion may be adaptive under certain environmental conditions, we looked for significant associations between the Hopscotch frequency and environmental variables using BayEnv \citep{Coop2010}. BayEnv creates a covariance matrix of relatedness between populations, and then tests a null model that allele frequencies in populations are determined by the covariance matrix of relatedness alone against the alternative model that allele frequencies are determined by a combination of the covariance matrix and an environmental variable, producing a posterior probability (Bayes Factor)\citep{Coop2010}. We used genotyping and covariance data from Pyh\"aj\"arvi et al., (2013) \citep{Pyhajarvi2013} for BayEnv, with the Hopscotch insertion coded as an additional SNP (\ref{TableS3BayEnv}). Environmental data were obtained from www.worldclim.org, the Harmonized World Soil Database and www.harvestchoice.org, and summarized by principle component analysis \citet{Pyhajarvi2013} \citep{Pyhajarvi2013}.
 
 \subsection*{Sequence Analysis}
 
-For population genetic analyses of sequenced region 1 and sequenced region 2 we used the analysis package of Libsequence \citep{Thornton2003} to calculate pairwise F\textsubscript{ST} between populations, and to calculate standard diversity statistics (number of haplotypes; haplotype diversity; Watterson's estimator $\theta_{\subscript{W}}$; pairwise nucleotide diversity $\theta_{\subscript{\pi}}$; and Tajima's D). To produce a visual representation of differentiation between sequences and to examine patterns in sequence clustering by Hopscotch genotype we used Phylip (http://evolution.genetics.washington.edu/phylip.html) to create neighbor-joining trees with bootstrapping (100 repetitions) to examine the support of nodes in our trees. For creation of trees we also included homologous sequence data from teosinte inbred lines (TILs), some of which are known to be homozygous for the Hopscotch insertion (TIL03, TIL17, TIL09), as well as 59 lines of domesticated maize and landraces (data from Maize HapMapV2, \citep{Chia2012}).
+For population genetic analyses of sequenced region 1 and sequenced region 2 we used the analysis package of Libsequence \citep{Thornton2003} to calculate pairwise F\textsubscript{ST} between populations, and to calculate standard diversity statistics (number of haplotypes; haplotype diversity; Watterson's estimator $\theta_W$; pairwise nucleotide diversity $\theta_\pi$; and Tajima's D). To produce a visual representation of differentiation between sequences and to examine patterns in sequence clustering by Hopscotch genotype we used Phylip (http://evolution.genetics.washington.edu/phylip.html) to create neighbor-joining trees with bootstrapping (100 repetitions) to examine the support of nodes in our trees. For creation of trees we also included homologous sequence data from teosinte inbred lines (TILs), some of which are known to be homozygous for the Hopscotch insertion (TIL03, TIL17, TIL09), as well as 59 lines of domesticated maize and landraces (data from Maize HapMapV2, \citep{Chia2012}).
 
 In order to assess patterns of linkage disequilibrium (LD) around the Hopscotch element in the context of chromosomal patterns of LD we used Tassel \citep{Bradbury2007} and calculated LD between SNPs across chromosome 1 using previously published data from twelve plants each of the Ejutla A, Ejutla B, San Lorenzo, and La Mesa populations \citep{Pyhajarvi2013}. We chose these populations because we had both genotyping data for the Hopscotch as well as chromosome-wide SNP data for chromosome 1. For each population we filtered the initial set of 5,897 SNPs on chromosome 1 to accept only SNPs with a minor allele frequency of at least 0.1, resulting in 1,671, 3,023, 3,122, and 2,167 SNPs for San Lorenzo, Ejutla B, Ejutla A, and La Mesa, respectively. We then used Tassel \citep{Bradbury2007} to calculate linkage disequilibrium ($r^{2}$) across chromosome 1 for each population. 
 
-We examined evidence of introgression on chromosome 1 in these same four populations (EjuA, EjuB, MSA, SLO) using STRUCTURE \citep{Falush2003} and the same phased 55K SNP data from \citep{Pyh\"aj\"arvi2013} that we used for LD analysis, combined with the corresponding SNP data from a diverse panel of 282 maize lines \citep{Cook2012}. SNPs were anchored in a modified version of the IBM genetic map (\citep{Gerke2013}, \url{http://arxiv.org/abs/1307.7313}). We created haplotype blocks using a custom Perl script that grouped SNPs separated by less than 5kb into haplotypes. We ran STRUCTURE at K=2 under the linkage model, performing 3 replicates with an MCMC burn-in of 10,000 steps and 50,000 steps post burn-in. 
+We examined evidence of introgression on chromosome 1 in these same four populations (EjuA, EjuB, MSA, SLO) using STRUCTURE \citep{Falush2003} and the same phased 55K SNP data from \citep{Pyhajarvi2013} that we used for LD analysis, combined with the corresponding SNP data from a diverse panel of 282 maize lines \citep{Cook2012}. SNPs were anchored in a modified version of the IBM genetic map (\citep{Gerke2013}, \url{http://arxiv.org/abs/1307.7313}). We created haplotype blocks using a custom Perl script that grouped SNPs separated by less than 5kb into haplotypes. We ran STRUCTURE at K=2 under the linkage model, performing 3 replicates with an MCMC burn-in of 10,000 steps and 50,000 steps post burn-in. 
 
 \subsection*{Phenotyping of \emph{Zea mays.} ssp. \emph{parviglumis}}
 
@@ -111,16 +111,16 @@ Using our Hopscotch genotyping data, we calculated differentiation between popul
   \centering
   \caption{Pairwise F\textsubscript{CT} values from sequence data}
     \begin{tabular}{rccc}
-    \toprule
+ %   \toprule
     \multicolumn{1}{c}{\textbf{Comparison}} & \textbf{Sequenced Region 2} & \textbf{Sequenced Region 1} & \textbf{Hopscotch} \\
-    \midrule
+ %   \midrule
     EjuA \& EJuB & 0     & 0     & 0 \\
     EjuA \& MSA & 0.328 & 0.326 & 0.186 \\
     EjuA \& SLO & 0.258 & 0.416 & 0.28 \\
     EjuB \& MSA & 0.365 & 0.397 & 0.188 \\
     EjuB \& SLO & 0.29  & 0.512 & 0.28 \\
     MSA \& SLO & 0     & 0.007 & 0.016 \\
-    \bottomrule
+%    \bottomrule
     \end{tabular}
   \label{Table1Fst}
 \end{table}
@@ -128,15 +128,15 @@ Although we found large variation in Hopscotch allele frequency among our popula
 
 \subsection*{Sequencing}
 
-To investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region, we sequenced two small ($<$1kb) regions upstream of the tb1 ORF in four populations. After alignment and singleton checking we recovered 40 and 48 segregating sites for the 50kb upstream region and the 5' UTR region, respectively. For region 1, Ejutla A has the highest values of haplotype diversity, $\theta_{\textsubscript{W}}$, and $\theta_{\textsubscript{\pi}}$, while Ejutla B and La Mesa have comparable values of these summary statistics, and San Lorenzo has much lower values. Additionally, Tajima's D is similarly negative in the two Ejutla populations and La Mesa, but is more positive in San Lorenzo (\ref{Table2Diversity}). 
+To investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region, we sequenced two small ($<$1kb) regions upstream of the tb1 ORF in four populations. After alignment and singleton checking we recovered 40 and 48 segregating sites for the 50kb upstream region and the 5' UTR region, respectively. For region 1, Ejutla A has the highest values of haplotype diversity, $\theta_W$, and $\theta_\pi$, while Ejutla B and La Mesa have comparable values of these summary statistics, and San Lorenzo has much lower values. Additionally, Tajima's D is similarly negative in the two Ejutla populations and La Mesa, but is more positive in San Lorenzo (\ref{Table2Diversity}). 
 % Table 2 Diversity Statistics
 \begin{table}[htbp]
   \centering
   \caption{Add caption}
     \begin{tabular}{rccccc}
-    \toprule
-    Population & Number of Haplotypes & Haplotype Diversity & $\theta_{\textsubscript{W}}$    & $\theta_{\textsubscript{\pi}}$    & Tajima?s D \\
-    \midrule
+%    \toprule
+    Population & Number of Haplotypes & Haplotype Diversity & $\theta_W$    & $\theta_\pi$    & Tajima's D \\
+%    \midrule
     \multicolumn{6}{c}{\textit{Sequenced region 2 (50kb upstream)}} \\
     \multicolumn{1}{c}{EJUA} & 8     & 0.89394 & 0.01548 & 0.01763 & 0.6231 \\
     \multicolumn{1}{c}{EJUB} & 8     & 0.89394 & 0.01493 & 0.01591 & 0.29504 \\
@@ -164,9 +164,9 @@ The teosinte populations with the highest frequency of the Hopscotch insertion i
   \centering
   \caption{$r^{2}$ values between SNPs in the \emph{tb1} region (positions 264,596,664-265,891,456) and the rest of chromosome 1, within the 5? UTR (Sequenced region 1), and within the 66,169 bp upstream region (Sequenced region 2).}
     \begin{tabular}{cccrc}
-    \toprule
+ %   \toprule
     \multirow{2}[2]{*}{Population} & \multirow{2}[2]{*}{Chromosome 1} & \multirow{2}[2]{*}{tb1 region} & \multicolumn{1}{c}{\multirow{2}[2]{*}{Sequenced region 1}} & \multirow{2}[2]{*}{Sequenced region 1 } \\
-    \midrule
+ %   \midrule
           &       &       & \multicolumn{1}{c}{} &  \\
     Ejutla A & 0.095426101 & 0.050304 & 0.747295 & 0.214933 \\
     Ejutla B & 0.068681837 & 0.051295 & 0.660354 & 0.186395 \\
@@ -232,22 +232,22 @@ In maize, alleles at important domestication loci (\emph{RAMOSA1}, \citep{Sigmon
 
 Given that the Hopscotch insertion has been estimated to predate the domestication of maize, it is not surprising that it can be found segregating in populations of teosinte. However, in sampling numerous individuals from many teosinte populations our study provides greater insight into the distribution and prevalence of the Hopscotch in teosinte. While our findings are consistent with a previous study by \citet{Studer2011} in that we identified the Hopscotch allele segregating in teosinte, we find it at higher frequency than previously suggested \citep{Studer2011}. Crop to wild introgression has previously been observed at domestication loci (\citep{Ellstrand1999, Zhang2009, Thurber2010, Baack2008, Hubner2012, Wilkes1977, VanHeerwaarden2011, Barrett1983}), but our results are more consistent with \citet{Hufford2013} who found resistance to introgression from maize into teosinte \citep{Hufford2013}. Furthermore, \citet{Hufford2013} showed that domestication loci, such as \emph{tb1}, are particularly resistant to introgression in both directions of gene flow (i.e., maize to teosinte and teosinte to maize) \citep{Hufford2013}. 
 
-We find no evidence of recent introgression in our analyses. Clustering patterns in our NJ trees do not reflect a pattern expected if maize alleles at the \emph{tb1} locus had introgressed into populations of teosinte. We do not have sympatric maize samples from many of our populations, however, so we cannot rule out the possibility that Hopscotch alleles in these teosinte populations are segregating in sympatric maize. Moreover, analysis of linkage in the \emph{tb1} region does not reveal patterns of high LD relative to the rest of chromosome 1. The similarity in LD in the \emph{tb1} region in populations with and without the Hopscotch provides further support for an explanation other than introgression. Additionally, assignment to maize in this region in our STRUCTURE analysis is in fact lower than the average across chromosome 1 (\ref{Fig3Structure}, \ref{\Table4Q}). 
+We find no evidence of recent introgression in our analyses. Clustering patterns in our NJ trees do not reflect a pattern expected if maize alleles at the \emph{tb1} locus had introgressed into populations of teosinte. We do not have sympatric maize samples from many of our populations, however, so we cannot rule out the possibility that Hopscotch alleles in these teosinte populations are segregating in sympatric maize. Moreover, analysis of linkage in the \emph{tb1} region does not reveal patterns of high LD relative to the rest of chromosome 1. The similarity in LD in the \emph{tb1} region in populations with and without the Hopscotch provides further support for an explanation other than introgression. Additionally, assignment to maize in this region in our STRUCTURE analysis is in fact lower than the average across chromosome 1 (\ref{Fig3Structure}, \ref{Table4Q}). 
 
  % Table 4 Assigment to maize and teosinte in tb1 region and chr 1 
 \begin{table}[htbp]
   \centering
   \caption{Assignments to maize and teosinte in the \emph{tb1} and chromosome 1 regions from STRUCTURE}
     \begin{tabular}{ccccc}
-    \toprule
+  %  \toprule
           & \multicolumn{2}{c}{\emph{tb1} region} & \multicolumn{2}{c}{Chr 1} \\
-    \midrule
+ %   \midrule
     Population & Maize assignment & Teosinte assignment & Maize assignment & Teosinte assignment \\
     Ejutla A & 0.02158681 & 0.9784132 & 0.2026814 & 0.7973186 \\
     Ejutla B & 0.01888194 & 0.9811181 & 0.1872131 & 0.8127869 \\
     La Mesa & 0.9881333 & 0.0118675 & 0.8068998 & 0.1931017 \\
     San Lorenzo & 0.01551389 & 0.9844861 & 0.2048252 & 0.7951748 \\
-    \bottomrule
+ %   \bottomrule
     \end{tabular}
   \label{Table4Q}
 \end{table}
@@ -260,7 +260,7 @@ Deviations from expected genotype frequencies under Hardy-Weinberg equilibrium a
 
 The phenotypic effects of the Hopscotch insertion in domesticated maize have been well documented \citep{Clark2006, Studer2011}, and \citet{Weber2007} have described its effects in partially inbred lines of teosinte \citep{Weber2007}. Our study is the first to explicitly examine the phenotypic effects of the Hopscotch insertion in individuals sampled from a natural population of teosinte. However, we found no significant effect of the Hopscotch on tillering index or tiller number in our phenotyping experiments, and the effect of the Hopscotch insertion in teosinte is discordant with that of maize. The lack of correlation between Hopscotch genotype and tillering index or tiller number is surprising given its effects in maize. \lev{i took out the information about the TILS -- seemed the consensus was more than we wanted to do for this pub. If qPCR is working for tb1 it would be something easy to check...} It is certainly possible that even though previous data demonstrate an effect of the Hopscotch on tillering in maize \citep{Studer2011}, that the effect of the Hopscotch in teosinte is more complicated and may be more difficult to observe. Moreover, \emph{tb1} is a single gene in a complex pathway that affects branching and tillering traits, and perhaps in combination with alleles at other loci the phenotypic effects of the Hopscotch on tillering may not be consistent.
 
-Variation at \emph{tb1} has also been shown to contribute to phenotypes other than tillering \citep{Clark2006}, and a recent study by \citet{StuderDoebley2012} examined the possibility of an allelic series at the \emph{tb1} locus in teosinte. \citet{StuderDoebley2012} introgressed 9 separate teosinte segments (one from \emph{Zea diploperennis}, and four from both \emph{Zea mays} ssp. \emph{mexicana} and \emph{Zea mays} ssp. {\parviglumis}) spanning the \emph{tb1} locus into an isogenic maize background and investigated their effects on previously associated phenotypes. They found that plants with teosinte chromosomal segments had greater tillering than their maize isogenic lines, and that different chromosomal segments of \emph{tb1} confer different amounts of tillering, suggesting that there are multiple genetic factors in this region that affect tillering. However, in addition to elucidating variance in tillering among \emph{tb1} teosinte segments, \citet{StuderDoebley2012} found significant variance among W22 control lines, suggesting that there are other genetic factors aside from alleles at the \emph{tb1} locus that affect tillering in maize. \citet{DoebleyStec1991, DoebleyStec1993} first attempted to map QTL controlling many of the phenotypic differences between domesticated maize and teosinte, and demonstrated the existence of numerous QTL that contribute to the differences in branching architecture between the two. Many of these loci (\emph{grassy tillers}, \emph{gt1}; \emph{tassel-replaces-upper-ears1}, \emph{tru1}; \emph{terminal ear1}, \emph{ter1}) have been shown to interact with \emph{tb1} \citep{Whipple2011, Li2012, PAPERS}, and both \emph{tru1} and \emph{ter1} have been shown to affect the same phenotypic traits as \emph{tb1} \citep{DoebleyStecGustus1995}. \emph{tassel-replaces-upper-ears1} (\emph{tru1}), for example, has been shown to act either epistatically or downstream of \emph{tb1}, affecting both branching architecture (decreased apical dominance) and tassel phenotypes (shortened tassel and shank length and reduced tassel number) \citep{Li2012}. It seems plausible that variation in some of these other loci could have affected tillering in our greenhouse population, and contributed to the lack of correlation we see between Hopscotch genotype and tillering. 
+Variation at \emph{tb1} has also been shown to contribute to phenotypes other than tillering \citep{Clark2006}, and a recent study by \citet{StuderDoebley2012} examined the possibility of an allelic series at the \emph{tb1} locus in teosinte. \citet{StuderDoebley2012} introgressed 9 separate teosinte segments (one from \emph{Zea diploperennis}, and four from both \emph{Zea mays} ssp. \emph{mexicana} and \emph{Zea mays} ssp. \emph{parviglumis}) spanning the \emph{tb1} locus into an isogenic maize background and investigated their effects on previously associated phenotypes. They found that plants with teosinte chromosomal segments had greater tillering than their maize isogenic lines, and that different chromosomal segments of \emph{tb1} confer different amounts of tillering, suggesting that there are multiple genetic factors in this region that affect tillering. However, in addition to elucidating variance in tillering among \emph{tb1} teosinte segments, \citet{StuderDoebley2012} found significant variance among W22 control lines, suggesting that there are other genetic factors aside from alleles at the \emph{tb1} locus that affect tillering in maize. \citet{DoebleyStec1991, DoebleyStec1993} first attempted to map QTL controlling many of the phenotypic differences between domesticated maize and teosinte, and demonstrated the existence of numerous QTL that contribute to the differences in branching architecture between the two. Many of these loci (\emph{grassy tillers}, \emph{gt1}; \emph{tassel-replaces-upper-ears1}, \emph{tru1}; \emph{terminal ear1}, \emph{ter1}) have been shown to interact with \emph{tb1} \citep{Whipple2011, Li2012, PAPERS}, and both \emph{tru1} and \emph{ter1} have been shown to affect the same phenotypic traits as \emph{tb1} \citep{DoebleyStecGustus1995}. \emph{tassel-replaces-upper-ears1} (\emph{tru1}), for example, has been shown to act either epistatically or downstream of \emph{tb1}, affecting both branching architecture (decreased apical dominance) and tassel phenotypes (shortened tassel and shank length and reduced tassel number) \citep{Li2012}. It seems plausible that variation in some of these other loci could have affected tillering in our greenhouse population, and contributed to the lack of correlation we see between Hopscotch genotype and tillering. 
 
 In summary, our findings demonstrate that the Hopscotch allele is more widespread in populations of \emph{parviglumis} and \emph{mexicana} than previously thought. Analysis of linkage using SNPs from across chromosome 1 does not suggest that the Hopscotch allele is present in these populations due to recent introgression; however, it seems unlikely that the it would have drifted to high frequency in multiple populations, and there may be another explanation for the high frequency we observe in some of our populations. The Hopscotch does not appear to uniformly reduce tillering in teosinte as it does in maize, and the other loci involved in branching architecture of maize may play key roles in the regulation of tillering in teosinte. Furthermore, the high frequency with which we find the Hopscotch in a number of populations may suggest that the Hopscotch may play an additional ecological role in teosinte. In the future, additional experiments will be needed to examine expression levels of \emph{tb1} and additional loci involved in branching architecture (e.g. \emph{gt1}, \emph{tru1}, and \emph{ter1}) in conjuction with a more exhaustive phenotyping and genotyping assay. 
 
@@ -321,9 +321,9 @@ Supplementary Materials
   \centering
   \caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
     \begin{tabular}{rrrrrr}
-    \toprule
+%    \toprule
     Accession & USDA Accession ID & Locality & Number alleles sampled & Hopscotch Frequency & No Hopscotch Frequency \\
-    \midrule
+ %   \midrule
     RIHY0009 & N/A   & N/A   & 2     & 0.5   & 0.5 \\
     RIMME0006 & 566673 & Durango, Mexico & 2     & 0     & 1 \\
     RIMME0007 & 566680 & Guanajuato, Mexico & 2     & 0     & 1 \\
@@ -428,7 +428,7 @@ Supplementary Materials
     RIMPA0158 & N/A   & Jalisco, Mexico & 64    & 0.53125 & 0.46875 \\
     RIMPA0159 & N/A   & Jalisco, Mexico & 26    & 0     & 1 \\
     RIMPA0162 & 21785 & N/A   & 4     & 0     & 1 \\
-    \bottomrule
+ %   \bottomrule
     \end{tabular}
   \label{TableS1}
 \end{table}
@@ -438,9 +438,9 @@ Supplementary Materials
   \centering
   \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}
     \begin{tabular}{ccc}
-    \toprule
+ %   \toprule
     Accession & Number of alleles sampled & Hopscotch Frequency \\
-    \midrule
+ %   \midrule
     RIMMA0066 & 2     & 1 \\
     RIMMA0075 & 2     & 1 \\
     RIMMA0077 & 2     & 1 \\
