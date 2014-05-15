@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 FEB 2014 13:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 MAY 2014 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -183,6 +183,29 @@ Package color Info: Driver file: pdftex.def on input line 130.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count100
 ))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen114
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen127
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -197,42 +220,42 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count101
+\c@NAT@ctr=\count105
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2009/11/18 1.3 (PWD)
 \affilsep=\skip46
 \@affilsep=\skip47
-\c@Maxaffil=\count102
-\c@authors=\count103
-\c@affil=\count104
+\c@Maxaffil=\count106
+\c@authors=\count107
+\c@affil=\count108
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fragments/subscript.sty)
 (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -269,18 +292,18 @@ LaTeX Font Info:    ... okay on input line 29.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 35.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
@@ -289,16 +312,16 @@ LaTeX Info: Redefining \nameref on input line 29.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen116
+\scratchcounter=\count110
+\scratchdimen=\dimen130
 \scratchbox=\box27
-\nofMPsegments=\count107
-\nofMParguments=\count108
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen117
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen131
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks17
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -316,11 +339,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 31.
+(Font)              <14.4> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <5> on input line 37.
 
 [1
 
@@ -329,471 +352,594 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
-Package natbib Warning: Citation `Ross-Ibarra et al 2007' on page 3 undefined o
-n input line 47.
+Package natbib Warning: Citation `Ross-Ibarra2007' on page 3 undefined on input
+ line 63.
 
 
 Package natbib Warning: Citation `OlsenGross2010' on page 3 undefined on input 
-line 47.
+line 63.
 
 
-Package natbib Warning: Citation `Kovach and McCouch 2008' on page 3 undefined 
-on input line 47.
-
-<SFS.png, id=22, 682.2288pt x 377.2494pt>
-File: SFS.png Graphic file (type png)
- <use SFS.png>
-Package pdftex.def Info: SFS.png used on input line 53.
-(pdftex.def)             Requested size: 426.79134pt x 235.99902pt.
+Package natbib Warning: Citation `KovachMcCouch2008' on page 3 undefined on inp
+ut line 63.
 
 
-Package natbib Warning: Citation `Piperno et al 2009' on page 3 undefined on in
-put line 62.
+Package natbib Warning: Citation `Bai2007' on page 3 undefined on input line 63
+.
 
 
-Package natbib Warning: Citation `Matsuoka et al 2002' on page 3 undefined on i
-nput line 62.
+Package natbib Warning: Citation `Whitton1997' on page 3 undefined on input lin
+e 64.
 
 
-Package natbib Warning: Citation `Hufford et al 2012a' on page 3 undefined on i
-nput line 62.
+Package natbib Warning: Citation `Piperno2009' on page 3 undefined on input lin
+e 66.
 
 
-Package natbib Warning: Citation `Doebley 2004' on page 3 undefined on input li
-ne 62.
+Package natbib Warning: Citation `Matsuoka2002' on page 3 undefined on input li
+ne 66.
 
 
-Package natbib Warning: Citation `Hufford et al 2012b' on page 3 undefined on i
-nput line 62.
+Package natbib Warning: Citation `Hufford2012a' on page 3 undefined on input li
+ne 66.
 
 
-Package natbib Warning: Citation `Wilkes 1977' on page 3 undefined on input lin
-e 62.
+Package natbib Warning: Citation `Doebley2004' on page 3 undefined on input lin
+e 66.
 
 
-Package natbib Warning: Citation `Hufford et al 2013' on page 3 undefined on in
-put line 62.
+Package natbib Warning: Citation `Hufford2012b' on page 3 undefined on input li
+ne 66.
 
 
-Package natbib Warning: Citation `Ross-Ibarra et al 2009' on page 3 undefined o
-n input line 62.
+Package natbib Warning: Citation `Wilkes1977' on page 3 undefined on input line
+ 66.
 
 
-Package natbib Warning: Citation `Nybom 2004' on page 3 undefined on input line
- 62.
+Package natbib Warning: Citation `Hufford2013' on page 3 undefined on input lin
+e 66.
 
 
-Package natbib Warning: Citation `Doebley et al 1990' on page 3 undefined on in
-put line 64.
+Package natbib Warning: Citation `Ross-Ibarra2009' on page 3 undefined on input
+ line 66.
 
 
-Package natbib Warning: Citation `Doebley and Stec 1991' on page 3 undefined on
- input line 64.
+Package natbib Warning: Citation `Doebley2004' on page 3 undefined on input lin
+e 68.
 
 
-Package natbib Warning: Citation `Lukens and Doebley 1999' on page 3 undefined 
-on input line 64.
+Package natbib Warning: Citation `Doebley1990' on page 3 undefined on input lin
+e 68.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 3 undefined on inp
-ut line 64.
+Package natbib Warning: Citation `DoebleyStec1991' on page 3 undefined on input
+ line 68.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 3 undefined on inp
-ut line 64.
+Package natbib Warning: Citation `LukensDoebley1999' on page 3 undefined on inp
+ut line 68.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 3 undefined on inp
-ut line 64.
+Package natbib Warning: Citation `Studer2011' on page 3 undefined on input line
+ 68.
 
 
-Package natbib Warning: Citation `Studer and Doebley 2012' on page 3 undefined 
-on input line 64.
+Package natbib Warning: Citation `Studer2011' on page 3 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `Studer2011' on page 3 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `StuderDoebley2012' on page 3 undefined on inp
+ut line 68.
 
 [3
 
-] [4 <./SFS.png>]
+] [4]
 
-Package natbib Warning: Citation `Doyle and Doyle 1990' on page 5 undefined on 
-input line 71.
-
-
-Package natbib Warning: Citation `Maloof et al 1984' on page 5 undefined on inp
-ut line 71.
+LaTeX Warning: Reference `TableS1Mays' on page 5 undefined on input line 76.
 
 
-Package natbib Warning: Citation `Rozen and Skaletsky 2000' on page 5 undefined
- on input line 71.
+LaTeX Warning: Reference `TableS2' on page 5 undefined on input line 76.
 
 
-Package natbib Warning: Citation `Kearse et al 2012' on page 5 undefined on inp
-ut line 71.
+Package natbib Warning: Citation `DoyleDoyle1990' on page 5 undefined on input 
+line 76.
 
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
 
-Overfull \hbox (140.45955pt too wide) in paragraph at lines 71--73
-\OT1/cmr/m/n/12 quences are HopF, 5'-TCGTTGATGCTTTGATGGATGG-3'; Hop R, 5'-AACAG
-TATGATTTCATGGGACCG-
+Package natbib Warning: Citation `Maloof1984' on page 5 undefined on input line
+ 76.
+
+
+Package natbib Warning: Citation `RozenSkaletsky2000' on page 5 undefined on in
+put line 76.
+
+
+Package natbib Warning: Citation `Kearse2012' on page 5 undefined on input line
+ 76.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 77.
+
+Overfull \hbox (3.83112pt too wide) in paragraph at lines 76--78
+\OT1/cmr/m/n/10.95 TCGTTGATGCTTTGATGGATGG-3'\OT1/cmr/m/n/12 ; Hop R, \OT1/cmr/m
+/n/10.95 5'-AACAGTATGATTTCATGGGACCG-
  []
 
 [5]
 
-Package natbib Warning: Citation `Wang et al 1999' on page 6 undefined on input
- line 76.
+Package natbib Warning: Citation `Wang1999' on page 6 undefined on input line 8
+1.
 
 
-Package natbib Warning: Citation `Clark et al 2006' on page 6 undefined on inpu
-t line 76.
+Package natbib Warning: Citation `Clark2006' on page 6 undefined on input line 
+81.
 
 
-Package natbib Warning: Citation `Rozen and Skaletsky 2000' on page 6 undefined
- on input line 76.
+Package natbib Warning: Citation `RozenSkaletsky2000' on page 6 undefined on in
+put line 81.
 
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
 [6]
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
 
-
-Package natbib Warning: Citation `Kearse et al 2012' on page 7 undefined on inp
-ut line 80.
+Package natbib Warning: Citation `Kearse2012' on page 7 undefined on input line
+ 85.
 
 [7]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+
+Package natbib Warning: Citation `Goudet2005' on page 8 undefined on input line
+ 89.
 
 
-Package natbib Warning: Citation `Goudet 2005' on page 8 undefined on input lin
-e 84.
+Package natbib Warning: Citation `Coop2010' on page 8 undefined on input line 8
+9.
 
 
-Package natbib Warning: Citation `Coop et al 2010' on page 8 undefined on input
- line 84.
+Package natbib Warning: Citation `Coop2010' on page 8 undefined on input line 8
+9.
 
 
-Package natbib Warning: Citation `Coop et al 2010' on page 8 undefined on input
- line 84.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 8 undefined on input l
+ine 89.
 
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
 
-Package natbib Warning: Citation `Pyhajarvi et al 2013' on page 8 undefined on 
-input line 84.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 8 undefined on input l
+ine 89.
 
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
 
-Package natbib Warning: Citation `Pyhajarvi et al 2013' on page 8 undefined on 
-input line 84.
+Package natbib Warning: Citation `Thornton2003' on page 8 undefined on input li
+ne 93.
+
+
+Package natbib Warning: Citation `Chia2012' on page 8 undefined on input line 9
+3.
 
 [8]
 
-Package natbib Warning: Citation `Thornton 2003' on page 9 undefined on input l
-ine 88.
+Package natbib Warning: Citation `Bradbury2007' on page 9 undefined on input li
+ne 98.
 
 
-Package natbib Warning: Citation `Chia et al 2012' on page 9 undefined on input
- line 88.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 9 undefined on input l
+ine 98.
 
 
-Package natbib Warning: Citation `Bradbury et al 2007' on page 9 undefined on i
-nput line 90.
+Package natbib Warning: Citation `Bradbury2007' on page 9 undefined on input li
+ne 98.
 
 
-Package natbib Warning: Citation `Pyhajarvi et al 2013' on page 9 undefined on 
-input line 90.
+Package natbib Warning: Citation `Falush2003' on page 9 undefined on input line
+ 100.
 
 
-Package natbib Warning: Citation `Bradbury et al 2007' on page 9 undefined on i
-nput line 90.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 9 undefined on input l
+ine 100.
 
 
-Package natbib Warning: Citation `Falush et al 2003' on page 9 undefined on inp
-ut line 92.
+Package natbib Warning: Citation `Cook2012' on page 9 undefined on input line 1
+00.
 
 
-Package natbib Warning: Citation `Pyhajarvi et al 2013' on page 9 undefined on 
-input line 92.
-
-
-Package natbib Warning: Citation `Cook et al 2012' on page 9 undefined on input
- line 92.
-
-
-Package natbib Warning: Citation `Gerke et al 2013' on page 9 undefined on inpu
-t line 92.
+Package natbib Warning: Citation `Gerke2013' on page 9 undefined on input line 
+100.
 
 [9]
 
-Package natbib Warning: Citation `Hufford 2010' on page 10 undefined on input l
-ine 96.
-
-
-Package natbib Warning: Citation `Briggs et al 2007' on page 10 undefined on in
-put line 98.
-
-
-Package natbib Warning: Citation `Briggs et al 2007' on page 10 undefined on in
-put line 98.
+Package natbib Warning: Citation `Hufford2010' on page 10 undefined on input li
+ne 105.
 
 [10]
 
-Package natbib Warning: Citation `Fox and Weisberg 2011' on page 11 undefined o
-n input line 102.
+Package natbib Warning: Citation `Hufford2010' on page 11 undefined on input li
+ne 107.
+
+
+Package natbib Warning: Citation `Briggs2007' on page 11 undefined on input lin
+e 109.
+
+
+Package natbib Warning: Citation `Clark2006' on page 11 undefined on input line
+ 109.
 
 [11]
 
-Package natbib Warning: Citation `Pyhajarvi et al 2013' on page 12 undefined on
- input line 110.
+Package natbib Warning: Citation `FoxWeisberg2011' on page 12 undefined on inpu
+t line 113.
 
-[12]
 
-Package natbib Warning: Citation `Chia et al 2012' on page 13 undefined on inpu
-t line 114.
+LaTeX Warning: Reference `TableS1Mays' on page 12 undefined on input line 119.
 
-[13]
 
-Package natbib Warning: Citation `Cook et al 2012' on page 14 undefined on inpu
-t line 120.
+LaTeX Warning: Reference `TableS2' on page 12 undefined on input line 119.
 
+[12] <Fig1Map.pdf, id=88, 794.97pt x 614.295pt>
+File: Fig1Map.pdf Graphic file (type pdf)
+ <use Fig1Map.pdf>
+Package pdftex.def Info: Fig1Map.pdf used on input line 126.
+(pdftex.def)             Requested size: 711.3189pt x 549.67343pt.
 
-Package natbib Warning: Citation `Phyhajarvi et al 2013' on page 14 undefined o
-n input line 120.
+Overfull \hbox (281.31427pt too wide) in paragraph at lines 126--127
+ [] 
+ []
 
-[14] [15]
 
-Package natbib Warning: Citation `Plantinga et al 2012' on page 16 undefined on
- input line 135.
+LaTeX Warning: Float too large for page by 84.78018pt on input line 130.
 
 
-Package natbib Warning: Citation `Tishkoff et al 2007' on page 16 undefined on 
-input line 135.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 13 undefined on input 
+line 133.
 
+[13] [14]
 
-Package natbib Warning: Citation `Kitano et al 2008' on page 16 undefined on in
-put line 135.
+Package natbib Warning: Citation `Chia2012' on page 15 undefined on input line 
+181.
 
 
-Package natbib Warning: Citation `Colosimo et al 2005' on page 16 undefined on 
-input line 135.
+LaTeX Warning: Reference `FigureS3NJ' on page 15 undefined on input line 181.
 
+[15] <Fig2LDPlots.pdf, id=116, 794.46812pt x 613.79312pt>
+File: Fig2LDPlots.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `Feder et al 2003' on page 16 undefined on inp
-ut line 135.
+<use Fig2LDPlots.pdf>
+Package pdftex.def Info: Fig2LDPlots.pdf used on input line 209.
+(pdftex.def)             Requested size: 426.79134pt x 329.73878pt.
 
 
-Package natbib Warning: Citation `Sigmon and Vollbrecht 2010' on page 16 undefi
-ned on input line 137.
+Package natbib Warning: Citation `Cook2012' on page 16 undefined on input line 
+216.
 
 
-Package natbib Warning: Citation `Gallavotti et al 2004' on page 16 undefined o
-n input line 137.
+Package natbib Warning: Citation `Pyhajarvi2013' on page 16 undefined on input 
+line 216.
 
+[16] <Fig3Structure.pdf, id=125, 794.97pt x 614.295pt>
+File: Fig3Structure.pdf Graphic file (type pdf)
+ <use Fig3Structure.pdf>
+Package pdftex.def Info: Fig3Structure.pdf used on input line 222.
+(pdftex.def)             Requested size: 256.0748pt x 197.8813pt.
 
-Package natbib Warning: Citation `Whipple et al 2011' on page 16 undefined on i
-nput line 137.
+[17] <Fig4Boxplots.pdf, id=134, 614.295pt x 794.97pt>
+File: Fig4Boxplots.pdf Graphic file (type pdf)
+ <use Fig4Boxplots.pdf>
+Package pdftex.def Info: Fig4Boxplots.pdf used on input line 240.
+(pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
 
-Package natbib Warning: Citation `Clark et al 2006' on page 16 undefined on inp
-ut line 137.
+LaTeX Warning: Float too large for page by 129.93341pt on input line 244.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 16 undefined on in
-put line 137.
+Package natbib Warning: Citation `Plantinga2012' on page 18 undefined on input 
+line 252.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 16 undefined on in
-put line 137.
+Package natbib Warning: Citation `Tishkoff2007' on page 18 undefined on input l
+ine 252.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 16 undefined on in
-put line 139.
+Package natbib Warning: Citation `Kitano2008' on page 18 undefined on input lin
+e 252.
 
 
-Package natbib Warning: Citation `Ellstrand et al 1999' on page 16 undefined on
- input line 139.
+Package natbib Warning: Citation `Colosimo2005' on page 18 undefined on input l
+ine 252.
 
 
-Package natbib Warning: Citation `Zhang et al 2009' on page 16 undefined on inp
-ut line 139.
+Package natbib Warning: Citation `Feder2003' on page 18 undefined on input line
+ 252.
 
+[18]
 
-Package natbib Warning: Citation `Thurber et al 2010' on page 16 undefined on i
-nput line 139.
+Package natbib Warning: Citation `SigmonVollbrecht2010' on page 19 undefined on
+ input line 254.
 
 
-Package natbib Warning: Citation `Baack et al 2008' on page 16 undefined on inp
-ut line 139.
+Package natbib Warning: Citation `Gallavotti2004' on page 19 undefined on input
+ line 254.
 
 
-Package natbib Warning: Citation `Hubner et al 2012' on page 16 undefined on in
-put line 139.
+Package natbib Warning: Citation `Whipple2011' on page 19 undefined on input li
+ne 254.
 
 
-Package natbib Warning: Citation `Wilkes et al 1977' on page 16 undefined on in
-put line 139.
+Package natbib Warning: Citation `Clark2006' on page 19 undefined on input line
+ 254.
 
 
-Package natbib Warning: Citation `Van Heerwaarden et al 2011' on page 16 undefi
-ned on input line 139.
+Package natbib Warning: Citation `Studer2011' on page 19 undefined on input lin
+e 254.
 
 
-Package natbib Warning: Citation `Barrett 1983' on page 16 undefined on input l
-ine 139.
+Package natbib Warning: Citation `Studer2011' on page 19 undefined on input lin
+e 254.
 
 
-Package natbib Warning: Citation `Hufford et al 2013' on page 16 undefined on i
-nput line 139.
+Package natbib Warning: Citation `Studer2011' on page 19 undefined on input lin
+e 254.
 
-[16]
 
-Package natbib Warning: Citation `Hufford et al 2013' on page 17 undefined on i
-nput line 143.
+Package natbib Warning: Citation `Studer2011' on page 19 undefined on input lin
+e 256.
 
 
-Package natbib Warning: Citation `Ellstrand et al 2007' on page 17 undefined on
- input line 143.
+Package natbib Warning: Citation `Studer2011' on page 19 undefined on input lin
+e 256.
 
 
-Package natbib Warning: Citation `van Heerwaarden et al 2011' on page 17 undefi
-ned on input line 143.
+Package natbib Warning: Citation `Fukunaga2005' on page 19 undefined on input l
+ine 256.
 
-[17] [18]
 
-Package natbib Warning: Citation `Clark et al 2006' on page 19 undefined on inp
-ut line 147.
+Package natbib Warning: Citation `Matsuoka2002' on page 19 undefined on input l
+ine 256.
 
 
-Package natbib Warning: Citation `Studer et al 2011' on page 19 undefined on in
-put line 147.
+Package natbib Warning: Citation `Ellstrand1999' on page 19 undefined on input 
+line 256.
 
 
-Package natbib Warning: Citation `Weber et al 2007' on page 19 undefined on inp
-ut line 147.
+Package natbib Warning: Citation `Zhang2009' on page 19 undefined on input line
+ 256.
 
 
-Package natbib Warning: Citation `Clark et al 2006' on page 19 undefined on inp
-ut line 149.
+Package natbib Warning: Citation `Thurber2010' on page 19 undefined on input li
+ne 256.
 
 
-Package natbib Warning: Citation `Studer and Doebley 2012' on page 19 undefined
- on input line 149.
+Package natbib Warning: Citation `Baack2008' on page 19 undefined on input line
+ 256.
+
+
+Package natbib Warning: Citation `Hubner2012' on page 19 undefined on input lin
+e 256.
+
+
+Package natbib Warning: Citation `Wilkes1977' on page 19 undefined on input lin
+e 256.
+
+
+Package natbib Warning: Citation `VanHeerwaarden2011' on page 19 undefined on i
+nput line 256.
+
+
+Package natbib Warning: Citation `Barrett1983' on page 19 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Hufford2013' on page 19 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Hufford2013' on page 19 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Hufford2013' on page 19 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Hufford2013' on page 19 undefined on input li
+ne 256.
 
 [19]
-
-Package natbib Warning: Citation `Kebrom and Brutnell 2007' on page 20 undefine
-d on input line 151.
-
-
-Package natbib Warning: Citation `Kebrom and Brutnell 2007' on page 20 undefine
-d on input line 151.
+Overfull \hbox (81.21292pt too wide) in paragraph at lines 264--276
+ [][] 
+ []
 
 
-Package natbib Warning: Citation `Ballare 1999' on page 20 undefined on input l
-ine 151.
+Package natbib Warning: Citation `Hufford2013' on page 20 undefined on input li
+ne 278.
 
 
-Package natbib Warning: Citation `Smith and Whitelam 1997' on page 20 undefined
- on input line 151.
+Package natbib Warning: Citation `Ellstrand2007' on page 20 undefined on input 
+line 278.
 
 
-Package natbib Warning: Citation `Doebley et al 1997' on page 20 undefined on i
-nput line 151.
-
-
-Package natbib Warning: Citation `Lukens and Doebley 1999' on page 20 undefined
- on input line 151.
+Package natbib Warning: Citation `vanHeerwaarden2011' on page 20 undefined on i
+nput line 278.
 
 [20]
-Overfull \hbox (4.40614pt too wide) in paragraph at lines 153--154
+
+Package natbib Warning: Citation `Hufford2010' on page 21 undefined on input li
+ne 280.
+
+
+Package natbib Warning: Citation `Pyhajarvi2013' on page 21 undefined on input 
+line 280.
+
+
+Package natbib Warning: Citation `Hufford2010' on page 21 undefined on input li
+ne 280.
+
+
+Package natbib Warning: Citation `Pyhajarvi2013' on page 21 undefined on input 
+line 280.
+
+
+Package natbib Warning: Citation `Clark2006' on page 21 undefined on input line
+ 286.
+
+
+Package natbib Warning: Citation `Studer2011' on page 21 undefined on input lin
+e 286.
+
+
+Package natbib Warning: Citation `Weber2007' on page 21 undefined on input line
+ 286.
+
+
+Package natbib Warning: Citation `Weber2007' on page 21 undefined on input line
+ 286.
+
+
+Package natbib Warning: Citation `Studer2011' on page 21 undefined on input lin
+e 286.
+
+[21]
+
+Package natbib Warning: Citation `Clark2006' on page 22 undefined on input line
+ 288.
+
+
+Package natbib Warning: Citation `StuderDoebley2012' on page 22 undefined on in
+put line 288.
+
+
+Package natbib Warning: Citation `StuderDoebley2012' on page 22 undefined on in
+put line 288.
+
+
+Package natbib Warning: Citation `StuderDoebley2012' on page 22 undefined on in
+put line 288.
+
+
+Package natbib Warning: Citation `DoebleyStec1991' on page 22 undefined on inpu
+t line 288.
+
+
+Package natbib Warning: Citation `DoebleyStec1993' on page 22 undefined on inpu
+t line 288.
+
+
+Package natbib Warning: Citation `Whipple2011' on page 22 undefined on input li
+ne 288.
+
+
+Package natbib Warning: Citation `Li2012' on page 22 undefined on input line 28
+8.
+
+
+Package natbib Warning: Citation `DoebleyStecGustus1995' on page 22 undefined o
+n input line 288.
+
+
+Package natbib Warning: Citation `Li2012' on page 22 undefined on input line 28
+8.
+
+[22]
+Overfull \hbox (4.40614pt too wide) in paragraph at lines 290--291
 []\OT1/cmr/m/n/12 In sum-mary, our find-ings demon-strate that the Hop-scotch a
 l-lele is more widespread
  []
 
-[21] [22]
+[23] [24] [25 <./Fig1Map.pdf>] [26 <./Fig2LDPlots.pdf>] [27 <./Fig3Structure.pd
+f>] [28 <./Fig4Boxplots.pdf>]
 No file manuscript.bbl.
+[29
+
+] <FigS1LocusCartoon.pdf, id=372, 794.97pt x 614.295pt>
+File: FigS1LocusCartoon.pdf Graphic file (type pdf)
+
+<use FigS1LocusCartoon.pdf>
+Package pdftex.def Info: FigS1LocusCartoon.pdf used on input line 316.
+(pdftex.def)             Requested size: 426.79134pt x 329.80219pt.
+ <FigS2Gel.png, id=373, 214.8025pt x 297.11pt>
+File: FigS2Gel.png Graphic file (type png)
+
+<use FigS2Gel.png>
+Package pdftex.def Info: FigS2Gel.png used on input line 327.
+(pdftex.def)             Requested size: 426.79134pt x 590.38316pt.
+
+
+LaTeX Warning: Float too large for page by 68.6566pt on input line 331.
+
+<FigS3NJtrees.pdf, id=375, 614.295pt x 794.97pt>
+File: FigS3NJtrees.pdf Graphic file (type pdf)
+ <use FigS3NJtrees.pdf>
+Package pdftex.def Info: FigS3NJtrees.pdf used on input line 338.
+(pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
+
+
+LaTeX Warning: Float too large for page by 30.6001pt on input line 342.
+
+
+Overfull \hbox (329.90645pt too wide) in paragraph at lines 349--460
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 1728.27184pt on input line 460.
+
+
+LaTeX Warning: Float too large for page by 4840.52629pt on input line 720.
+
+
+Overfull \hbox (174.53749pt too wide) in paragraph at lines 727--813
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 1196.8396pt on input line 813.
+
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
-(./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 832.
+[30 <./FigS1LocusCartoon.pdf>] [31 <./FigS2Gel.png>] [32 <./FigS3NJtrees.pdf>]
+[33] [34] [35] [36]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 832.
+ (./manuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 832.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 832.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 832.
  ) 
 Here is how much of TeX's memory you used:
- 5955 strings out of 493488
- 87462 string characters out of 3141326
- 177913 words of memory out of 3000000
- 9185 multiletter control sequences out of 15000+200000
- 10203 words of font info for 36 fonts, out of 3000000 for 9000
+ 6098 strings out of 493488
+ 89198 string characters out of 3141326
+ 301750 words of memory out of 3000000
+ 9293 multiletter control sequences out of 15000+200000
+ 11034 words of font info for 38 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,6n,23p,2636b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,10n,23p,2370b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pf
 b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manuscript.pdf (22 pages, 274078 bytes).
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on manuscript.pdf (36 pages, 1766978 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

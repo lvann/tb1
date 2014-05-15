@@ -2,6 +2,8 @@
 \usepackage{geometry} 
 \usepackage{hyperref}
 \usepackage{color}
+\usepackage{multirow}
+\usepackage{booktabs}
 \usepackage[pdftex]{graphicx}  
 %\usepackage{caption}
 \usepackage{natbib}
@@ -17,12 +19,12 @@
 %----------------------------------------
 %AUTHORS
 %----------------------------------------
-\title{Natural variation in teosinte at the domestication locus teosinte branched1 (tb1)}
+\title{Natural variation in teosinte at the domestication locus \emph{teosinte branched1} (\emph{tb1})}
 
 \author[1]{Laura Vann}
 \author[1,2]{Thomas Kono}
 \author[1,3]{Tanja Pyh\"aj\"arvi}
-\author[1,4]{Matthew B. Hufford\thanks{mbhufford@iastate.edu}}
+\author[1,4]{Matthew B. Hufford\thanks{mhufford@iastate.edu}}
 \author[1,5]{Jeffrey Ross-Ibarra\thanks{rossibarra@ucdavis.edu}}
 \affil[1]{Department of Plant Sciences, University of California Davis}
 \affil[2]{Department of Agronomy and Plant Genetics, University of Minnesota Twin Cities}
@@ -52,7 +54,7 @@
 
 The \emph{teosinte branched1} (\emph{tb1}) gene, a repressor of lateral organ growth, is a major QTL involved in branching differences between maize and its wild progenitor, teosinte. Further studies have shown that the insertion of a transposable element (Hopscotch) upstream of \emph{tb1} enhances its expression, causing the reduction in branching observed in domesticated maize. Observations of the maize \emph{tb1} allele in teosinte individuals, coupled with estimates of the age of insertion of the Hopscotch element, led us to investigate the role of \emph{tb1} in teosinte. Results from genotyping across many natural populations suggest that the Hopscotch element is segregating at a higher than expected frequency in a number of populations of both subspecies \emph{Zea mays} ssp. \emph{parviglumis} and subspecies \emph{Zea mays} ssp. \emph{mexicana}. Analysis of linkage disequilibrium between the Hopscotch element and variation in surrounding regions does not support a hypothesis of recent introgression from maize into teosinte, and we find no evidence of environmental correlations that might suggest recent selection. Finally, two greenhouse experiments fail to find an important role for \emph{tb1} in controlling tillering in natural populations of \emph{parviglumis}. Our findings suggest that the role of the Hopscotch in tillering in teosinte is not as straightforward as is in domesticated maize, and that other loci may play a role in observed variation in tillering in teosinte.  
 
-\jri{Check citation format for AJB. I don't think it's numbers. adjust bibliography style accordingly } \lev{I would rather send to an open access journal. I don't like that no everyone would be able to have access to paper} \jri{AJB allows open access for $500 which is cheaper than PLoS ONE}
+\jri{Check citation format for AJB. I don't think it's numbers. adjust bibliography style accordingly } \lev{I would rather send to an open access journal. I don't like that no everyone would be able to have access to paper} \jri{AJB allows open access for \$500 which is cheaper than PLoS ONE}
 
 \clearpage
 
@@ -211,7 +213,7 @@ The teosinte populations \jri{which?} with the highest frequency of the Hopscotc
 \end{figure*}
 %-------------------------------------------------------------------
 
-The lack of clustering of Hopscotch genotypes in our NJ tree as well as the lack of LD around \emph{tb1} does not support the hypothesis that the Hopscotch insertion in these populations of \emph{parviglumis} is the result of recent introgression. However, to further explore this hypothesis we performed a STRUCTURE analysis using Illumina MaizeSNP50 data from four of our \emph{parviglumis} populations (EjuA, EjuB, MSA, and SLO) and the maize 282 diversity panel \citep{Cook2012, Phyh\"aj\"arvi2013}. The linkage model implemented in STRUCTURE can be used to identify ancestry of blocks of linked variants, which would arise as a result of recent admixture between populations. If the Hopscotch insertion is present in populations of \emph{parviglumis} as a result of recent admixture with domesticated maize, we would expect the insertion and linked variants in surrounding sites to be assigned to the "maize" cluster in our STRUCTURE runs, not the "teosinte" cluster. In all runs, assignment to maize in the \emph{tb1} region across all four \emph{parviglumis} populations is low (average 0.017) \jri{is this really 0.017 or 0.17?} \lev{Yes really 0.017 assignment to maize in the tb1 region, and avg assignment across chr1 is 0.2} \lev{ I also have a table of assignment values for SLO individuals based on genotype. Though we had decided this wasn't super informative because sample size was low} and much below the chromosome-wide average (0.20; \ref{Fig3Structure}). 
+The lack of clustering of Hopscotch genotypes in our NJ tree as well as the lack of LD around \emph{tb1} does not support the hypothesis that the Hopscotch insertion in these populations of \emph{parviglumis} is the result of recent introgression. However, to further explore this hypothesis we performed a STRUCTURE analysis using Illumina MaizeSNP50 data from four of our \emph{parviglumis} populations (EjuA, EjuB, MSA, and SLO) and the maize 282 diversity panel \citep{Cook2012, Pyhajarvi2013}. The linkage model implemented in STRUCTURE can be used to identify ancestry of blocks of linked variants, which would arise as a result of recent admixture between populations. If the Hopscotch insertion is present in populations of \emph{parviglumis} as a result of recent admixture with domesticated maize, we would expect the insertion and linked variants in surrounding sites to be assigned to the "maize" cluster in our STRUCTURE runs, not the "teosinte" cluster. In all runs, assignment to maize in the \emph{tb1} region across all four \emph{parviglumis} populations is low (average 0.017) \jri{is this really 0.017 or 0.17?} \lev{Yes really 0.017 assignment to maize in the tb1 region, and avg assignment across chr1 is 0.2} \lev{ I also have a table of assignment values for SLO individuals based on genotype. Though we had decided this wasn't super informative because sample size was low} and much below the chromosome-wide average (0.20; \ref{Fig3Structure}). 
 
 % Figure 3 STRUCTURE Plot 4 Pops
 %-------------------------------------------------------------------
@@ -275,7 +277,7 @@ We find no evidence of recent introgression in our analyses. Clustering patterns
 
 Although recent introgression seems unlikely, we cannot rule out ancient introgression as an explanation for the presence of the Hopscotch in these populations. If the Hopscotch allele was introgressed in the distant past, they could have been sufficient recombination to break up any initial LD, leading to observations similar to those obtained here.  We find this scenario less plausible, however, as there is no reason why gene flow should have been high in the past but absent in present-day sympatric populations.  In fact, early generation maize-teosinte hybrids are easy to find in these populations today (MB Hufford, pers. observation), and genetic data support ongoing gene flow between domesticated maize and both \emph{Zea mays} ssp. \emph{mexicana} and \emph{Zea mays} ssp. \emph{parviglumis} in a number of sympatric populations \citep{Hufford2013, Ellstrand2007, vanHeerwaarden2011}. 
 
-Other explanation for differential frequencies of the Hopscotch among teosinte populations include both drift and natural selection.  Previous studies using both SSRs and genome-wide SNP data have found evidence for a population bottleneck in the San Lorenzo population \citep{Hufford2010, Pyh\"aj\"arvi2013}, and the lower levels of sequence diversity in the 5' UTR region and the more positive values of Tajima's D we present here are consistent with these findings. \jri{deviations from HWE may be consistent too if we see excess of homozygotes. do we?}. This bottleneck, however, does not explain differences in Hopscotch allele frequency among populations, and the available information on diversity and population structure among these populations \citep{Hufford2010, Pyh\"aj\"arvi2013} is not suggestive of colonization or other demographic events that might predict a high frequency of the allele in multiple populations.  \jri{here we need a few sentences on selection.  the 5' UTR has much more negative D than the upstream. do we know the Hop genotype for sequenced lines? can we separate the sequences into hop/no hop and look for differences? it wasn't until we did this that gt1 stuff really popped out.} \lev{we should know for some of them, i will check}
+Other explanation for differential frequencies of the Hopscotch among teosinte populations include both drift and natural selection.  Previous studies using both SSRs and genome-wide SNP data have found evidence for a population bottleneck in the San Lorenzo population \citep{Hufford2010, Pyhajarvi2013}, and the lower levels of sequence diversity in the 5' UTR region and the more positive values of Tajima's D we present here are consistent with these findings. \jri{deviations from HWE may be consistent too if we see excess of homozygotes. do we?}. This bottleneck, however, does not explain differences in Hopscotch allele frequency among populations, and the available information on diversity and population structure among these populations \citep{Hufford2010, Pyhajarvi2013} is not suggestive of colonization or other demographic events that might predict a high frequency of the allele in multiple populations.  \jri{here we need a few sentences on selection.  the 5' UTR has much more negative D than the upstream. do we know the Hop genotype for sequenced lines? can we separate the sequences into hop/no hop and look for differences? it wasn't until we did this that gt1 stuff really popped out.} \lev{we should know for some of them, i will check}
 %   from expected genotype frequencies under Hardy-Weinberg equilibrium at the Hopscotch insertion in the San Lorenzo population and additional populations may be indicative of demographic changes that have affected genome-wide patterns of variation, or may be the result of selective pressures acting on or near the \emph{tb1} locus..
 
 
@@ -312,7 +314,7 @@ Supplementary Materials
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=150mm]{FigS1LocusCartoon.pdf}
-    \caption{Representation of the upstream regulatory region of \emph{tb1}, showing the \emph{tb1} coding region (green) and the Hopscotch insertion (red). Arrows show the location of primer sets; in black, primers used for amplification and sequencing (Sequenced region 1; within the 5' UTR, and sequenced region 2; 66,169 bp upstream from the tb1 ORF); in blue, primers used to genotype the Hopscotch insertion.} 
+   % \caption{Representation of the upstream regulatory region of \emph{tb1}, showing the \emph{tb1} coding region (green) and the Hopscotch insertion (red). Arrows show the location of primer sets; in black, primers used for amplification and sequencing (Sequenced region 1; within the 5' UTR, and sequenced region 2; 66,169 bp upstream from the tb1 ORF); in blue, primers used to genotype the Hopscotch insertion.}
 \label{FigS1Locus}
   \end{center}
 \end{figure*}
@@ -323,7 +325,7 @@ Supplementary Materials
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=150mm]{FigS2Gel.png}
-    \caption{Agarose gel image of amplification products using our primer sets. Genotypes are indicated at the top of the gel.} 
+   % \caption{Agarose gel image of amplification products using our primer sets. Genotypes are indicated at the top of the gel.} 
 \label{FigS2Gel}
   \end{center}
 \end{figure*}
@@ -334,7 +336,7 @@ Supplementary Materials
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=150mm]{FigS3NJtrees.pdf}
-    \caption{Neighbor-Joining tree of the sequenced region in the 5? UTR (right; sequenced region 1) and the 66,169 bp upstream region (left; sequenced region 2) of \emph{tb1}. Individuals with genotype data are colored: Homozygous for the teosinte (no Hopscotch) allele (red), homozygous for the maize (Hopscotch) allele (blue), heterozygotes (purple). TILs (teosinte inbred lines) are colored in green, with stars indicating the 3 TILs known to have the Hopscotch insertion. Black indicates individuals not genotyped for the Hopscotch insertion.} 
+    %\caption{Neighbor-Joining tree of the sequenced region in the 5? UTR (right; sequenced region 1) and the 66,169 bp upstream region (left; sequenced region 2) of \emph{tb1}. Individuals with genotype data are colored: Homozygous for the teosinte (no Hopscotch) allele (red), homozygous for the maize (Hopscotch) allele (blue), heterozygotes (purple). TILs (teosinte inbred lines) are colored in green, with stars indicating the 3 TILs known to have the Hopscotch insertion. Black indicates individuals not genotyped for the Hopscotch insertion.} 
 \label{FigS3NJ}
   \end{center}
 \end{figure*}
@@ -343,7 +345,7 @@ Supplementary Materials
 % Table S1. Parv and mex samples
 \begin{table}[htbp]
   \centering
-  \caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
+  %\caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
     \begin{tabular}{rrrrrr}
 %    \toprule
     Accession & USDA Accession ID & Locality & Number alleles sampled & Hopscotch Frequency & No Hopscotch Frequency \\
@@ -460,7 +462,7 @@ Supplementary Materials
 % Table S2. Mays sampling
 \begin{table}[htbp]
   \centering
-  \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}
+ % \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}
     \begin{tabular}{ccc}
  %   \toprule
     Accession & Number of alleles sampled & Hopscotch Frequency \\
@@ -721,7 +723,7 @@ Supplementary Materials
 % Table S3. PCs for BayEnv
 \begin{table}[htbp]
   \centering
-  \caption{Variables and rotations used for the 6 principal components used for BayEnv calculations and their corresponding Bayes Factors. Modified from \citet{Pyh\"aj\"arvi2013}.}
+  %\caption{Variables and rotations used for the 6 principal components used for BayEnv calculations and their corresponding Bayes Factors. Modified from \citet{Pyhajarvi2013}.}
     \begin{tabular}{rrrrrrrrrrrr}
     \toprule
     \textbf{PC1} & \textbf{} & \textbf{PC2} & \textbf{} & \textbf{PC3} & \textbf{} & \textbf{PC4} & \textbf{} & \textbf{PC5} & \textbf{} & \textbf{PC6} & \textbf{} \\
@@ -813,10 +815,10 @@ Supplementary Materials
 % Table S4 Diversity stats in tb1 region based on SNP 50 genotyping data
 \begin{table}[htbp]
   \centering
-  \caption{Diversity in the \emph{tb1} region based on the maize SNP50 genotyping data}
+  %\caption{Diversity in the \emph{tb1} region based on the maize SNP50 genotyping data}
     \begin{tabular}{ccccc}
     \toprule
-    \textbf{Population} & \textbf{\# seg sites} & \textbf{$\theta_{\subscript{\pi}}$ / bp} & \textbf{$\theta_{\subscript{W}}$ / bp} & \textbf{Tajima?s D} \\
+    %\textbf{Population} & \textbf{\# seg sites} & \textbf{$\theta_{\subscript{\pi}}$ / bp} & \textbf{$\theta_{\subscript{W}}$ / bp} & \textbf{Tajima?s D} \\
     \midrule
     Ejutla A & 4     & 0.15217 & 0.11902 & 0.76191 \\
     Ejutla B & 5     & 0.15258 & 0.14877 & 0.07412 \\
