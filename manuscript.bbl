@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -37,14 +37,14 @@
 
 \bibitem[{Chia et~al.(2012)Chia, Song, Bradbury, Costich, de, Doebley, Elshire,
   Gaut, Geller, Glaubitz, Gore, Guill, Holland, Hufford, Lai, Li, Liu, Lu,
-  McCombie, Nelson, Poland, Prasanna, Pyhajarvi, Rong, Sekhon, Sun, Tenaillon,
-  Tian, Wang, Xu, Zhang, Kaeppler, Ross-Ibarra, McMullen, Buckler, Zhang, Xu,
-  and Ware}]{Chia2012}
+  McCombie, Nelson, Poland, Prasanna, Pyh{\"a}j{\"a}rvi, Rong, Sekhon, Sun,
+  Tenaillon, Tian, Wang, Xu, Zhang, Kaeppler, Ross-Ibarra, McMullen, Buckler,
+  Zhang, Xu, and Ware}]{Chia2012}
 \textsc{Chia, J., C.~Song, P.~Bradbury, D.~Costich, N.~de, Leon, J.~Doebley,
   R.~Elshire, B.~Gaut, L.~Geller, J.~Glaubitz, M.~Gore, K.~Guill, J.~Holland,
   M.~Hufford, J.~Lai, M.~Li, X.~Liu, Y.~Lu, R.~McCombie, R.~Nelson, J.~Poland,
-  B.~Prasanna, T.~Pyhajarvi, T.~Rong, R.~Sekhon, Q.~Sun, M.~Tenaillon, F.~Tian,
-  J.~Wang, X.~Xu, Z.~Zhang, S.~Kaeppler, J.~Ross-Ibarra, M.~McMullen,
+  B.~Prasanna, T.~Pyh{\"a}j{\"a}rvi, T.~Rong, R.~Sekhon, Q.~Sun, M.~Tenaillon,
+  F.~Tian, J.~Wang, X.~Xu, Z.~Zhang, S.~Kaeppler, J.~Ross-Ibarra, M.~McMullen,
   E.~Buckler, G.~Zhang, Y.~Xu, and D.~Ware}. 2012.
 \newblock Maize hapmap2 identifies extant variation from a genome in flux.
 \newblock \emph{Nat Genet} 44: 803--U238.
@@ -101,11 +101,10 @@
   epistasis and the evolution of dominance.
 \newblock \emph{Genetics} 141: 333--346.
 
-\bibitem[{Doebley et~al.(1990)Doebley, Stec, Wendel, and Edwards}]{Doebley1990}
-\textsc{Doebley, J., A.~Stec, J.~Wendel, and M.~Edwards}. 1990.
-\newblock Genetic and morphological analysis of a maize teosinte f2 population
-  - implications for the origin of maize.
-\newblock \emph{P Natl Acad Sci Usa} 87: 9888--9892.
+\bibitem[{Doebley et~al.(1997)Doebley, Stec, and Hubbard}]{Doebley1997}
+\textsc{Doebley, J., A.~Stec, and L.~Hubbard}. 1997.
+\newblock The evolution of apical dominance in maize.
+\newblock \emph{Nature} 386: 485--488.
 
 \bibitem[{Doyle and Doyle(1990)}]{DoyleDoyle1990}
 \textsc{Doyle, J. and J.~Doyle}. 1990.
@@ -185,25 +184,25 @@
   (zea mays ssp. parviglumis), the wild progenitor of maize.
 \newblock \emph{PhD Dissertation} : 130pp.
 
-\bibitem[{Hufford et~al.(2012{\natexlab{a}})Hufford, Bilinski, Pyhäjärvi, and
-  Ross-Ibarra}]{Hufford2012a}
-\textsc{Hufford, M., P.~Bilinski, T.~Pyhäjärvi, and J.~Ross-Ibarra}.
+\bibitem[{Hufford et~al.(2012{\natexlab{a}})Hufford, Bilinski,
+  Pyh{\"a}j{\"a}rvi, and Ross-Ibarra}]{Hufford2012a}
+\textsc{Hufford, M., P.~Bilinski, T.~Pyh{\"a}j{\"a}rvi, and J.~Ross-Ibarra}.
   2012{\natexlab{a}}.
 \newblock Teosinte as a model system for population and ecological genomics.
 \newblock \emph{Trends in Genetics} 12: 606--615.
 
-\bibitem[{Hufford et~al.(2013)Hufford, Lubinsky, Pyhäjärvi, Devengenzo,
+\bibitem[{Hufford et~al.(2013)Hufford, Lubinsky, Pyh{\"a}j{\"a}rvi, Devengenzo,
   Ellstrand, and Ross-Ibarra}]{Hufford2013}
-\textsc{Hufford, M., P.~Lubinsky, T.~Pyhäjärvi, M.~Devengenzo, N.~Ellstrand,
-  and J.~Ross-Ibarra}. 2013.
+\textsc{Hufford, M., P.~Lubinsky, T.~Pyh{\"a}j{\"a}rvi, M.~Devengenzo,
+  N.~Ellstrand, and J.~Ross-Ibarra}. 2013.
 \newblock The genomic signature of crop-wild introgression in maize.
 \newblock \emph{PLoS Genetics} 9: e1003477.
 
-\bibitem[{Hufford et~al.(2012{\natexlab{b}})Hufford, Xu, van, Pyhajarvi, Chia,
-  Cartwright, Elshire, Glaubitz, Guill, Kaeppler, Lai, Morrell, Shannon, Song,
-  Springer, Swanson-Wagner, Tiffin, Wang, Zhang, Doebley, McMullen, Ware,
-  Buckler, Yang, and Ross-Ibarra}]{Hufford2012b}
-\textsc{Hufford, M., X.~Xu, J.~van, Heerwaarden, T.~Pyhajarvi, J.~Chia,
+\bibitem[{Hufford et~al.(2012{\natexlab{b}})Hufford, Xu, van,
+  Pyh{\"a}j{\"a}rvi, Chia, Cartwright, Elshire, Glaubitz, Guill, Kaeppler, Lai,
+  Morrell, Shannon, Song, Springer, Swanson-Wagner, Tiffin, Wang, Zhang,
+  Doebley, McMullen, Ware, Buckler, Yang, and Ross-Ibarra}]{Hufford2012b}
+\textsc{Hufford, M., X.~Xu, J.~van, Heerwaarden, T.~Pyh{\"a}j{\"a}rvi, J.~Chia,
   R.~Cartwright, R.~Elshire, J.~Glaubitz, K.~Guill, S.~Kaeppler, J.~Lai,
   P.~Morrell, L.~Shannon, C.~Song, N.~Springer, R.~Swanson-Wagner, P.~Tiffin,
   J.~Wang, G.~Zhang, J.~Doebley, M.~McMullen, D.~Ware, E.~Buckler, S.~Yang, and
@@ -221,6 +220,12 @@
 \newblock Geneious basic: An integrated and extendable desktop software
   platform for the organization and analysis of sequence data.
 \newblock \emph{Bioinformatics} 28: 1647--1649.
+
+\bibitem[{Kebrom and Brutnell(2007)}]{KebromBrutnell2007}
+\textsc{Kebrom, T. and T.~Brutnell}. 2007.
+\newblock The molecular analysis of the shade avoidance syndrome in the grasses
+  has begun.
+\newblock \emph{Journal of Experimental Botany} 58: 3079--3089.
 
 \bibitem[{Kitano et~al.(2008)Kitano, Bolnick, Beauchamp, Mazur, Mori, Nakano,
   and Peichel}]{Kitano2008}
@@ -280,9 +285,9 @@
 \newblock Low prevalence of lactase persistence in neolithic south-west europe.
 \newblock \emph{Eur J Hum Genet} 20: 778--782.
 
-\bibitem[{Pyhajarvi et~al.(2013)Pyhajarvi, Hufford, and
+\bibitem[{Pyh{\"a}j{\"a}rvi et~al.(2013)Pyh{\"a}j{\"a}rvi, Hufford, and
   Ross-Ibarra}]{Pyhajarvi2013}
-\textsc{Pyhajarvi, T., M.~Hufford, and J.~Ross-Ibarra}. 2013.
+\textsc{Pyh{\"a}j{\"a}rvi, T., M.~Hufford, and J.~Ross-Ibarra}. 2013.
 \newblock Complex patterns of local adaptation in the wild relatives of maize.
 \newblock \emph{Genome Biology and Evolution} 5: 1594--1609.
 
