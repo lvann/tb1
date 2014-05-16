@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 MAY 2014 12:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 MAY 2014 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -171,6 +171,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count100
+\output=\toks16
+\linenoprevgraf=\count101
+\linenumbersep=\dimen114
+\linenumberwidth=\dimen115
+\c@linenumber=\count102
+\c@pagewiselinenumber=\count103
+\c@LN@truepage=\count104
+\c@internallinenumber=\count105
+\c@internallinenumbers=\count106
+\quotelinenumbersep=\dimen116
+\bframerule=\dimen117
+\bframesep=\dimen118
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -181,30 +199,30 @@ Package color Info: Driver file: pdftex.def on input line 130.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count100
+\Gread@gobject=\count107
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen114
+\bigstrutjot=\dimen119
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen115
-\lightrulewidth=\dimen116
-\cmidrulewidth=\dimen117
-\belowrulesep=\dimen118
-\belowbottomsep=\dimen119
-\aboverulesep=\dimen120
-\abovetopsep=\dimen121
-\cmidrulesep=\dimen122
-\cmidrulekern=\dimen123
-\defaultaddspace=\dimen124
-\@cmidla=\count101
-\@cmidlb=\count102
-\@aboverulesep=\dimen125
-\@belowrulesep=\dimen126
-\@thisruleclass=\count103
-\@lastruleclass=\count104
-\@thisrulewidth=\dimen127
+\heavyrulewidth=\dimen120
+\lightrulewidth=\dimen121
+\cmidrulewidth=\dimen122
+\belowrulesep=\dimen123
+\belowbottomsep=\dimen124
+\aboverulesep=\dimen125
+\abovetopsep=\dimen126
+\cmidrulesep=\dimen127
+\cmidrulekern=\dimen128
+\defaultaddspace=\dimen129
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen130
+\@belowrulesep=\dimen131
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen132
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -220,42 +238,42 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen128
-\Gin@req@width=\dimen129
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count105
+\c@NAT@ctr=\count112
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2009/11/18 1.3 (PWD)
 \affilsep=\skip46
 \@affilsep=\skip47
-\c@Maxaffil=\count106
-\c@authors=\count107
-\c@affil=\count108
+\c@Maxaffil=\count113
+\c@authors=\count114
+\c@affil=\count115
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fragments/subscript.sty)
 (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -291,19 +309,19 @@ LaTeX Font Info:    ... okay on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 35.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 38.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
@@ -312,17 +330,17 @@ LaTeX Info: Redefining \nameref on input line 35.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen130
-\scratchbox=\box27
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen131
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count117
+\scratchdimen=\dimen135
+\scratchbox=\box28
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen136
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks18
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -339,11 +357,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 37.
+(Font)              <14.4> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 44.
 
 [1
 
@@ -353,185 +371,167 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ] [4]
-
-LaTeX Warning: Reference `TableS1Mays' on page 5 undefined on input line 74.
-
-
-LaTeX Warning: Reference `TableS2' on page 5 undefined on input line 74.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 86.
+ [5] [6] [7] [8] [9] [10] [11] [12]
 
-Overfull \hbox (3.83112pt too wide) in paragraph at lines 74--76
-\OT1/cmr/m/n/10.95 TCGTTGATGCTTTGATGGATGG-3'\OT1/cmr/m/n/12 ; Hop R, \OT1/cmr/m
-/n/10.95 5'-AACAGTATGATTTCATGGGACCG-
- []
-
-[5] [6] [7] [8] [9] [10] [11] [12]
-
-LaTeX Warning: Reference `TableS1Mays' on page 13 undefined on input line 117.
+LaTeX Warning: Reference `TableS1Mays' on page 13 undefined on input line 128.
 
 
-LaTeX Warning: Reference `TableS2' on page 13 undefined on input line 117.
+LaTeX Warning: Reference `TableS2' on page 13 undefined on input line 128.
 
 [13]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 122.
+               Default added (so using `tbp') on input line 133.
 
-<Fig1Map.pdf, id=235, 429.37302pt x 334.2845pt>
+<Fig1Map.pdf, id=238, 429.37302pt x 334.2845pt>
 File: Fig1Map.pdf Graphic file (type pdf)
  <use Fig1Map.pdf>
-Package pdftex.def Info: Fig1Map.pdf used on input line 124.
+Package pdftex.def Info: Fig1Map.pdf used on input line 135.
 (pdftex.def)             Requested size: 215.0023pt x 167.39177pt.
  [14 <./Fig1Map.pdf>]
 
-LaTeX Warning: Reference `FigureS3NJ' on page 15 undefined on input line 179.
+LaTeX Warning: Reference `FigureS3NJ' on page 15 undefined on input line 190.
 
-[15] [16] <Fig2LDPlots.pdf, id=293, 794.46812pt x 613.79312pt>
+[15] [16] <Fig2LDPlots.pdf, id=298, 794.46812pt x 613.79312pt>
 File: Fig2LDPlots.pdf Graphic file (type pdf)
 
 <use Fig2LDPlots.pdf>
-Package pdftex.def Info: Fig2LDPlots.pdf used on input line 207.
+Package pdftex.def Info: Fig2LDPlots.pdf used on input line 218.
 (pdftex.def)             Requested size: 426.79134pt x 329.73878pt.
- [17] [18 <./Fig2LDPlots.pdf>]
-<Fig3Structure.pdf, id=415, 794.97pt x 614.295pt>
+ [17] <Fig3Structure.pdf, id=313, 794.97pt x 614.295pt>
 File: Fig3Structure.pdf Graphic file (type pdf)
- <use Fig3Structure.pdf>
-Package pdftex.def Info: Fig3Structure.pdf used on input line 220.
-(pdftex.def)             Requested size: 256.0748pt x 197.8813pt.
 
-[19] <Fig4Boxplots.pdf, id=425, 614.295pt x 794.97pt>
+<use Fig3Structure.pdf>
+Package pdftex.def Info: Fig3Structure.pdf used on input line 231.
+(pdftex.def)             Requested size: 256.0748pt x 197.8813pt.
+ [18] [19 <./Fig2LDPlots.pdf>]
+<Fig4Boxplots.pdf, id=432, 614.295pt x 794.97pt>
 File: Fig4Boxplots.pdf Graphic file (type pdf)
  <use Fig4Boxplots.pdf>
-Package pdftex.def Info: Fig4Boxplots.pdf used on input line 238.
+Package pdftex.def Info: Fig4Boxplots.pdf used on input line 249.
 (pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
 
-LaTeX Warning: Float too large for page by 129.93341pt on input line 242.
+LaTeX Warning: Float too large for page by 129.93341pt on input line 253.
 
 [20 <./Fig3Structure.pdf>]
 
 Package natbib Warning: Citation `SigmonVollbrecht2010' on page 21 undefined on
- input line 252.
+ input line 263.
 
 [21] [22]
-Overfull \hbox (81.21292pt too wide) in paragraph at lines 262--274
+Overfull \hbox (81.21292pt too wide) in paragraph at lines 273--285
  [][] 
  []
 
 
 Package natbib Warning: Citation `vanHeerwaarden2011' on page 23 undefined on i
-nput line 276.
+nput line 287.
 
-[23] [24] [25]
-Overfull \hbox (3.99051pt too wide) in paragraph at lines 288--289
-[]\OT1/cmr/m/n/12 In sum-mary, our find-ings demon-strate that the \OT1/cmr/m/i
-t/12 Hop-scotch \OT1/cmr/m/n/12 al-lele is more widespread
- []
+[23] [24] [25] [26] [27] [28 <./Fig4Boxplots.pdf>] (./manuscript.bbl [29
 
-[26] [27 <./Fig4Boxplots.pdf>] (./manuscript.bbl [28
+]
+[30] [31] [32] [33] [34] [35]
 
-] [29]
-Underfull \hbox (badness 1360) in paragraph at lines 138--142
-[]\OT1/cmr/m/sc/12 Feder, J., S. Berlocher, J. Roethele, H. Dambroski, J. Smith
-,
- []
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
 
-[30] [31] [32] [33] [34]) [35]
-<FigS1LocusCartoon.pdf, id=660, 794.97pt x 614.295pt>
+) [36] <FigS1LocusCartoon.pdf, id=673, 794.97pt x 614.295pt>
 File: FigS1LocusCartoon.pdf Graphic file (type pdf)
 
 <use FigS1LocusCartoon.pdf>
-Package pdftex.def Info: FigS1LocusCartoon.pdf used on input line 314.
+Package pdftex.def Info: FigS1LocusCartoon.pdf used on input line 325.
 (pdftex.def)             Requested size: 426.79134pt x 329.80219pt.
- <FigS2Gel.png, id=661, 214.8025pt x 297.11pt>
+ <FigS2Gel.png, id=674, 214.8025pt x 297.11pt>
 File: FigS2Gel.png Graphic file (type png)
 
 <use FigS2Gel.png>
-Package pdftex.def Info: FigS2Gel.png used on input line 325.
+Package pdftex.def Info: FigS2Gel.png used on input line 336.
 (pdftex.def)             Requested size: 426.79134pt x 590.38316pt.
 
 
-LaTeX Warning: Float too large for page by 68.6566pt on input line 329.
+LaTeX Warning: Float too large for page by 68.6566pt on input line 340.
 
-<FigS3NJtrees.pdf, id=663, 614.295pt x 794.97pt>
+<FigS3NJtrees.pdf, id=676, 614.295pt x 794.97pt>
 File: FigS3NJtrees.pdf Graphic file (type pdf)
  <use FigS3NJtrees.pdf>
-Package pdftex.def Info: FigS3NJtrees.pdf used on input line 336.
+Package pdftex.def Info: FigS3NJtrees.pdf used on input line 347.
 (pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
 
-LaTeX Warning: Float too large for page by 30.6001pt on input line 340.
+LaTeX Warning: Float too large for page by 30.6001pt on input line 351.
 
 
-Overfull \hbox (329.07518pt too wide) in paragraph at lines 347--458
+Overfull \hbox (329.07518pt too wide) in paragraph at lines 358--469
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 1728.27184pt on input line 458.
+LaTeX Warning: Float too large for page by 1728.27184pt on input line 469.
 
 
-LaTeX Warning: Float too large for page by 4840.52629pt on input line 718.
+LaTeX Warning: Float too large for page by 4840.52629pt on input line 729.
 
 
-Overfull \hbox (174.53749pt too wide) in paragraph at lines 725--811
+Overfull \hbox (174.53749pt too wide) in paragraph at lines 736--822
  [][][] 
  []
 
 
-LaTeX Warning: Float too large for page by 1196.8396pt on input line 811.
+LaTeX Warning: Float too large for page by 1196.8396pt on input line 822.
 
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 830.
-[36 <./FigS1LocusCartoon.pdf>] [37 <./FigS2Gel.png>] [38 <./FigS3NJtrees.pdf>]
-[39] [40] [41] [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 830.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+[37 <./FigS1LocusCartoon.pdf>] [38 <./FigS2Gel.png>] [39 <./FigS3NJtrees.pdf>]
+[40] [41] [42] [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 830.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 830.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 830.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
- 6281 strings out of 493488
- 92901 string characters out of 3141326
- 306320 words of memory out of 3000000
- 9410 multiletter control sequences out of 15000+200000
- 11342 words of font info for 39 fonts, out of 3000000 for 9000
+ 6559 strings out of 493488
+ 96520 string characters out of 3141326
+ 309573 words of memory out of 3000000
+ 9683 multiletter control sequences out of 15000+200000
+ 11957 words of font info for 41 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,10n,24p,2377b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manuscript.pdf (42 pages, 1467757 bytes).
+ 32i,10n,24p,2377b,648s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on manuscript.pdf (43 pages, 1475862 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
+ 835 PDF objects out of 1000 (max. 8388607)
+ 653 compressed objects within 7 object streams
  125 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

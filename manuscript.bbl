@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -352,11 +352,6 @@
 \newblock Genetic signals of origin, spread, and introgression in a large
   sample of maize landraces.
 \newblock \emph{P Natl Acad Sci Usa} 108: 1088--1092.
-
-\bibitem[{Wang et~al.(1999)Wang, Stec, Hey, Lukens, and Doebley}]{Wang1999}
-\textsc{Wang, R., A.~Stec, J.~Hey, L.~Lukens, and J.~Doebley}. 1999.
-\newblock The limits of selection during maize domestication.
-\newblock \emph{Nature} 398: 236--239.
 
 \bibitem[{Weber et~al.(2007)Weber, Clark, Vaughn, Sanchez-Gonzalez, Yu,
   Yandell, Bradbury, and Doebley}]{Weber2007}
