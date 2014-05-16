@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -131,6 +131,11 @@
 \newblock Inference of population structure using multilocus genotype data:
   Linked loci and correlated allele frequencies.
 \newblock \emph{Genetics} 164: 1567--1587.
+
+\bibitem[{FAO/IIASA/ISRIC/ISSCAS/JRC(2012)}]{FAOHWSD}
+\textsc{FAO/IIASA/ISRIC/ISSCAS/JRC}. 2012.
+\newblock Harmonized World Soil Database, version 1.2.
+\newblock FAO, Rome, Italy and IIASA, Laxenburg, Austria.
 
 \bibitem[{Feder et~al.(2003)Feder, Berlocher, Roethele, Dambroski, Smith,
   Perry, Gavrilovic, Filchak, Rull, and Aluja}]{Feder2003}
