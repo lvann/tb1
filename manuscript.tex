@@ -21,6 +21,7 @@
 %AUTHORS
 %----------------------------------------
 
+\begin{document}
 
 \title{Natural variation in teosinte at the domestication locus \emph{teosinte branched1} (\emph{tb1})}
 
@@ -35,11 +36,11 @@
 \affil[4]{Department of Ecology, Evolution, and Organismal Biology, Iowa State University}
 \affil[5]{Center for Population Biology and Genome Center, University of California Davis}
 
-\begin{document}
 
 \begin{linenumbers}
 	\pagewiselinenumbers
 	\renewcommand\linenumberfont{\normalfont\bfseries\small}
+
 
 \maketitle
 
@@ -67,7 +68,10 @@ The \emph{teosinte branched1} (\emph{tb1}) gene, a repressor of lateral organ gr
 
 \clearpage
 
-\section*{Introduction}
+\begin{centering}
+\section*{INTRODUCTION}
+\end{centering}
+
 
 Domesticated crops and their wild progenitors provide an excellent system in which to study adaptation and genomic changes associated with human-mediated selection \citep{Ross-Ibarra2007}. Perhaps the central focus of the study of domestication has been the identification of genetic variation underlying agronomically important traits such as fruit size and plant architecture \citep{OlsenGross2010}. Additionally, many domesticates show reduced genetic diversity when compared to their wild progenitors, and an understanding of the distribution of diversity in the wild and its phenotypic effects has become increasingly useful to crop improvement \citep{KovachMcCouch2008}. But while some effort has been invested into understanding how wild alleles behave in their domesticated relatives \citep{Bai2007}, very little is known about the role that alleles found most commonly in domesticates play in natural populations of their wild progenitors.
 \citep{Whitton1997}.
@@ -78,9 +82,13 @@ Many morphological changes are associated with maize domestication, and understa
 
 In high-density species such as teosinte, plants can detect impending competition from their neighbors through detection of the ratio of red to far-red light. An increase in far-red relative to red light accompanies shading and triggers physiological and morphological changes such as reduced tillering, increased plant height and early flowering collectively known as the shade avoidance syndrome \citep{KebromBrutnell2007}. The \emph{tb1} locus appears to play an important role in the shade avoidance pathway in \emph{Zea mays} and other grasses and may therefore be crucial to the ecology of teosinte \citep{KebromBrutnell2007, LukensDoebley1999}.  In this study we aim to characterize the distribution of the \emph{Hopscotch} insertion in \emph{parviglumis}, \emph{mexicana}, and landrace maize, and to examine the phenotypic effects of the insertion in \emph{parviglumis}. We use a combination of PCR genotyping for the \emph{Hopscotch} element in our full panel and sequencing of two small regions upstream of \emph{tb1} in a subset of teosinte populations to explore patterns of genetic variation at this locus. Finally, we test for an association between the \emph{Hopscotch} element and tillering phenotypes in a population of \emph{parviglumis}.
 
-\section*{Methods}
+\begin{centering}
+\section*{MATERIALS AND METHODS}
+\end{centering}
 
-\subsection*{Sampling and Genotyping}
+\mbh{from AJB formatting instructions: add name, city, spelled-out state (if in USA), and country of manufacturers/suppliers after brand names}
+
+\subsection*{Sampling and genotyping}
 
 We sampled 1,110 individuals from 350 accessions (247 maize landraces, 17 \emph{mexicana} populations, and 86 \emph{parviglumis} populations) and assessed the presence or absence of the \emph{Hopscotch} insertion (Table~S1, Table~S2). DNA was extracted from leaf tissue using a modified CTAB approach \citep{DoyleDoyle1990, Maloof1984}. We designed primers using PRIMER3 \citep{RozenSkaletsky2000} implemented in Geneious \citep{Kearse2012} to amplify the entire \emph{Hopscotch} element, as well as an internal primer allowing us to simultaneously check for possible PCR bias between presence and absence of the \emph{Hopscotch} insertion. Two PCRs were performed for each individual, one with primers flanking the \emph{Hopscotch} (HopF/HopR) and one with a flanking primer and an internal primer (HopF/HopIntR). Primer sequences are HopF, {\small 5'-TCGTTGATGCTTTGATGGATGG-3'}; 
 Hop R, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, 5'-{\small CCTCCACCTCTCATGAGATCC-3'} (Figure~S1, Figure~S2) \mbh{Primers in Figure~S1 should be labeled}. Homozygotes show a single band for absence of the element ($\sim$300bp) and two bands for presence of the element ($\sim$5kb and XX \mbh{LV, please add the size of the second band}), whereas heterozygotes are three-banded (Figure~S2). When only one PCR resolved well, we scored one allele for the individual. We used Phusion High Fidelity Enzyme (Finnzymes, Inc.) and the following conditions for amplifications: 98$^{\circ}$C for 3 min, 30 cycles of 98$^{\circ}$C for 15 s, 65$^{\circ}$C for 30 s, and 72$^{\circ}$C for 3 min 30 s, with a final extension of 72$^{\circ}$C for 10 min. PCR products were visualized on a 1\% agarose gel and scored for presence/absence of the \emph{Hopscotch} based on band size.
@@ -93,16 +101,16 @@ We cloned cleaned fragments into a TOPO-TA vector (Invitrogen, Carlsbad) using O
 
 Amplification products with successful incorporation of our insert were cleaned using Exonuclease 1 and Antarctic Phosphatase following the procedures detailed above, and sequenced with vector primers M13 Forward and M13 Reverse using Sanger sequencing at the College of Agriculture and Environmental Sciences (CAES) sequencing center at UC Davis. We aligned and trimmed primer sequences from resulting sequences using the software Geneious \citep{Kearse2012}. Following alignment, we verified singleton SNPs by sequencing an additional one to four colonies from each clone. If the singleton was not present in these additional sequences it was considered an amplification or cloning error, and we replaced the base with the base of the additional sequences. If the singleton appeared in at least one of the additional sequences we considered it a real variant and kept it for further analyses. 
 
-\subsection*{Genotyping Analysis} \jri{please drop scripts for bayenv and STRUCTURE into github} \lev{which scripts are you talking about? I used matt's for making structure chunks, and then just command line to run structure, same with BayEnv -- it was Tanjas covariance matrix and then just the basic bayenv commands} \jri{matt's scritp for structure should be up there. and even a readme documenting the commandline for bayenv and including the covariance matrix. basically whatever someone would need to be able to literally repeat what you did.}
+\subsection*{Genotyping analysis} \jri{please drop scripts for bayenv and STRUCTURE into github} \lev{which scripts are you talking about? I used matt's for making structure chunks, and then just command line to run structure, same with BayEnv -- it was Tanjas covariance matrix and then just the basic bayenv commands} \jri{matt's scritp for structure should be up there. and even a readme documenting the commandline for bayenv and including the covariance matrix. basically whatever someone would need to be able to literally repeat what you did.}
 
 We examined discrepancies between observed and expected genotype frequencies by calculating Hardy-Weinberg Equilibrium (HWE).  To calculate differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) we used HierFstat \citep{Goudet2005}. These analyses only included populations in which 8 or more individuals were sampled. To test the hypothesis that the \emph{Hopscotch} insertion may be adaptive under certain environmental conditions, we looked for significant associations between the \emph{Hopscotch} frequency and environmental variables using BayEnv \citep{Coop2010}. BayEnv creates a covariance matrix of relatedness between populations, and then tests a null model that allele frequencies in populations are determined by the covariance matrix of relatedness alone against the alternative model that allele frequencies are determined by a combination of the covariance matrix and an environmental variable, producing a posterior probability (Bayes Factor)\citep{Coop2010}. We used genotyping and covariance data from \citet{Pyhajarvi2013} for BayEnv, with the \emph{Hopscotch} insertion coded as an additional SNP (\ref{TableS3BayEnv}). Environmental data were obtained from \url{www.worldclim.org}, the Harmonized World Soil Database and \url{www.harvestchoice.org}, and summarized by principle component analysis \citep{Pyhajarvi2013}.
 
-\subsection*{Sequence Analysis}
+\subsection*{Sequence analysis}
 
 For population genetic analyses of sequenced region 1 and sequenced region 2 we used the analysis package of Libsequence \citep{Thornton2003} to calculate pairwise F\textsubscript{ST} between populations, and to calculate standard diversity statistics (number of haplotypes; haplotype diversity; Watterson's estimator $\hat\theta_W$; pairwise nucleotide diversity $\hat\theta_\pi$; and Tajima's D). To produce a visual representation of differentiation between sequences and to examine patterns in sequence clustering by \emph{Hopscotch} genotype we used Phylip (\url{http://evolution.genetics.washington.edu/phylip.html}) to create neighbor-joining trees with bootstrapping (100 repetitions) to examine the support of nodes in our trees. For creation of trees we also included homologous sequence data from teosinte inbred lines (TILs), some of which are known to be homozygous for the \emph{Hopscotch} insertion (TIL03, TIL17, TIL09), as well as 59 lines of domesticated maize and landraces (data from Maize HapMapV2, \citep{Chia2012}).
 
 
-\subsection*{Introgression Analysis}
+\subsection*{Introgression analysis}
 
 In order to assess patterns of linkage disequilibrium (LD) around the \emph{Hopscotch} element in the context of chromosomal patterns of LD we used Tassel \citep{Bradbury2007} and calculated LD between SNPs across chromosome 1 using previously published data from twelve plants each of the Ejutla A (EjuA), Ejutla B (EjuB), San Lorenzo (SLO), and La Mesa (MSA) populations \citep{Pyhajarvi2013}. We chose these populations because we had both genotyping data for the \emph{Hopscotch} as well as chromosome-wide SNP data for chromosome 1. For each population we filtered the initial set of 5,897 SNPs on chromosome 1 to accept only SNPs with a minor allele frequency of at least 0.1, resulting in 1,671, 3,023, 3,122, and 2,167 SNPs for SLO, EjuB, EjuA, and MSA, respectively. We then used Tassel \citep{Bradbury2007} to calculate linkage disequilibrium ($r^{2}$) across chromosome 1 for each population. 
 
@@ -121,7 +129,9 @@ We performed a second phenotyping experiment (phenotyping 2) in which we germina
 
 Resulting tillering index data for each genotype class did not meet the criteria for a repeated measures ANOVA, so we transformed the data using a Box-Cox transformation ($\alpha=0$) implemented in the car package in R \citep{FoxWeisberg2011} to improve the normality and homogeneity of variance among genotype classes.  We analyzed relationships between genotype and tillering index and tiller number using a repeated measures ANOVA through a general linear model function implemented in SAS v.9.3 (SAS Institute Inc., Cary, NC, USA). Additionally, in order to compare any association between \emph{Hopscotch} genotype and tillering and associations at other presumably unrelated traits, we performed an ANOVA between culm diameter and genotype using the same general linear model in SAS. \jri{please add SAS scripts/code to a gist or something. }
 
-\section*{Results}
+\begin{centering}
+\section*{RESULTS}
+\end{centering}
 
 \subsection*{Genotyping}
 
@@ -238,8 +248,6 @@ The lack of clustering of \emph{Hopscotch} genotypes in our NJ tree as well as t
 
 \subsection*{Phenotyping}
 
-\subsubsection*{Phenotyping}
-
 To assess the contribution of \emph{tb1} to phenotypic variation in tillering in a natural population, we grew plants from seed sampled from the San Lorenzo population of \emph{parviglumis}, which had a high mean frequency (0.44) of the \emph{Hopscotch} insertion from our initial genotyping. We measured tillering index (TI), the ratio of the sum of tiller lengths to plant height, for 216 plants from within the San Lorenzo population, and genotyped plants for the \emph{Hopscotch} insertion. We found the \emph{Hopscotch} segregating at a frequency of 0.65 with no significant deviations from expected frequencies under Hardy-Weinberg equilibrium. After performing a repeated measures ANOVA between our transformed tillering index data and \emph{Hopscotch} genotype we find a weak positive correlation between presence of the \emph{Hopscotch} and tillering index on day 40 (p=0.0848), but no correlation between tillering index and genotype on any other day (\ref{Fig4Boxplots}). Additionally we find no significant correlation between tiller number and \emph{Hopscotch} genotype, or culm diameter and \emph{Hopscotch} genotype in phenotyping 1. \jri{shouldn't we expect a negative correlation betweeh Hop and TI on day 40? need to have an A and B in the figure and explain one is for pheno1 and one is for pheno2. please explain whiskers and dots on figure too.} \lev{sure, I mean, presumably we would expect things with Hop to have a smaller TI} \jri{yup, but we should mention that the expectation is negative/}
 
 % Figure 4 Phenotyping BoxPlots
@@ -255,8 +263,9 @@ To assess the contribution of \emph{tb1} to phenotypic variation in tillering in
 \jri{lots of white space in fig 4 and fig. s1 too.} 
 We performed a second grow-out  of teosinte to assess whether lighting conditions or sample size may have affected our ability to detect and effect of \emph{tb1}.  For the second grow-out we measured tillering index every five days through day 50 for 302 plants. We found the \emph{Hopscotch} allele segregating at a frequency of 0.69, \jri{is it in HWE in this pop?} with a 0.6 frequency of \emph{Hopscotch} homozygotes, and a 0.2 frequency of both heterozygotes and homozygotes for the teosinte allele. We found similar patterns, with a weak positive correlation between tillering index and \emph{Hopscotch} genotype at day 40 (p<0.0611), with no significant correlation on any day. Similarly, relationships between \emph{Hopscotch} genotype and tiller number, and \emph{Hopscotch} genotype and culm diameter are not significant. 
 
-
-\section*{Discussion}
+\begin{centering}
+\section*{DISCUSSION}
+\end{centering}
 
 Adaptation occurs either due to selection on standing variation or on \emph{de novo} mutations. Adaptation as a result of selection on standing variation has been well-described in a number of systems, for example, selection for lactose tolerance in humans \citep{Plantinga2012, Tishkoff2007}; variation at the \emph{Eda} locus in three-spined stickleback \citep{Kitano2008, Colosimo2005}; and pupal diapause in the Apple Maggot fly \citep{Feder2003}. Although the role of standing variation with respect to adaptation has been described in many systems, its importance to domestication is not as well studied. 
 
