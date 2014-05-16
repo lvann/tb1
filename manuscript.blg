@@ -1,0 +1,216 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: manuscript.aux
+The style file: AJB.bst
+Case mismatch error between cite keys vanHeerwaarden2011 and VanHeerwaarden2011
+---line 85 of file manuscript.aux
+ : \citation{Hufford2013,Ellstrand2007,vanHeerwaarden2011
+ :                                                       }
+I'm skipping whatever remains of this command
+I couldn't open database file bob.bib
+---line 110 of file manuscript.aux
+ : \bibdata{refs,bob
+ :                  }
+I'm skipping whatever remains of this command
+Database file #1: refs.bib
+Repeated entry---line 676 of file refs.bib
+ : @article{Ellstrand2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 782 of file refs.bib
+ : @article{DoebleyStec1991
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 844 of file refs.bib
+ : 
+ : volume = {169},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "SigmonVollbrecht2010"
+Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
+while executing---line 1436 of file AJB.bst
+Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1436 of file AJB.bst
+Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
+while executing---line 1520 of file AJB.bst
+Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
+while executing---line 1520 of file AJB.bst
+Warning--empty year in Fukunaga2005; set to ????
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1520 of file AJB.bst
+Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
+while executing---line 1520 of file AJB.bst
+You've used 56 entries,
+            2929 wiz_defined-function locations,
+            978 strings with 16134 characters,
+and the built_in function-call counts, 43555 in all, are:
+= -- 3209
+> -- 2998
+< -- 20
++ -- 1007
+- -- 931
+* -- 3580
+:= -- 6880
+add.period$ -- 224
+call.type$ -- 56
+change.case$ -- 589
+chr.to.int$ -- 57
+cite$ -- 57
+duplicate$ -- 2968
+empty$ -- 2669
+format.name$ -- 1100
+if$ -- 8537
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 642
+newline$ -- 286
+num.names$ -- 224
+pop$ -- 1233
+preamble$ -- 1
+purify$ -- 534
+quote$ -- 0
+skip$ -- 951
+stack$ -- 0
+substring$ -- 1854
+swap$ -- 1492
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 501
+warning$ -- 1
+while$ -- 221
+width$ -- 0
+write$ -- 729
+(There were 77 error messages)
