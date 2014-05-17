@@ -1,6 +1,8 @@
 \documentclass[11pt]{article}
 \usepackage{geometry} 
 \usepackage{hyperref}
+\usepackage[leftcaption]{sidecap}
+\sidecaptionvpos{figure}{c} %position side caption
 \usepackage{lineno}
 \usepackage{color}
 \usepackage{multirow}
@@ -9,6 +11,7 @@
 %\usepackage{caption}
 \usepackage{natbib}
 \usepackage{authblk}
+\usepackage[table]{xcolor} %for table line color alteration
 \usepackage{subscript}
 \renewcommand{\baselinestretch}{1.5}
 \bibliographystyle{AJB}
@@ -132,37 +135,32 @@ Resulting tillering index data for each genotypic class did not meet the criteri
 
 \subsection*{Genotyping}
 
-Genotype of the \emph{Hopscotch} insertion was confirmed with two PCRs for 837 individuals. Among the 247 maize landrace accessions genotyped, all but eight were homozygous for the presence of the insertion (Table~S1 and Table~S2). Within our \emph{parviglumis} and \emph{mexicana} samples we found the \emph{Hopscotch} insertion segregating in 37 and 4 populations, respectively, and at highest frequency in the states of Jalisco, Colima, and Michoac\'{a}n in central-western Mexico in both subspecies (\ref{Fig1Map}) \jri{the map only shows parviglumis. can we add mexicana? the text makes it seem as if both should be on the map}. We examined Hardy-Weinberg equilibrium in a total of 14 populations (10 \emph{parviglumis} and 4 \emph{mexicana}) with more than 8 individuals sampled per population. Three populations (RIMPA0073, RIMPA0093, and RIMPA0158) show evidence of deviations from expected genotype frequencies under the assumptions of HWE (p<0.05).  \jri{in what direction? too many hets? what's the F? } \lev{they weren't all in the same direction, do you still want me to list out?} \jri{no need to list all, but if there were sig. deviations in multiple directions in different pops, that is worth saying. maybe could list them all out in supp. table?}
-
-\jri{please fix whitespace and black border on figure}
+Genotype of the \emph{Hopscotch} insertion was confirmed with two PCRs for 837 individuals. Among the 247 maize landrace accessions genotyped, all but eight were homozygous for the presence of the insertion (Table~S1 and Table~S2). Within our \emph{parviglumis} and \emph{mexicana} samples we found the \emph{Hopscotch} insertion segregating in 37 and 4 populations, respectively, and at highest frequency in the states of Jalisco, Colima, and Michoac\'{a}n in central-western Mexico (Fig.\ref{Fig1Map}). We examined Hardy-Weinberg equilibrium in a total of 14 populations (10 \emph{parviglumis} and 4 \emph{mexicana}) with more than 8 individuals sampled per population. Three populations (RIMPA0073, RIMPA0093, and RIMPA0158) show evidence of deviations from expected genotype frequencies under the assumptions of HWE (p$<$0.05). \mbh{Jeff mentioned this needs to be fully reported in a supplementary table; alternatively we can just delete the result since we do not interpret or use it later in the manuscript.}
 %Figure 1 Map 
 %--------------------------------------------
-\begin{figure*}[]
-  \begin{center}
-   \includegraphics[width=0.5\textwidth]{Fig1Map.pdf}
-    \caption{Map showing the frequency of the \emph{Hopscotch} allele in populations of \emph{Zea mays} ssp. \emph{parviglumis} where we sampled more than 6 individuals. Size of circles reflects number of alleles sampled. } 
-\label{Fig1Map}
-  \end{center}
-\end{figure*}
+\begin{SCfigure}[][t!]
+  \centering \label{Fig1Map}
+   \includegraphics[width=0.7\textwidth]{Fig1Map.pdf}
+    \caption{Map showing the frequency of the \emph{Hopscotch} allele in populations of \emph{parviglumis} where we sampled more than 6 individuals. Size of circles reflects number of alleles sampled. } 
+\end{SCfigure}
 %--------------------------------------------
 
-Using our \emph{Hopscotch} genotyping data, we calculated differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) for populations in which we sampled 8 or more alleles. F\textsubscript{CT} is 0 within our dataset, and we found similar levels of F\textsubscript{ST} among populations within each subspecies (0.22) \jri{is this an average? this comes from libsequence?} and among all populations (0.23), to those reported in genome-wide estimates from previous studies \cite{Pyhajarvi2013} (\ref{Table1Fst}). 
+Using our \emph{Hopscotch} genotyping and \emph{tb1} resequencing data, we calculated differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) for populations in which we sampled 8 or more alleles. We found that F\textsubscript{CT} = 0 within our dataset and levels of F\textsubscript{ST} among populations within each subspecies (0.22) \jri{is this an average? this comes from libsequence?} and among all populations (0.23) are similar to those reported genome-wide in previous studies (\citealt{Pyhajarvi2013}; Table \ref{Table1Fst}).
 
 % Table 1
 \begin{table}[htbp]
+\rowcolors{2}{gray!25}{white}
   \centering
-  \caption{Pairwise F\textsubscript{CT} values from sequence and \emph{Hopscotch} genotyping data}
-    \begin{tabular}{lccc}
- %   \toprule
-    \multicolumn{1}{c}{\textbf{Comparison}} & \textbf{Seq. Region 2} & \textbf{Seq.  Region 1} & \textbf{\emph{Hopscotch}} \\
- %   \midrule
+  \caption{Pairwise F\textsubscript{ST} values from sequence and \emph{Hopscotch} genotyping data}
+  
+    \begin{tabular}{lccc}\\\toprule
+    \multicolumn{1}{c}{\textbf{Comparison}} & \textbf{Seq. Region 2} & \textbf{Seq.  Region 1} & \textbf{\emph{Hopscotch}} \\\midrule
     EjuA \& EJuB & 0     & 0     & 0 \\
     EjuA \& MSA & 0.328 & 0.326 & 0.186 \\
     EjuA \& SLO & 0.258 & 0.416 & 0.28 \\
     EjuB \& MSA & 0.365 & 0.397 & 0.188 \\
     EjuB \& SLO & 0.29  & 0.512 & 0.28 \\
-    MSA \& SLO & 0     & 0.007 & 0.016 \\
-%    \bottomrule
+    MSA \& SLO & 0     & 0.007 & 0.016 \\\bottomrule
     \end{tabular}
   \label{Table1Fst}
 \end{table}
