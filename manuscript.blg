@@ -3,12 +3,12 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: manuscript.aux
 The style file: AJB.bst
 Case mismatch error between cite keys vanHeerwaarden2011 and VanHeerwaarden2011
----line 508 of file manuscript.aux
+---line 454 of file manuscript.aux
  : \citation{Hufford2013,Ellstrand2007,vanHeerwaarden2011
  :                                                       }
 I'm skipping whatever remains of this command
 I couldn't open database file bob.bib
----line 616 of file manuscript.aux
+---line 555 of file manuscript.aux
  : \bibdata{refs,bob
  :                  }
 I'm skipping whatever remains of this command
@@ -21,12 +21,6 @@ Repeated entry---line 782 of file refs.bib
  : @article{DoebleyStec1991
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 844 of file refs.bib
- : 
- : volume = {169},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "SigmonVollbrecht2010"
 Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
 while executing---line 1436 of file AJB.bst
 Name 1 in "Bai, Y, and Lindhout, P" has a comma at the end for entry Bai2007
@@ -163,7 +157,6 @@ Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, V
 while executing---line 1520 of file AJB.bst
 Too many commas in name 1 of "Fukunaga, K, Nussbaum-Wagler, T, Li, B, Zhao, Q, Vigouroux, Y, Faller, M, Bomblies, K, Lukens, L, Doebley, J" for entry Fukunaga2005
 while executing---line 1520 of file AJB.bst
-Warning--empty year in Fukunaga2005; set to ????
 Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
 while executing---line 1520 of file AJB.bst
 Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
@@ -172,45 +165,45 @@ Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH
 while executing---line 1520 of file AJB.bst
 Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
 while executing---line 1520 of file AJB.bst
-You've used 57 entries,
+You've used 58 entries,
             2929 wiz_defined-function locations,
-            983 strings with 16264 characters,
-and the built_in function-call counts, 43730 in all, are:
-= -- 3233
-> -- 2973
-< -- 22
-+ -- 1001
-- -- 922
-* -- 3573
-:= -- 6914
-add.period$ -- 228
-call.type$ -- 57
-change.case$ -- 590
-chr.to.int$ -- 58
+            988 strings with 16381 characters,
+and the built_in function-call counts, 44452 in all, are:
+= -- 3300
+> -- 2995
+< -- 23
++ -- 1008
+- -- 928
+* -- 3627
+:= -- 7021
+add.period$ -- 232
+call.type$ -- 58
+change.case$ -- 597
+chr.to.int$ -- 59
 cite$ -- 58
-duplicate$ -- 2987
-empty$ -- 2702
-format.name$ -- 1094
-if$ -- 8579
+duplicate$ -- 3036
+empty$ -- 2762
+format.name$ -- 1105
+if$ -- 8733
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 644
-newline$ -- 291
-num.names$ -- 228
-pop$ -- 1239
+missing$ -- 654
+newline$ -- 296
+num.names$ -- 232
+pop$ -- 1249
 preamble$ -- 1
-purify$ -- 535
+purify$ -- 541
 quote$ -- 0
-skip$ -- 963
+skip$ -- 979
 stack$ -- 0
-substring$ -- 1867
-swap$ -- 1494
+substring$ -- 1932
+swap$ -- 1522
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 507
-warning$ -- 1
-while$ -- 224
+type$ -- 516
+warning$ -- 0
+while$ -- 229
 width$ -- 0
-write$ -- 741
-(There were 77 error messages)
+write$ -- 755
+(There were 76 error messages)

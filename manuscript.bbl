@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -150,10 +150,10 @@
 \newblock An {R} Companion to Applied Regression, vol. Second Edition.
 \newblock Sage, Thousand Oaks, CA.
 
-\bibitem[{Fukunaga(????)}]{Fukunaga2005}
-\textsc{Fukunaga, N.-W. T. L. B. Z. Q. V. Y. F. M. B. K. L. L. D.~J., K}. ????
+\bibitem[{Fukunaga(2005)}]{Fukunaga2005}
+\textsc{Fukunaga, N.-W. T. L. B. Z. Q. V. Y. F. M. B. K. L. L. D.~J., K}. 2005.
 \newblock Genetic diversity and population structure of teosinte.
-\newblock \emph{Genetics} .
+\newblock \emph{Genetics} 169: 2241--2254.
 
 \bibitem[{Gallavotti et~al.(2004)Gallavotti, Zhao, Kyozuka, Meeley, Ritter,
   Doebley, Pe, and Schmidt}]{Gallavotti2004}
@@ -313,6 +313,12 @@
 \textsc{Rozen, S. and H.~Skaletsky}. 2000.
 \newblock Primer3 on the www for general users and for biologist programmers.
 \newblock \emph{Methods in Molecular Biology} : 365--386.
+
+\bibitem[{Sigmon and Vollbrecht(2010)}]{SigmonVollbrecht2010}
+\textsc{Sigmon, B. and E.~Vollbrecht}. 2010.
+\newblock Evidence of selection at the ramosa1 locus during maize
+  domestication.
+\newblock \emph{Mol Ecol} 19: 1296--1311.
 
 \bibitem[{Studer and Doebley(2012)}]{StuderDoebley2012}
 \textsc{Studer, A. and J.~Doebley}. 2012.
