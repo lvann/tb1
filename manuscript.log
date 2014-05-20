@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 MAY 2014 12:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 MAY 2014 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,37 +449,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 91.
  [5] [6] [7] [8] [9] [10]
-<Fig1Map.pdf, id=217, 420.58702pt x 324.8949pt>
+<Fig1Map.pdf, id=220, 420.58702pt x 324.8949pt>
 File: Fig1Map.pdf Graphic file (type pdf)
  <use Fig1Map.pdf>
-Package pdftex.def Info: Fig1Map.pdf used on input line 138.
+Package pdftex.def Info: Fig1Map.pdf used on input line 140.
 (pdftex.def)             Requested size: 301.00192pt x 232.52612pt.
 
-Underfull \hbox (badness 3965) in paragraph at lines 140--140
+Underfull \hbox (badness 3965) in paragraph at lines 142--142
 [][]\OT1/cmr/m/n/10.95 : []|Map show-
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 140--140
+Underfull \hbox (badness 2698) in paragraph at lines 142--142
 \OT1/cmr/m/n/10.95 u-la-tions of \OT1/cmr/m/it/10.95 parvig-lu-mis
  []
 
-[11 <./Fig1Map.pdf>] [12] [13]
+[11] [12 <./Fig1Map.pdf>] [13]
 <Fig2LDPlots.pdf, id=278, 794.46812pt x 613.79312pt>
 File: Fig2LDPlots.pdf Graphic file (type pdf)
  <use Fig2LDPlots.pdf>
 Package pdftex.def Info: Fig2LDPlots.pdf used on input line 212.
 (pdftex.def)             Requested size: 398.33858pt x 307.75745pt.
 
-[14] [15 <./Fig2LDPlots.pdf>]
-<Fig3Structure.pdf, id=401, 794.97pt x 614.295pt>
+[14] <Fig3Structure.pdf, id=292, 794.97pt x 614.295pt>
 File: Fig3Structure.pdf Graphic file (type pdf)
  <use Fig3Structure.pdf>
 Package pdftex.def Info: Fig3Structure.pdf used on input line 241.
 (pdftex.def)             Requested size: 256.0748pt x 197.8813pt.
 
-[16 <./Fig3Structure.pdf>]
-<Fig4Boxplots.pdf, id=424, 399.4925pt x 597.23125pt>
+[15 <./Fig2LDPlots.pdf>] [16 <./Fig3Structure.pdf>]
+<Fig4Boxplots.pdf, id=425, 399.4925pt x 597.23125pt>
 File: Fig4Boxplots.pdf Graphic file (type pdf)
  <use Fig4Boxplots.pdf>
 Package pdftex.def Info: Fig4Boxplots.pdf used on input line 256.
@@ -497,13 +496,13 @@ Overfull \vbox (0.76877pt too high) has occurred while \output is active []
 
 ]
 [25] [26] [27] [28] [29]) [30]
-<FigS1LocusCartoon.pdf, id=637, 794.97pt x 614.295pt>
+<FigS1LocusCartoon.pdf, id=635, 794.97pt x 614.295pt>
 File: FigS1LocusCartoon.pdf Graphic file (type pdf)
 
 <use FigS1LocusCartoon.pdf>
 Package pdftex.def Info: FigS1LocusCartoon.pdf used on input line 311.
 (pdftex.def)             Requested size: 426.79134pt x 329.80219pt.
- <FigS2Gel.png, id=638, 214.8025pt x 297.11pt>
+ <FigS2Gel.png, id=636, 214.8025pt x 297.11pt>
 File: FigS2Gel.png Graphic file (type png)
 
 <use FigS2Gel.png>
@@ -513,7 +512,7 @@ Package pdftex.def Info: FigS2Gel.png used on input line 322.
 
 LaTeX Warning: Float too large for page by 66.30661pt on input line 326.
 
-<FigS3NJtrees.pdf, id=640, 614.295pt x 794.97pt>
+<FigS3NJtrees.pdf, id=638, 614.295pt x 794.97pt>
 File: FigS3NJtrees.pdf Graphic file (type pdf)
  <use FigS3NJtrees.pdf>
 Package pdftex.def Info: FigS3NJtrees.pdf used on input line 333.
@@ -550,12 +549,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 831.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 831.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 831.
  ) 
 Here is how much of TeX's memory you used:
  7253 strings out of 493488
  105595 string characters out of 3141326
- 351542 words of memory out of 3000000
+ 351524 words of memory out of 3000000
  10351 multiletter control sequences out of 15000+200000
  12570 words of font info for 43 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -578,10 +581,10 @@ ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on manuscript.pdf (37 pages, 1510343 bytes).
+Output written on manuscript.pdf (37 pages, 1510325 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 625 compressed objects within 7 object streams
+ 803 PDF objects out of 1000 (max. 8388607)
+ 623 compressed objects within 7 object streams
  120 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
