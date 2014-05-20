@@ -4,6 +4,7 @@
 \usepackage[leftcaption]{sidecap}
 \sidecaptionvpos{figure}{c} %position side caption
 \usepackage{lineno}
+\usepackage{lipsum}
 \usepackage{color}
 \usepackage{multirow}
 \usepackage{booktabs}
@@ -24,29 +25,48 @@
 %AUTHORS
 %----------------------------------------
 
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\vspace*{1cm}\setlength{\parindent}{0pt}
+\begin{center}
+  \textbf{\@title}
+  
+  \@author
+\end{center}\egroup
+}
+\makeatother
+
+\title{\LARGE{\bf{Natural variation in teosinte at the domestication locus \emph{teosinte branched1} (\emph{tb1})}}\footnotemark}
+
+
+\author[2]{Laura Vann}
+\author[2,3]{Thomas Kono}
+\author[2,4]{Tanja Pyh\"aj\"arvi}
+\author[2,5,7]{Matthew B. Hufford}
+\author[2,6,7]{Jeffrey Ross-Ibarra}
+\affil[2]{Department of Plant Sciences, University of California Davis}
+\affil[3]{Department of Agronomy and Plant Genetics, University of Minnesota Twin Cities}
+\affil[4]{Department of Biology, University of Oulu}
+\affil[5]{Department of Ecology, Evolution, and Organismal Biology, Iowa State University}
+\affil[6]{Center for Population Biology and Genome Center, University of California Davis}
+\affil[7]{Author for Correspondence}
+\date{}
+
 \begin{document}
 
-\title{Natural variation in teosinte at the domestication locus \emph{teosinte branched1} (\emph{tb1})}
+\flushleft{\large{Vann \emph{et al.}: Variation in teosinte at the \emph{tb1} locus}
 
-\author[1]{Laura Vann}
-\author[1,2]{Thomas Kono}
-\author[1,3]{Tanja Pyh\"aj\"arvi}
-\author[1,4]{Matthew B. Hufford\thanks{mhufford@iastate.edu}}
-\author[1,5]{Jeffrey Ross-Ibarra\thanks{rossibarra@ucdavis.edu}}
-\affil[1]{Department of Plant Sciences, University of California Davis}
-\affil[2]{Department of Agronomy and Plant Genetics, University of Minnesota Twin Cities}
-\affil[3]{Department of Biology, University of Oulu}
-\affil[4]{Department of Ecology, Evolution, and Organismal Biology, Iowa State University}
-\affil[5]{Center for Population Biology and Genome Center, University of California Davis}
-
+{\let\newpage\relax\maketitle}
 
 \begin{linenumbers}
 	\pagewiselinenumbers
 	\renewcommand\linenumberfont{\normalfont\bfseries\small}
 
-
-\maketitle
-
+\clearpage
+\footnotetext{\flushleft{Manuscript received \line(1,0){120};   revision accepted\line(1,0){120}.}
+\vspace*{1cm}
+\subsection*{Acknowledgements}
+Place brief acknowledgments, if desired, as a separate paragraph, using the following style: “The author(s) thank(s)…”. For brevity, do not use first names. Include grant acknowledgments here.
+}
 \clearpage
 
 %TO DO
@@ -57,6 +77,7 @@
 %check map details
 %Code for SAS and command line stuff on Git
 %Phenotyping and genotyping data on Git (it's on Figshare?) <- http://dx.doi.org/10.6084/m9.figshare.776926
+
 
 \begin{flushleft}
 
