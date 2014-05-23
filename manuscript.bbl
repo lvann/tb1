@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -91,7 +91,7 @@
 \bibitem[{Doebley and Stec(1993)}]{DoebleyStec1993}
 \textsc{Doebley, J. and A.~Stec}. 1993.
 \newblock Inheritance of the morphological differences between maize and
-  teosinte: Comparison of results for two f\textsubscript{2} populations.
+  teosinte: Comparison of results for two {F}\textsubscript{2} populations.
 \newblock \emph{Genetics} 134: 559--570.
 
 \bibitem[{Doebley et~al.(1995)Doebley, Stec, and
@@ -271,6 +271,12 @@
   genotyping.
 \newblock \emph{P Natl Acad Sci Usa} 99: 6080--6084.
 
+\bibitem[{Moeller et~al.(2007)Moeller, Tenaillon, and Tiffin}]{Moeller01072007}
+\textsc{Moeller, D.~A., M.~I. Tenaillon, and P.~Tiffin}. 2007.
+\newblock Population structure and its effects on patterns of nucleotide
+  polymorphism in teosinte (zea mays ssp. parviglumis).
+\newblock \emph{Genetics} 176: 1799--1809.
+
 \bibitem[{Olsen and Gross(2010)}]{OlsenGross2010}
 \textsc{Olsen, K. and B.~Gross}. 2010.
 \newblock Genetic perspectives on crop domestication.
@@ -383,7 +389,7 @@
 \bibitem[{Whitton~J(1997)}]{Whitton1997}
 \textsc{Whitton~J, A. D. S. A. R.~L., Wolf~DE}. 1997.
 \newblock The persistence of cultivar alleles in wild populations of sunflowers
-  fiver generations after hybridization.
+  five generations after hybridization.
 \newblock \emph{Theoretical and Applied Genetcs} 95: 33--40.
 
 \bibitem[{Wilkes(1977)}]{Wilkes1977}
@@ -391,6 +397,13 @@
 \newblock Hybridization of maize and teosinte, in mexico and guatemala and the
   improvement of maize.
 \newblock \emph{Economic Botany} 31: 254--293.
+
+\bibitem[{Wright et~al.(2005)Wright, Bi, Schroeder, Yamasaki, Doebley,
+  McMullen, and Gaut}]{Wright27052005}
+\textsc{Wright, S.~I., I.~V. Bi, S.~G. Schroeder, M.~Yamasaki, J.~F. Doebley,
+  M.~D. McMullen, and B.~S. Gaut}. 2005.
+\newblock The effects of artificial selection on the maize genome.
+\newblock \emph{Science} 308: 1310--1314.
 
 \bibitem[{Zhang et~al.(2009)Zhang, Zhu, Wu, Ross-Ibarra, Gaut, Ge, and
   Sang}]{Zhang2009}

@@ -2,13 +2,8 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: manuscript.aux
 The style file: AJB.bst
-Case mismatch error between cite keys vanHeerwaarden2011 and VanHeerwaarden2011
----line 454 of file manuscript.aux
- : \citation{Hufford2013,Ellstrand2007,vanHeerwaarden2011
- :                                                       }
-I'm skipping whatever remains of this command
 I couldn't open database file bob.bib
----line 555 of file manuscript.aux
+---line 551 of file manuscript.aux
  : \bibdata{refs,bob
  :                  }
 I'm skipping whatever remains of this command
@@ -165,45 +160,45 @@ Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH
 while executing---line 1520 of file AJB.bst
 Too many commas in name 1 of "Whitton J, Wolf DE, Arias DM, Snow AA, Riesberg LH" for entry Whitton1997
 while executing---line 1520 of file AJB.bst
-You've used 58 entries,
+You've used 60 entries,
             2929 wiz_defined-function locations,
-            988 strings with 16381 characters,
-and the built_in function-call counts, 44452 in all, are:
-= -- 3300
-> -- 2995
+            1001 strings with 16846 characters,
+and the built_in function-call counts, 45990 in all, are:
+= -- 3418
+> -- 3093
 < -- 23
-+ -- 1008
-- -- 928
-* -- 3627
-:= -- 7021
-add.period$ -- 232
-call.type$ -- 58
-change.case$ -- 597
-chr.to.int$ -- 59
-cite$ -- 58
-duplicate$ -- 3036
-empty$ -- 2762
-format.name$ -- 1105
-if$ -- 8733
++ -- 1042
+- -- 958
+* -- 3755
+:= -- 7261
+add.period$ -- 240
+call.type$ -- 60
+change.case$ -- 617
+chr.to.int$ -- 61
+cite$ -- 60
+duplicate$ -- 3140
+empty$ -- 2860
+format.name$ -- 1141
+if$ -- 9037
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 654
-newline$ -- 296
-num.names$ -- 232
-pop$ -- 1249
+missing$ -- 676
+newline$ -- 306
+num.names$ -- 240
+pop$ -- 1291
 preamble$ -- 1
-purify$ -- 541
+purify$ -- 559
 quote$ -- 0
-skip$ -- 979
+skip$ -- 1011
 stack$ -- 0
-substring$ -- 1932
-swap$ -- 1522
+substring$ -- 2010
+swap$ -- 1574
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 516
+type$ -- 534
 warning$ -- 0
-while$ -- 229
+while$ -- 237
 width$ -- 0
-write$ -- 755
-(There were 76 error messages)
+write$ -- 781
+(There were 75 error messages)
