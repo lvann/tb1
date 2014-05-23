@@ -41,14 +41,30 @@
 \end{figure*}
 %-------------------------------------------------------------------
 
-% Table S1. Parv and mex samples
+% Table 1
+\begin{table}[htbp]
+\rowcolors{2}{gray!25}{white}
+  \centering
+  \caption{Pairwise F\textsubscript{ST} values from sequence and \emph{Hopscotch} genotyping data}
+  
+    \begin{tabular}{cccc}\\\toprule
+    \textbf{Comparison} & \textbf{Region 1} & \textbf{Region 2} & \textbf{\emph{Hopscotch}} \\\midrule
+    EjuA \& EjuB & 0     & 0     & 0 \\
+    EjuA \& MSA & 0.326 & 0.328 & 0.186 \\
+    EjuA \& SLO & 0.416 & 0.258 & 0.280 \\
+    EjuB \& MSA & 0.397 & 0.365 & 0.188 \\
+    EjuB \& SLO & 0.512  & 0.290 & 0.280 \\
+    MSA \& SLO & 0.007  & 0 & 0.016 \\\bottomrule
+    \end{tabular}
+  \label{Table1Fst}
+\end{table}
+
+% Table S1. Parv and mex samples 
 \begin{table}[htbp]
   \centering
   \caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
-    \begin{tabular}{rrrrrr}
-%    \toprule
-    Accession & USDA Accession ID & Locality & Number alleles sampled & \emph{Hopscotch} Frequency & No \emph{Hopscotch} Frequency \\
- %   \midrule
+    \begin{tabular}{cccc}\\\toprule
+    \textbf{Accession} & \textbf{USDA Accession ID} & \textbf{Locality} & \textbf{Number Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} & \textbf{No \emph{Hopscotch} Frequency} \\
     RIHY0009 & N/A   & N/A   & 2     & 0.5   & 0.5 \\
     RIMME0006 & 566673 & Durango, Mexico & 2     & 0     & 1 \\
     RIMME0007 & 566680 & Guanajuato, Mexico & 2     & 0     & 1 \\
@@ -152,8 +168,7 @@
     RIMPA0157 & N/A   & Jalisco, Mexico & 58    & 0.344827586 & 0.655172414 \\
     RIMPA0158 & N/A   & Jalisco, Mexico & 64    & 0.53125 & 0.46875 \\
     RIMPA0159 & N/A   & Jalisco, Mexico & 26    & 0     & 1 \\
-    RIMPA0162 & 21785 & N/A   & 4     & 0     & 1 \\
- %   \bottomrule
+    RIMPA0162 & 21785 & N/A   & 4     & 0     & 1 \\\bottomrule
     \end{tabular}
   \label{TableS1}
 \end{table}
