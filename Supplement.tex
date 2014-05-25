@@ -19,6 +19,7 @@
 \usepackage{authblk}
 \usepackage[table]{xcolor} %for table line color alteration
 \usepackage{subscript}
+\usepackage{longtable}
 \begin{document}
 
 \flushleft{\large{Vann \emph{et al.}: Variation in teosinte at the \emph{tb1} locus}}
@@ -75,12 +76,11 @@
 \end{table}
 
 % Table S1. Parv and mex samples 
-\begin{table}[htbp]
-\rowcolors{2}{gray!25}{white}
-  \centering
+\begin{longtable}{|c|c|c|c|c|c|}
   \caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
-    \begin{tabular}{cccccc}\\\toprule
+    \hline
     \textbf{Accession} & \textbf{USDA Accession ID} & \textbf{Locality} & \textbf{Number Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} & \textbf{No \emph{Hopscotch} Frequency} \\
+\
     RIHY0009 & N/A   & N/A   & 2     & 0.5   & 0.5 \\
     RIMME0006 & 566673 & Durango & 2     & 0     & 1 \\
     RIMME0007 & 566680 & Guanajuato & 2     & 0     & 1 \\
