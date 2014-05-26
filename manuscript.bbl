@@ -112,9 +112,9 @@
   tissue.
 \newblock \emph{Phytochemical Bulletin} 19: 11--15.
 
-\bibitem[{Ellstrand et~al.(2007)Ellstrand, Garner, Hedge, Guadagnuolo, and
+\bibitem[{Ellstrand et~al.(2007)Ellstrand, Garner, Hegde, Guadagnuolo, and
   Blancas}]{Ellstrand2007}
-\textsc{Ellstrand, N., L.~Garner, S.~Hedge, R.~Guadagnuolo, and L.~Blancas}.
+\textsc{Ellstrand, N., L.~Garner, S.~Hegde, R.~Guadagnuolo, and L.~Blancas}.
   2007.
 \newblock Spontaneous hybridization between maize and teosinte.
 \newblock \emph{Journal of Heredity} 98: 183--187.
@@ -150,8 +150,10 @@
 \newblock An {R} Companion to Applied Regression, vol. Second Edition.
 \newblock Sage, Thousand Oaks, CA.
 
-\bibitem[{Fukunaga(2005)}]{Fukunaga2005}
-\textsc{Fukunaga, N.-W. T. L. B. Z. Q. V. Y. F. M. B. K. L. L. D.~J., K}. 2005.
+\bibitem[{Fukunaga et~al.(2005)Fukunaga, Nussbaum-Wagler, Li, Zhao, Vigouroux,
+  Faller, Bomblies, Lukens, and Doebley}]{Fukunaga2005}
+\textsc{Fukunaga, K., T.~Nussbaum-Wagler, B.~Li, Q.~Zhao, Y.~Vigouroux,
+  M.~Faller, K.~Bomblies, L.~Lukens, and J.~Doebley}. 2005.
 \newblock Genetic diversity and population structure of teosinte.
 \newblock \emph{Genetics} 169: 2241--2254.
 
@@ -386,8 +388,9 @@
   shade signals in the grasses.
 \newblock \emph{P Natl Acad Sci Usa} 108: E506--E512.
 
-\bibitem[{Whitton~J(1997)}]{Whitton1997}
-\textsc{Whitton~J, A. D. S. A. R.~L., Wolf~DE}. 1997.
+\bibitem[{Whitton et~al.(1997)Whitton, Wolf, Arias, Snow, and
+  Riesberg}]{Whitton1997}
+\textsc{Whitton, J., D.~Wolf, D.~Arias, A.~Snow, and L.~Riesberg}. 1997.
 \newblock The persistence of cultivar alleles in wild populations of sunflowers
   five generations after hybridization.
 \newblock \emph{Theoretical and Applied Genetcs} 95: 33--40.

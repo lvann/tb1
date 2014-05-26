@@ -12,11 +12,11 @@
 \usepackage[pdftex]{graphicx}  
 \usepackage{caption}
 \usepackage{natbib}
+\bibliographystyle{AJB}
 \usepackage{authblk}
 \usepackage[table]{xcolor} %for table line color alteration
 \usepackage{subscript}
 \renewcommand{\baselinestretch}{1.5}
-\bibliographystyle{AJB}
 \renewcommand{\refname}{\centering{LITERATURE CITED}}
 
 \newcommand{\jri}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} }
@@ -64,13 +64,14 @@
 	\renewcommand\linenumberfont{\normalfont\bfseries\small}
 
 \clearpage
-\footnotetext{\flushleft{Manuscript received \line(1,0){120};   revision accepted\line(1,0){120}.}
+\footnotetext{\flushleft{Manuscript received \line(1,0){120};   revision accepted \line(1,0){120}.}
 \vspace*{1cm}
 \subsection*{Acknowledgements}
 We would like to thank the Department of Plant Sciences at UC Davis for Graduate Student Research funding to LEV, \lev{Matt UC Mexus}, and G. Coop for helpful discussion.
 
 
 \lev{Grants as far as I know were Matt's UC Mexus money, whatever money paid for the 55K data since we used that, and I am not sure what paid for greenhouse space} \jri{55K data was public, no prob. acknowledge support from the Dept. of Plant Sciences for LV's GSR and for "research funds" or something vague, as this came from startup. acknowledge graham coop for helpful discussion}
+}
 \clearpage
 
 %TO DO
@@ -112,7 +113,6 @@ We would like to thank the Department of Plant Sciences at UC Davis for Graduate
 \section*{INTRODUCTION}
 \end{centering}
 
-\lev{So the citations are showing up as ?'s now}
 Domesticated crops and their wild progenitors provide an excellent system in which to study adaptation and genomic changes associated with human-mediated selection \citep{Ross-Ibarra2007}. Perhaps the central focus of the study of domestication has been the identification of genetic variation underlying agronomically important traits such as fruit size and plant architecture \citep{OlsenGross2010}. Additionally, many domesticates show reduced genetic diversity when compared to their wild progenitors, and an understanding of the distribution of diversity in the wild and its phenotypic effects has become increasingly useful to crop improvement \citep{KovachMcCouch2008}. But while some effort has been invested into understanding how wild alleles behave in their domesticated relatives \citep[e.g.][]{Bai2007}, very little is known about the role that alleles found most commonly in domesticates play in natural populations of their wild progenitors \citep{Whitton1997}.
 
 Maize (\emph{Zea mays} ssp. \emph{mays}) was domesticated from the teosinte \emph{Zea mays} ssp. \emph{parviglumis} (hereafter, \emph{parviglumis}) roughly 9,000 B.P. in southwest Mexico \citep{Piperno2009, Matsuoka2002}. Domesticated maize and the teosintes are an attractive system in which to study domestication due to the abundance of genetic tools developed for maize and well-characterized domestication loci \citep{Hufford2012a, Doebley2004, Hufford2012b}. Additionally, large naturally occurring populations of both \emph{Zea mays} ssp. \emph{parviglumis} (the wild progenitor of maize) and \emph{Zea mays} ssp. \emph{mexicana} (highland teosinte; hereafter \emph{mexicana}) can be found throughout Mexico \citep{Wilkes1977, Hufford2013}, and genetic diversity of these taxa is estimated to be high \citep{Ross-Ibarra2009}.
@@ -159,9 +159,9 @@ Tillering index data for each genotypic class did not meet the criteria for a re
 %Figure 1 Map 
 %--------------------------------------------
 \begin{SCfigure}[][t!]
-  \centering \label{Fig1Map}
-   \includegraphics[width=0.7\textwidth]{Fig1Map.pdf}
+   \includegraphics[width=0.6\textwidth]{Fig1Map.pdf}
     \caption{Map showing the frequency of the \emph{Hopscotch} allele in populations of \emph{parviglumis} where we sampled more than 6 individuals. Size of circles reflects number of alleles sampled. } 
+     \label{Fig1Map}
 \end{SCfigure}
 %--------------------------------------------
 
@@ -183,7 +183,7 @@ Tillering index data for each genotypic class did not meet the criteria for a re
   \label{Table1Fst}
 \end{table}
 
-\textbf{Sequencing---}To investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region, we sequenced two small ($<$1kb) regions upstream of the \emph{tb1} ORF in four populations. After alignment and singleton checking we recovered 48 and 40 segregating sites for the 5' UTR region (Region 1) and the 66kb upstream region (Region 2), respectively. For Region 1, Ejutla A has the highest values of haplotype diversity, and $\theta_\pi$, while Ejutla B and La Mesa have comparable values of these summary statistics, and San Lorenzo has much lower values. Additionally, Tajima's D is strongly negative in the two Ejutla populations and La Mesa, but is less negative in San Lorenzo (Table \ref{Table2Diversity}, \ref{TableS2}). For Region 2, haplotype diversity and $\theta_\pi$, are similar for Ejutla A and Ejutla B, while La Mesa and San Lorenzo have slightly lower values for these statistics (Table \ref{Table2Diversity}). \lev{Do you want me to edit table here to have Hop freq as a column for the 4 pops?. I didn't know if it would be confusing because the frequencing is not representative of the frequencing of Hop in the sequenced sample set} Tajima's D is positive in all populations except La Mesa, indicating an excess of low frequency variants in this population (Table \ref{Table2Diversity}). Pairwise values of F\textsubscript{ST} within population pairs Ejutla A/Ejutla B and San Lorenzo/La Mesa are 0 for both sequenced regions as well as for the \emph{Hopscotch} \jri{table 1 shows 0.016 for hopscotch, not 0. which is right?}, while they are high for other population pairs (Table \ref{Table1Fst}). Neighbor joining trees of our sequence data and data from the teosinte inbred lines (TILs; data from Maize HapMapV2, \citealt{Chia2012}) do not reveal any clear clustering pattern with respect to population or \emph{Hopscotch} genotype (Figure~S3); individuals within our sample that have the \emph{Hopscotch} insertion do not group with the teosinte inbred lines or domesticated maize that have the \emph{Hopscotch} insertion. 
+\textbf{Sequencing---}To investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region, we sequenced two small ($<$1kb) regions upstream of the \emph{tb1} ORF in four populations. After alignment and singleton checking we recovered 48 and 40 segregating sites for the 5' UTR region (Region 1) and the 66kb upstream region (Region 2), respectively. For Region 1, Ejutla A has the highest values of haplotype diversity, and $\theta_\pi$, while Ejutla B and La Mesa have comparable values of these summary statistics, and San Lorenzo has much lower values. Additionally, Tajima's D is strongly negative in the two Ejutla populations and La Mesa, but is less negative in San Lorenzo (Table \ref{Table2Diversity}, Table~S2). For Region 2, haplotype diversity and $\theta_\pi$, are similar for Ejutla A and Ejutla B, while La Mesa and San Lorenzo have slightly lower values for these statistics (Table \ref{Table2Diversity}). \lev{Do you want me to edit table here to have Hop freq as a column for the 4 pops?. I didn't know if it would be confusing because the frequencing is not representative of the frequencing of Hop in the sequenced sample set} Tajima's D is positive in all populations except La Mesa, indicating an excess of low frequency variants in this population (Table \ref{Table2Diversity}). Pairwise values of F\textsubscript{ST} within population pairs Ejutla A/Ejutla B and San Lorenzo/La Mesa are 0 for both sequenced regions as well as for the \emph{Hopscotch} \jri{table 1 shows 0.016 for hopscotch, not 0. which is right?}, while they are high for other population pairs (Table \ref{Table1Fst}). Neighbor joining trees of our sequence data and data from the teosinte inbred lines (TILs; data from Maize HapMapV2, \citealt{Chia2012}) do not reveal any clear clustering pattern with respect to population or \emph{Hopscotch} genotype (Figure~S3); individuals within our sample that have the \emph{Hopscotch} insertion do not group with the teosinte inbred lines or domesticated maize that have the \emph{Hopscotch} insertion. 
 
 % Table 2 Diversity Statistics
 \begin{table}[htbp]
@@ -206,7 +206,7 @@ Tillering index data for each genotypic class did not meet the criteria for a re
   \label{Table2Diversity}
 \end{table}
 
-\textbf{Evidence of introgression---}The highest frequency of the \emph{Hopscotch} insertion in teosinte was found in \emph{parviglumis} sympatric with cultivated maize. Our initial hypothesis was that the high frequency of the \emph{Hopscotch} element in these populations could be attributed to introgression from maize into teosinte. To investigate this possibility we examined overall patterns of linkage disequilibrium across chromosome one and specifically in the \emph{tb1} region. If the \emph{Hopscotch} is found in these populations due to recent introgression we would expect to find large blocks of linked markers near this element. We find no evidence of elevated linkage disequilibrium between the \emph{Hopscotch} and SNPs surrounding the \emph{tb1} region in our resequenced populations (Fig. \ref{Fig2LD}), and $r^{2}$ in the \emph{tb1} region  does not differ significantly between populations with (average $r^{2}$ of 0.085) and without (average $r^{2}=0.082$) the \emph{Hopscotch} insertion. In fact, average $r^{2}$ is lower in the \emph{tb1} region ($r^{2}=0.056$) than across the rest of chromosome 1 ($r^{2}=0.083$) (\ref{Table3R2}).
+\textbf{Evidence of introgression---}The highest frequency of the \emph{Hopscotch} insertion in teosinte was found in \emph{parviglumis} sympatric with cultivated maize. Our initial hypothesis was that the high frequency of the \emph{Hopscotch} element in these populations could be attributed to introgression from maize into teosinte. To investigate this possibility we examined overall patterns of linkage disequilibrium across chromosome one and specifically in the \emph{tb1} region. If the \emph{Hopscotch} is found in these populations due to recent introgression we would expect to find large blocks of linked markers near this element. We find no evidence of elevated linkage disequilibrium between the \emph{Hopscotch} and SNPs surrounding the \emph{tb1} region in our resequenced populations (Fig. \ref{Fig2LD}), and $r^{2}$ in the \emph{tb1} region  does not differ significantly between populations with (average $r^{2}$ of 0.085) and without (average $r^{2}=0.082$) the \emph{Hopscotch} insertion. In fact, average $r^{2}$ is lower in the \emph{tb1} region ($r^{2}=0.056$) than across the rest of chromosome 1 ($r^{2}=0.083$; Table \ref{Table3R2}).
 
 % Table 3 $r^{2}$ values
 \begin{table}[htbp]
@@ -229,9 +229,9 @@ Tillering index data for each genotypic class did not meet the criteria for a re
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=140mm]{Fig2LDPlots.pdf}
-    \caption{Linkage disequilibrium for SNPs in Mb 261-268 on chromosome 1. The yellow rectangle indicates the location of the \emph{Hopscotch} insertion and the green represents the \emph{tb1} ORF. A) Ejutla A; B) Ejutla B; C) La Mesa; D). San Lorenzo}. The upper triangle above the black diagonal is colored based on the $r^{2}$ value between SNPs while the bottom triangle is colored based on p-value for the corresponding  $r^{2}$ value.  
+   \end{center}
+    \caption{Linkage disequilibrium for SNPs in Mb 261-268 on chromosome 1. The yellow rectangle indicates the location of the \emph{Hopscotch} insertion and the green represents the \emph{tb1} ORF. A) Ejutla A; B) Ejutla B; C) La Mesa; D) San Lorenzo. The upper triangle above the black diagonal is colored based on the $r^{2}$ value between SNPs while the bottom triangle is colored based on p-value for the corresponding  $r^{2}$ value.}
 \label{Fig2LD}
-  \end{center}
 \end{figure*}
 %-------------------------------------------------------------------
 
@@ -258,22 +258,22 @@ The lack of clustering of \emph{Hopscotch} genotypes in our NJ tree as well as t
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=90mm]{Fig3Structure.pdf}
-    \caption{STRUCTURE assignment to maize across a section of chromosome 1. The dotted lines mark the beginning of the sequenced region 66kb upstream (Region 2) and the end of the \emph{tb1} ORF. }
-\label{Fig3Structure}
-  \end{center}
+     \end{center}
+    \caption{STRUCTURE assignment to maize across a section of chromosome 1. The dotted lines mark the beginning of the sequenced region 66kb upstream (Region 2) and the end of the \emph{tb1} ORF.}
+  \label{Fig3Structure}
 \end{figure*}
 %-------------------------------------------------------------------
 
-\textbf{Phenotyping---}To assess the contribution of \emph{tb1} to phenotypic variation in tillering in a natural population, we grew plants from seed sampled from the San Lorenzo population of \emph{parviglumis}, which had a high mean frequency (0.44) of the \emph{Hopscotch} insertion based on our initial genotyping. We measured tillering index (TI), the ratio of the sum of tiller lengths to plant height, for 216 plants (Phenotyping 1) from within the San Lorenzo population, and genotyped plants for the \emph{Hopscotch} insertion. We found the \emph{Hopscotch} segregating at a frequency of 0.65 with no significant deviations from expected frequencies under Hardy-Weinberg equilibrium. After performing a repeated measures ANOVA between our transformed tillering index data and \emph{Hopscotch} genotype we find no correlation between genotype at the \emph{Hopscotch}  insertion and tillering index (\ref{Fig4Boxplots}), tiller number, or culm diameter. 
+\textbf{Phenotyping---}To assess the contribution of \emph{tb1} to phenotypic variation in tillering in a natural population, we grew plants from seed sampled from the San Lorenzo population of \emph{parviglumis}, which had a high mean frequency (0.44) of the \emph{Hopscotch} insertion based on our initial genotyping. We measured tillering index (TI), the ratio of the sum of tiller lengths to plant height, for 216 plants (Phenotyping 1) from within the San Lorenzo population, and genotyped plants for the \emph{Hopscotch} insertion. We found the \emph{Hopscotch} segregating at a frequency of 0.65 with no significant deviations from expected frequencies under Hardy-Weinberg equilibrium. After performing a repeated measures ANOVA between our transformed tillering index data and \emph{Hopscotch} genotype we find no correlation between genotype at the \emph{Hopscotch}  insertion and tillering index (Fig. \ref{Fig4Boxplots}), tiller number, or culm diameter. 
 
 % Figure 4 Phenotyping BoxPlots
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
   \begin{center}
-   \includegraphics[width=95mm]{Fig4Boxplots.pdf}
-    \caption{Box-plots showing tillering index in greenhouse grow-outs for Phenotyping 1 (A) and Phenotyping 2 (B). White indicates individuals homozygous for the \emph{Hopscotch}, light grey represents heterozygotes, and dark grey represents homozygotes for the teosinte (No \emph{Hopscotch}) allele. Within boxes, dark black lines represent the median, and the edges of the boxes are the first and third quartiles. Outliers are displayed as dots, the maximum value exluding outliers is shown with the top whisker, whicle the minimum exlucing outliers is shown with the bottom whisker.
+   \includegraphics[width=90mm]{Fig4Boxplots.pdf}
+   \end{center}
+    \caption{Box-plots showing tillering index in greenhouse grow-outs for Phenotyping 1 (A) and Phenotyping 2 (B). White indicates individuals homozygous for the \emph{Hopscotch}, light grey represents heterozygotes, and dark grey represents homozygotes for the teosinte (No \emph{Hopscotch}) allele. Within boxes, dark black lines represent the median, and the edges of the boxes are the first and third quartiles. Outliers are displayed as dots, the maximum value excluding outliers is shown with the top whisker, while the minimum excluding outliers is shown with the bottom whisker.}
 \label{Fig4Boxplots}
-  \end{center}
 \end{figure*}
 %-------------------------------------------------------------------
 
@@ -301,10 +301,9 @@ Significant effects of the \emph{Hopscotch} insertion on lateral branch length, 
 
 In conclusion, our findings demonstrate that the \emph{Hopscotch} allele is more widespread in populations of \emph{parviglumis} and \emph{mexicana} than previously thought. Analysis of linkage using SNPs from across chromosome 1 does not suggest that the \emph{Hopscotch} allele is present in these populations due to recent introgression; however, it seems unlikely that the insertion would have drifted to high frequency in multiple populations. We do, however, find preliminary evidence of selection on the \emph{tb1} locus in \emph{parviglumis}; this coupled with our observation of high frequency of the \emph{Hopscotch} insertion in a number of populations suggests that the locus may play an ecological role in teosinte. In contrast to domesticated maize, the \emph{Hopscotch} insertion does not appear to have a large effect on tillering in \emph{parviglumis}. Future studies should examine expression levels of \emph{tb1} in teosinte with and without the \emph{Hopscotch} insertion and further characterize the effects of additional loci involved in branching architecture (e.g. \emph{gt1}, \emph{tru1}, and \emph{ter1}).  These data, in conjunction with more exhaustive phenotyping, should help reveal the ecological significance of the domesticated \emph{tb1} allele in natural populations of teosinte. 
 
-\lev{I think we're done with text. What I am having trouble with is the pdf converstion -- was working fine up until a few hours ago, and I don't think I changed any of the '\usepackage' stuff. I've tried in both LaTexian and TexShop and neither works. Also the references have started showing up as question marks.}
-
 \clearpage
-\bibliography{refs,bob}
+
+\bibliography{refs}
 
 \end{flushleft}
 
