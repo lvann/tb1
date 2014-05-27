@@ -76,9 +76,11 @@
 \end{table}
 
 % Table S1. Parv and mex samples 
-\setlength\LTleft{-30pt}            
-\setlength\LTright{-30pt}
-\begin{longtable}{ccp{5cm}cp{5cm}ccc}
+\footnotesize  % Switch from 12pt to 11pt; otherwise, table won't fit
+\setlength\LTleft{-30pt}            % default: \fill
+\setlength\LTright{-30pt}           % default: \fill
+\begin{longtable}{@{\extracolsep{\fill}}llllllllll@{}}
+  \hline\hline %inserts double horizontal lines
 \caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. 	\emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
 \hline
  \textbf{Accession} & \textbf{USDA ID} & \textbf{Locality} & \textbf{Number Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} & \textbf{No \emph{Hopscotch} Frequency} \\\toprule
