@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 MAY 2014 11:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 MAY 2014 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,9 +467,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 74.
+(Font)              <9> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 74.
+(Font)              <5> on input line 71.
 
 [2
 
@@ -478,62 +478,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [4
 
-] [5] [6] [7] [8] [9]
-<Fig1Map.pdf, id=213, 420.58702pt x 324.8949pt>
-File: Fig1Map.pdf Graphic file (type pdf)
- <use Fig1Map.pdf>
-Package pdftex.def Info: Fig1Map.pdf used on input line 162.
-(pdftex.def)             Requested size: 281.85587pt x 217.73793pt.
+] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] (./manuscript.bbl [16
 
-Underfull \hbox (badness 1888) in paragraph at lines 165--165
-[][]\OT1/cmr/m/n/10.95 : |Map show-ing the fre-
- []
-
-[10 <./Fig1Map.pdf>] [11] <Fig2LDPlots.pdf, id=264, 794.46812pt x 613.79312pt>
-File: Fig2LDPlots.pdf Graphic file (type pdf)
-
-<use Fig2LDPlots.pdf>
-Package pdftex.def Info: Fig2LDPlots.pdf used on input line 231.
-(pdftex.def)             Requested size: 398.33858pt x 307.75745pt.
- [12] <Fig3Structure.pdf, id=278, 794.97pt x 614.295pt>
-File: Fig3Structure.pdf Graphic file (type pdf)
-
-<use Fig3Structure.pdf>
-Package pdftex.def Info: Fig3Structure.pdf used on input line 260.
-(pdftex.def)             Requested size: 256.0748pt x 197.8813pt.
- [13 <./Fig2LDPlots.pdf>]
-<Fig4Boxplots.pdf, id=393, 399.4925pt x 597.23125pt>
-File: Fig4Boxplots.pdf Graphic file (type pdf)
- <use Fig4Boxplots.pdf>
-Package pdftex.def Info: Fig4Boxplots.pdf used on input line 273.
-(pdftex.def)             Requested size: 256.0748pt x 382.84637pt.
-
-[14 <./Fig3Structure.pdf>] [15 <./Fig4Boxplots.pdf>] [16] [17] [18] [19]
-(./manuscript.bbl [20
-
-] [21] [22] [23] [24])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
- [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+] [17] [18] [19] [20]) [21] [22] [23]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 8357 strings out of 493488
- 125178 string characters out of 3141326
- 325000 words of memory out of 3000000
- 11463 multiletter control sequences out of 15000+200000
- 13530 words of font info for 46 fonts, out of 3000000 for 9000
+ 8313 strings out of 493488
+ 124608 string characters out of 3141326
+ 328704 words of memory out of 3000000
+ 11426 multiletter control sequences out of 15000+200000
+ 12833 words of font info for 44 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,45p,3282b,634s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,38p,3282b,634s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -549,12 +514,11 @@ live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on manuscript.pdf (25 pages, 1147783 bytes).
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on manuscript.pdf (24 pages, 264745 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 102 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 458 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
