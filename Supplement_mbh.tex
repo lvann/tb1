@@ -207,15 +207,16 @@
 \clearpage
 
 % Table S2. Mays sampling
-\begin{table}[htbp]
-\tiny
-\rowcolors{2}{gray!25}{white}
-  \centering
- \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}
-    \begin{tabular}{ccc}
- %   \toprule
-    Accession & Alleles Sampled & \emph{Hopscotch} Freq. \\
- %   \midrule
+\begin{scriptsize}  % Switch from 12pt to 11pt; otherwise, table won't fit
+\rowcolors{1}{gray!25}{white}
+\begin{longtable}{>{\stepcounter{rowno}}ccc}
+\hiderowcolors
+ \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}\\
+\hline
+\multicolumn{1}{c}{\textbf{Accession}} & \multicolumn{1}{c}{\textbf{Alleles Sampled}} & \multicolumn{1}{c}{\textbf{\emph{Hopscotch} Freq.}} \\
+\hline
+\endhead
+\showrowcolors
     RIMMA0066 & 2     & 1 \\
     RIMMA0075 & 2     & 1 \\
     RIMMA0077 & 2     & 1 \\
@@ -463,9 +464,8 @@
     RIMMA0752 & 1     & 1 \\
     RIMMA0753 & 2     & 1 \\
     RIMMA0755 & 2     & 1 \\
-    \bottomrule
-    \end{tabular}
-\end{table}
+\end{longtable}
+\end{scriptsize}
 
 
 \clearpage
@@ -473,7 +473,7 @@
 % Table S4. PCs for BayEnv
 \begin{table}[htbp]
   \centering
-  \caption{Variables and rotations used for the 6 principal components used for BayEnv calculations and their corresponding Bayes Factors. Modified from \citet{Pyhajarvi2013}.}
+  \caption{Variables and rotations used for the 6 principal components used for BayEnv calculations and their corresponding Bayes Factors}
     \begin{tabular}{rrrrrrrrrrrr}
     \toprule
     \textbf{PC1} & \textbf{} & \textbf{PC2} & \textbf{} & \textbf{PC3} & \textbf{} & \textbf{PC4} & \textbf{} & \textbf{PC5} & \textbf{} & \textbf{PC6} & \textbf{} \\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2014 19:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2014 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -764,23 +764,9 @@ Overfull \hbox (16.90094pt too wide) in alignment at lines 200--204
  [] [] [] [] [] [] 
  []
 
-[6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 215.
+[6] [7
 
-
-LaTeX Warning: Float too large for page by 1205.88522pt on input line 468.
-
-[7]
-
-Package natbib Warning: Citation `Pyhajarvi2013' on page 8 undefined on input l
-ine 476.
-
-
-Package natbib Warning: Citation `Pyhajarvi2013' on page 8 undefined on input l
-ine 476.
-
-
+] [8] [9] [10] [11]
 Overfull \hbox (143.33723pt too wide) in paragraph at lines 477--562
  [][] 
  []
@@ -788,13 +774,9 @@ Overfull \hbox (143.33723pt too wide) in paragraph at lines 477--562
 
 LaTeX Warning: Float too large for page by 580.9227pt on input line 562.
 
-[8]
-
-Package natbib Warning: There were undefined citations.
-
+[12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 580.
-[9
-
+ [13
 
 
 ]
@@ -807,11 +789,11 @@ Package rerunfilecheck Info: File `Supplement_mbh.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 580.
  ) 
 Here is how much of TeX's memory you used:
- 8303 strings out of 493488
- 122835 string characters out of 3141326
- 432582 words of memory out of 3000000
- 11486 multiletter control sequences out of 15000+200000
- 8409 words of font info for 29 fonts, out of 3000000 for 9000
+ 8304 strings out of 493488
+ 122812 string characters out of 3141326
+ 385632 words of memory out of 3000000
+ 11484 multiletter control sequences out of 15000+200000
+ 8060 words of font info for 28 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,10n,43p,782b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -820,14 +802,12 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on Supplement_mbh.pdf (9 pages, 484363 bytes).
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Supplement_mbh.pdf (13 pages, 465236 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
