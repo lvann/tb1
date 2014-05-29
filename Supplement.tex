@@ -22,8 +22,6 @@
 \usepackage{longtable}
 \begin{document}
 
-\flushleft{\large{Vann \emph{et al.}: Variation in teosinte at the \emph{tb1} locus}}
-
 % Figure S1. Cartoon representation of tb1 locus
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
@@ -76,22 +74,21 @@
 \end{table}
 
 % Table S2. Parv and mex samples 
-\footnotesize  % Switch from 12pt to 11pt; otherwise, table won't fit
+\clearpage
+\footnotesize 
 \setlength\LTleft{-30pt}            % default: \fill
 \setlength\LTright{-30pt}           % default: \fill
-\begin{longtable}{@{\extracolsep{\fill}}llllllllll@{}}
-  \hline\hline %inserts double horizontal lines
-\caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. 	\emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. }
-\hline
- \textbf{Accession} & \textbf{USDA ID} & \textbf{Locality} & \textbf{\# Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} & \textbf{No \emph{Hopscotch} Frequency} \\\toprule
+\begin{longtable}{llllll}
+\caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. 	\emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid. } \\
+%\hline
+\textbf{Accession} & \textbf{USDA ID} & \textbf{Locality} & \textbf{\# Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} & \textbf{No \emph{Hopscotch} Frequency} \\\toprule
 \endhead
-\hline
-    RIHY0009 & N/A   & N/A   & 2     & 0.5   & 0.5 \\
+    RIHY0009 & N/A & N/A & 2 & 0.5   & 0.5 \\
     RIMME0006 & 566673 & Durango & 2	& 0 & 1 \\
     RIMME0007 & 566680 & Guanajuato & 2 & 0 & 1 \\
     RIMME0008 & 566681 & Michoacan & 2 & 0 & 1 \\
     RIMME0009 & 566682 & Distrito Federal & 2 & 0 & 1 \\
-    RIMME0011 & 566685 & Mexico & 2     & 0     & 1 \\
+    RIMME0011 & 566685 & Mexico & 2 & 0     & 1 \\
     RIMME0014 & 714151 & Breeders line; Puga: 11066 & 6     & 0     & 1 \\
     RIMME0017 & 699874 & Ayotlan & 8     & 0     & 1 \\
     RIMME0021 & N/A   & El Porvenir & 69    & 0.17 & 0.83 \\
@@ -106,7 +103,7 @@
     RIMME0035 & N/A   & Xochimilco & 25    & 0     & 1 \\
     RIMPA0001 & 87168 & El Salado & 4     & 0     & 1 \\
     RIMPA0003 & 87171 & Mazatlan & 8     & 0.13 & 0.87 \\
-    RIMPA0017 & 87200 & N/A   & 4     & 0     & 1 \\
+    RIMPA0017 & 87200 & N/A & 4 & 0     & 1 \\
     RIMPA0019 & 87213 & El Salado & 2     & 0.50   & 0.50 \\
     RIMPA0029 & 87244 & N/A   & 2     & 0.50   & 0.50 \\
     RIMPA0031 & 87249 & N/A   & 2     & 0.5   & 0.5 \\
@@ -195,16 +192,13 @@
 
 
 % Table S2. Mays sampling
-\begin{table}[htbp]
-\rowcolors{2}{gray!25}{white}
-  \centering
-
-  \centering
- \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}
-    \begin{tabular}{ccc}
- %   \toprule
-    Accession & Number of alleles sampled & \emph{Hopscotch} Frequency \\
- %   \midrule
+\footnotesize  % Switch from 12pt to 11pt; otherwise, table won't fit
+\setlength\LTleft{-30pt}            % default: \fill
+\setlength\LTright{-30pt}           % default: \fill
+\begin{longtable}{lcc}
+\caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping} \\
+\textbf{Accession} & \textbf{\# Alleles Sampled} & \textbf{\emph{Hopscotch} Frequency} \\\toprule
+\endhead
     RIMMA0066 & 2     & 1 \\
     RIMMA0075 & 2     & 1 \\
     RIMMA0077 & 2     & 1 \\
@@ -453,9 +447,9 @@
     RIMMA0753 & 2     & 1 \\
     RIMMA0755 & 2     & 1 \\
     \bottomrule
-    \end{tabular}
+    \end{longtable}
   \label{TableS2Mays}
-\end{table}
+
 
 
 % Table S4. PCs for BayEnv
