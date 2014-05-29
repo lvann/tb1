@@ -3,13 +3,14 @@
 
 %Note that if authors wish to submit long DNA sequence appendices as supplemental material, they should select the "DNA sequences (online-only supplemental)" option on Editorial Manager. This ensures that lengthy appendices are not built into the reviewers' PDF, but are still accessible to the reviewers.
 \documentclass[11pt]{article}
-\usepackage{geometry} 
+\usepackage[letterpaper, margin=1in]{geometry} 
 \usepackage{hyperref}
 \usepackage[leftcaption]{sidecap}
 \sidecaptionvpos{figure}{c} %position side caption
 \usepackage{lineno}
 \usepackage{lipsum}
 \usepackage{indentfirst}
+\usepackage{pdflscape}
 \usepackage{color}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
@@ -24,79 +25,31 @@
 \usepackage[table]{xcolor} %for table line color alteration
 \usepackage{subscript}
 \usepackage{longtable}
-
-
+\usepackage{fancyhdr}
+	\renewcommand{\headrulewidth}{0pt}
+	\rfoot{\thepage}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage}
+	
+\pagestyle{fancy}
 
 \begin{document}
 
-% Figure S1. Cartoon representation of tb1 locus
-%-------------------------------------------------------------------
-\begin{figure*}[!t]
-  \begin{center}
-   \includegraphics[width=140mm]{FigS1LocusCartoon.pdf}
-   \caption{Representation of the upstream regulatory region of \emph{tb1}, showing the \emph{tb1} coding region (green) and the \emph{Hopscotch} insertion (red). Arrows show the location of primer sets; in black, primers used for amplification and sequencing (Sequenced region 1; within the 5' UTR, and sequenced region 2; 66,169 bp upstream from the tb1 ORF); in blue, primers used to genotype the \emph{Hopscotch} insertion.}
-  \end{center}
-\end{figure*}
-%-------------------------------------------------------------------
+\chead{\small{Vann et al.---American Journal of Botany (\#\#)(\#): \#\#\#-\#\#\#. 2014. -- Appendix S1 -- Page \thepage}}
 
-\clearpage
+\centering{Appendix S1: Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid.}
 
-% Figure S2. Gel image
-%-------------------------------------------------------------------
-\begin{figure*}[!t]
-  \begin{center}
-   \includegraphics[width=100mm]{FigS2Gel.png}
-   \caption{Agarose gel image of amplification products using our primer sets. Genotypes are indicated at the top of the gel.} 
-  \end{center}
-\end{figure*}
-%-------------------------------------------------------------------
-
-\clearpage
-
-
-% Figure S3. NJ Trees
-%-------------------------------------------------------------------
-\begin{figure*}[!t]
-  \begin{center}
-   \includegraphics[width=100mm]{FigS3NJtrees.pdf}
-    \caption{Neighbor-Joining tree of the sequenced region in the 5? UTR (right; sequenced region 1) and the 66,169 bp upstream region (left; sequenced region 2) of \emph{tb1}. Individuals with genotype data are colored: Homozygous for the teosinte (no \emph{Hopscotch}) allele (red), homozygous for the maize (\emph{Hopscotch}) allele (blue), heterozygotes (purple). TILs (teosinte inbred lines) are colored in green, with stars indicating the 3 TILs known to have the \emph{Hopscotch} insertion. Black indicates individuals not genotyped for the \emph{Hopscotch} insertion.} 
-  \end{center}
-\end{figure*}
-%-------------------------------------------------------------------
-
-\clearpage
-
-% Table S1
-\begin{table}[htbp]
-\rowcolors{2}{gray!25}{white}
-  \centering
-  \caption{Pairwise F\textsubscript{ST} values from sequence and \emph{Hopscotch} genotyping data}
-  
-    \begin{tabular}{cccc}\\\toprule
-    \textbf{Comparison} & \textbf{Region 1} & \textbf{Region 2} & \textbf{\emph{Hopscotch}} \\\midrule
-    EjuA \& EjuB & 0     & 0     & 0 \\
-    EjuA \& MSA & 0.326 & 0.328 & 0.186 \\
-    EjuA \& SLO & 0.416 & 0.258 & 0.280 \\
-    EjuB \& MSA & 0.397 & 0.365 & 0.188 \\
-    EjuB \& SLO & 0.512  & 0.290 & 0.280 \\
-    MSA \& SLO & 0.007  & 0 & 0.016 \\\bottomrule
-    \end{tabular}
-\end{table}
-
-\clearpage
-
-% Table S2. Parv and mex samples 
+% Appendix S1. Parv and mex samples 
 \begin{scriptsize}  % Switch from 12pt to 11pt; otherwise, table won't fit
 \rowcolors{1}{gray!25}{white}
 \begin{longtable}{>{\stepcounter{rowno}}cccccc}
 \hiderowcolors
-\caption{Accessions of \emph{Zea mays} ssp. \emph{mexicana} (RIMME) and \emph{Zea mays} ssp. \emph{parviglumis} (RIMPA) sampled. RIHY is a \emph{Z. mays} ssp. 	\emph{parviglumis} and \emph{Zea mays} ssp. \emph{mays} hybrid.}\\
 \hline
 \multicolumn{1}{c}{\textbf{Accession}} & \multicolumn{1}{c}{\textbf{USDA ID}} & \multicolumn{1}{c}{\textbf{Locality}} & \multicolumn{1}{c}{\textbf{Alleles Sampled}} & \multicolumn{1}{c}{\textbf{\emph{Hopscotch} Freq.}} & \multicolumn{1}{c}{\textbf{No \emph{Hopscotch} Freq.}} \\
 \hline
 \endhead
 \showrowcolors
-
     RIHY0009 & N/A   & N/A   & 2     & 0.5   & 0.5 \\
     RIMME0006 & 566673 & Durango & 2	& 0 & 1 \\
     RIMME0007 & 566680 & Guanajuato & 2 & 0 & 1 \\
@@ -201,17 +154,21 @@
     RIMPA0158 & N/A   & Jalisco & 64    & 0.53 & 0.47 \\
     RIMPA0159 & N/A   & Jalisco & 26    & 0     & 1 \\
     RIMPA0162 & 21785 & N/A   & 4     & 0     & 1 \\
+    \hline
 \end{longtable}
 \end{scriptsize}
-
 \clearpage
 
-% Table S2. Mays sampling
+\pagenumbering{arabic}
+\chead{\small{Vann et al.---American Journal of Botany (\#\#)(\#): \#\#\#-\#\#\#. 2014. -- Appendix S2 -- Page \thepage}}
+% Appendix S2. Mays sampling
+
+\centering{Appendix S2: \emph{Hopscotch} frequency in sampled \emph{Zea mays} ssp. \emph{mays} (RIMMA).}
+
 \begin{scriptsize}  % Switch from 12pt to 11pt; otherwise, table won't fit
 \rowcolors{1}{gray!25}{white}
 \begin{longtable}{>{\stepcounter{rowno}}ccc}
 \hiderowcolors
- \caption{\emph{Zea mays} ssp. \emph{mays} (RIMMA) sampled for genotyping}\\
 \hline
 \multicolumn{1}{c}{\textbf{Accession}} & \multicolumn{1}{c}{\textbf{Alleles Sampled}} & \multicolumn{1}{c}{\textbf{\emph{Hopscotch} Freq.}} \\
 \hline
@@ -464,117 +421,48 @@
     RIMMA0752 & 1     & 1 \\
     RIMMA0753 & 2     & 1 \\
     RIMMA0755 & 2     & 1 \\
+    \hline
 \end{longtable}
 \end{scriptsize}
 
+\clearpage
+\pagenumbering{arabic}
+\chead{\small{Vann et al.---American Journal of Botany (\#\#)(\#): \#\#\#-\#\#\#. 2014. -- Appendix S3 -- Page \thepage}}
+% Appendix S3. Cartoon representation of tb1 locus
+%-------------------------------------------------------------------
+\begin{figure*}[!t]
+  \begin{center}
+   \includegraphics[width=180mm]{FigS1LocusCartoon.pdf}
+   \flushleft{Appendix S3: Representation of the upstream regulatory region of \emph{tb1}, showing the \emph{tb1} coding region (green) and the \emph{Hopscotch} insertion (red). Arrows show the location of primer sets; in black, primers used for amplification and sequencing (Region 1; within the 5' UTR, and Region 2; 66,169 bp upstream from the tb1 ORF); in blue, primers used to genotype the \emph{Hopscotch} insertion.}
+  \end{center}
+\end{figure*}
+%-------------------------------------------------------------------
 
 \clearpage
+\pagenumbering{arabic}
+\chead{\small{Vann et al.---American Journal of Botany (\#\#)(\#): \#\#\#-\#\#\#. 2014. -- Appendix S4 -- Page \thepage}}
 
-% Table S4. PCs for BayEnv
-\begin{table}[htbp]
-  \centering
-  \caption{Variables and rotations used for the 6 principal components used for BayEnv calculations and their corresponding Bayes Factors}
-    \begin{tabular}{rrrrrrrrrrrr}
-    \toprule
-    \textbf{PC1} & \textbf{} & \textbf{PC2} & \textbf{} & \textbf{PC3} & \textbf{} & \textbf{PC4} & \textbf{} & \textbf{PC5} & \textbf{} & \textbf{PC6} & \textbf{} \\
-    \midrule
-    \textbf{Var} & \textbf{Rot} & \textbf{Var} & \textbf{Rot} & \textbf{Var} & \textbf{Rot} & \textbf{Var} & \textbf{Rot} & \textbf{Var} & \textbf{Rot} & \textbf{Var} & \textbf{Rot} \\
-    bio1  & 0.146 & bio4  & 0.244 & prec7 & 0.287 & ts\_clay & 0.41  & bio2  & 0.38  & bio2  & 0.412 \\
-    tmean11 & 0.146 & bio3  & 0.241 & prec8 & 0.276 & v\_mod & 0.359 & sq4   & 0.328 & x\_mod & 0.365 \\
-    tmean12 & 0.145 & bio7  & 0.241 & prec11 & 0.262 & ts\_sand & 0.329 & ts\_loam & 0.289 & sq7   & 0.332 \\
-    bio11 & 0.145 & prec6 & 0.237 & bio13 & 0.247 & bio15 & 0.272 & ts\_sand & 0.266 & bio7  & 0.312 \\
-    tmax12 & 0.145 & sq7   & 0.218 & prec1 & 0.246 & prec4 & 0.259 & sq7   & 0.231 & v\_mod & 0.307 \\
-    tmin5 & 0.145 & prec9 & 0.217 & bio16 & 0.242 & x\_mod & 0.244 & bio18 & 0.213 & prec11 & 0.23 \\
-    tmean1 & 0.145 & sq3   & 0.207 & prec12 & 0.24  & prec3 & 0.226 & bio13 & 0.207 & bio18 & 0.22 \\
-    tmean2 & 0.145 & prec12 & 0.207 & bio19 & 0.238 & sq3   & 0.21  & prec11 & 0.183 & sq3   & 0.176 \\
-    tmin4 & 0.145 & bio12 & 0.204 & bio12 & 0.231 & prec5 & 0.21  & bio7  & 0.17  & sq4   & 0.153 \\
-    tmax1 & 0.145 & bio19 & 0.196 & prec2 & 0.222 & prec7 & 0.19  & bio16 & 0.163 & ts\_sand & 0.153 \\
-    tmean4 & 0.145 & prec2 & 0.188 & bio18 & 0.221 & sq4   & 0.186 & bio4  & 0.157 & bio4  & 0.148 \\
-    tmin11 & 0.144 & prec1 & 0.185 & sq4   & 0.2   & bio3  & 0.185 & bio12 & 0.156 & prec7 & 0.139 \\
-    tmax11 & 0.144 & prec10 & 0.184 & prec9 & 0.18  & bio18 & 0.178 & bio3  & 0.155 & tmax3 & 0.127 \\
-    tmin12 & 0.144 & bio16 & 0.183 & prec10 & 0.171 & sq7   & 0.132 & prec6 & 0.154 & tmax4 & 0.126 \\
-    tmin2 & 0.144 & prec8 & 0.17  & prec5 & 0.161 & bio14 & 0.116 & x\_mod & 0.152 & bio5  & 0.118 \\
-    tmean5 & 0.144 & prec5 & 0.165 & prec4 & 0.154 & bio13 & 0.099 & prec9 & 0.144 & tmax5 & 0.115 \\
-    tmean10 & 0.144 & bio14 & 0.158 & sq3   & 0.147 & bio16 & 0.095 & prec8 & 0.143 & bio3  & 0.107 \\
-    bio6  & 0.144 & bio13 & 0.151 & bio2  & 0.143 & prec8 & 0.09  & v\_mod & 0.142 & ts\_loam & 0.095 \\
-    tmax2 & 0.144 & bio17 & 0.149 & bio17 & 0.129 & bio7  & 0.077 & bio15 & 0.136 & ts\_clay & 0.078 \\
-    tmean3 & 0.144 & prec3 & 0.144 & ts\_loam & 0.127 & bio4  & 0.075 & prec7 & 0.112 & tmin9 & 0.072 \\
-    tmin1 & 0.143 & ts\_clay & 0.141 & v\_mod & 0.123 & bio2  & 0.074 & prec4 & 0.108 & tmin8 & 0.071 \\
-    tmin10 & 0.143 & bio2  & 0.129 & prec3 & 0.113 & prec2 & 0.074 & bio14 & 0.096 & prec9 & 0.07 \\
-    Altitude & 0.143 & prec7 & 0.108 & x\_mod & 0.111 & bio19 & 0.068 & tmax7 & 0.093 & tmin10 & 0.069 \\
-    bio9  & 0.143 & tmax6 & 0.107 & bio14 & 0.099 & prec12 & 0.056 & tmax8 & 0.092 & tmin12 & 0.069 \\
-    tmin3 & 0.143 & x\_mod & 0.106 & bio4  & 0.07  & ts\_loam & 0.053 & prec1 & 0.091 & tmin7 & 0.066 \\
-    bio10 & 0.142 & bio15 & 0.098 & tmax3 & 0.067 & tmax12 & 0.047 & prec2 & 0.086 & tmean4 & 0.066 \\
-    tmax10 & 0.142 & ts\_loam & 0.088 & ts\_clay & 0.065 & bio17 & 0.047 & tmin11 & 0.086 & tmax2 & 0.066 \\
-    tmax3 & 0.142 & tmean6 & 0.085 & bio15 & 0.056 & bio9  & 0.043 & prec5 & 0.082 & tmax6 & 0.064 \\
-    tmax4 & 0.142 & tmin7 & 0.082 & tmax2 & 0.055 & tmax8 & 0.042 & bio17 & 0.082 & tmean3 & 0.064 \\
-    tmin6 & 0.142 & bio5  & 0.082 & tmean3 & 0.052 & tmax1 & 0.041 & tmin12 & 0.08  & bio9  & 0.058 \\
-    tmean9 & 0.141 & tmean7 & 0.081 & ts\_sand & 0.05  & tmax5 & 0.039 & prec3 & 0.078 & tmin11 & 0.058 \\
-    tmin9 & 0.141 & prec4 & 0.08  & prec6 & 0.048 & tmax7 & 0.039 & tmax9 & 0.078 & prec3 & 0.056 \\
-    tmean8 & 0.141 & tmax7 & 0.079 & sq7   & 0.048 & prec10 & 0.038 & tmin1 & 0.077 & tmean5 & 0.056 \\
-    bio8  & 0.14  & bio8  & 0.079 & tmin7 & 0.046 & Altitude & 0.037 & tmin10 & 0.074 & bio10 & 0.051 \\
-    tmean6 & 0.14  & tmax9 & 0.077 & bio3  & 0.044 & tmax10 & 0.035 & bio6  & 0.071 & bio15 & 0.047 \\
-    tmean7 & 0.14  & tmean8 & 0.076 & tmax4 & 0.043 & tmax2 & 0.033 & prec12 & 0.067 & tmin1 & 0.045 \\
-    tmin8 & 0.14  & tmin8 & 0.076 & bio7  & 0.042 & tmax9 & 0.03  & tmin2 & 0.061 & prec12 & 0.045 \\
-    tmax5 & 0.14  & tmax5 & 0.074 & tmax1 & 0.036 & tmean12 & 0.029 & tmin6 & 0.061 & bio17 & 0.045 \\
-    tmax9 & 0.139 & tmax8 & 0.074 & tmin3 & 0.035 & tmax11 & 0.027 & tmax6 & 0.059 & tmean10 & 0.043 \\
-    tmax8 & 0.139 & tmean9 & 0.072 & bio9  & 0.035 & tmean1 & 0.027 & tmin3 & 0.052 & prec4 & 0.043 \\
-    bio5  & 0.139 & bio18 & 0.07  & tmin8 & 0.034 & bio5  & 0.026 & bio8  & 0.046 & Altitude & 0.041 \\
-    tmax7 & 0.139 & v\_mod & 0.066 & tmean4 & 0.031 & tmean5 & 0.026 & tmean11 & 0.041 & bio6  & 0.039 \\
-    tmin7 & 0.138 & tmin9 & 0.066 & tmean2 & 0.031 & bio11 & 0.025 & tmean1 & 0.04  & tmin6 & 0.038 \\
-    tmax6 & 0.135 & bio10 & 0.065 & tmax12 & 0.03  & tmean2 & 0.022 & tmin9 & 0.04  & tmean12 & 0.035 \\
-    bio17 & 0.107 & tmax10 & 0.063 & tmean7 & 0.028 & tmin6 & 0.022 & tmean12 & 0.04  & tmean9 & 0.035 \\
-    bio14 & 0.095 & tmin6 & 0.061 & tmin9 & 0.023 & prec1 & 0.022 & tmax10 & 0.038 & prec5 & 0.033 \\
-    prec3 & 0.094 & prec11 & 0.056 & Altitude & 0.021 & tmean7 & 0.02  & tmin5 & 0.038 & tmean8 & 0.03 \\
-    bio15 & 0.092 & ts\_sand & 0.054 & tmax11 & 0.019 & tmean8 & 0.02  & bio11 & 0.037 & tmin2 & 0.03 \\
-    prec4 & 0.088 & sq4   & 0.049 & tmin4 & 0.018 & tmean9 & 0.019 & tmean8 & 0.035 & tmax1 & 0.03 \\
-    prec10 & 0.084 & tmin3 & 0.048 & tmax5 & 0.017 & prec11 & 0.019 & tmean7 & 0.033 & prec1 & 0.025 \\
-    ts\_sand & 0.073 & tmean10 & 0.047 & tmin10 & 0.017 & tmean11 & 0.018 & tmean2 & 0.03  & bio13 & 0.024 \\
-    ts\_loam & 0.072 & tmean5 & 0.044 & tmin6 & 0.017 & tmax4 & 0.016 & bio19 & 0.029 & tmean11 & 0.023 \\
-    prec6 & 0.069 & tmax4 & 0.042 & tmean6 & 0.017 & tmean10 & 0.016 & bio9  & 0.027 & tmax7 & 0.023 \\
-    prec9 & 0.063 & tmax11 & 0.041 & tmax6 & 0.017 & tmin5 & 0.015 & tmin7 & 0.026 & tmean7 & 0.023 \\
-    prec2 & 0.063 & bio6  & 0.038 & tmin12 & 0.017 & tmean6 & 0.015 & tmin4 & 0.025 & prec10 & 0.022 \\
-    bio4  & 0.06  & tmin1 & 0.038 & bio11 & 0.016 & prec6 & 0.014 & tmean5 & 0.023 & prec2 & 0.02 \\
-    prec5 & 0.058 & tmin2 & 0.037 & tmin11 & 0.015 & bio6  & 0.012 & tmean3 & 0.022 & bio8  & 0.018 \\
-    bio13 & 0.055 & Altitude & 0.036 & tmin1 & 0.013 & tmin1 & 0.012 & tmin8 & 0.022 & tmean2 & 0.017 \\
-    x\_mod & 0.053 & tmin10 & 0.034 & tmean5 & 0.013 & tmin12 & 0.011 & tmean10 & 0.021 & bio16 & 0.016 \\
-    prec1 & 0.05  & bio9  & 0.032 & tmean8 & 0.013 & tmin2 & 0.011 & tmean9 & 0.019 & tmean6 & 0.014 \\
-    bio16 & 0.049 & tmean1 & 0.029 & bio6  & 0.012 & bio1  & 0.011 & tmean4 & 0.019 & bio19 & 0.012 \\
-    bio7  & 0.043 & bio1  & 0.028 & tmean9 & 0.01  & tmin4 & 0.009 & ts\_clay & 0.018 & tmax11 & 0.012 \\
-    bio19 & 0.042 & tmean3 & 0.026 & tmean1 & 0.01  & tmax6 & 0.008 & prec10 & 0.015 & tmax10 & 0.011 \\
-    bio12 & 0.042 & tmean2 & 0.024 & bio10 & 0.01  & tmin11 & 0.007 & bio1  & 0.014 & tmax8 & 0.01 \\
-    bio3  & 0.04  & bio11 & 0.022 & tmax8 & 0.009 & bio8  & 0.007 & tmax4 & 0.014 & tmean1 & 0.009 \\
-    prec7 & 0.034 & tmean11 & 0.019 & tmax7 & 0.009 & bio10 & 0.007 & bio10 & 0.011 & bio14 & 0.009 \\
-    prec12 & 0.033 & tmin12 & 0.019 & bio5  & 0.008 & tmin9 & 0.006 & tmax5 & 0.009 & prec8 & 0.007 \\
-    bio2  & 0.033 & tmax1 & 0.017 & tmin5 & 0.008 & prec9 & 0.005 & bio5  & 0.008 & bio11 & 0.007 \\
-    prec8 & 0.032 & tmean4 & 0.016 & tmin2 & 0.007 & bio12 & 0.004 & tmax11 & 0.008 & tmin5 & 0.006 \\
-    sq4   & 0.026 & tmin5 & 0.013 & bio1  & 0.007 & tmax3 & 0.003 & tmax12 & 0.008 & tmax9 & 0.005 \\
-    sq3   & 0.024 & tmean12 & 0.012 & tmax10 & 0.006 & tmean4 & 0.003 & tmax3 & 0.007 & bio12 & 0.004 \\
-    v\_mod & 0.015 & tmax2 & 0.011 & tmean10 & 0.006 & tmin3 & 0.002 & sq3   & 0.007 & tmin3 & 0.004 \\
-    ts\_clay & 0.012 & tmin4 & 0.01  & tmean12 & 0.005 & tmin7 & 0.002 & tmax2 & 0.006 & prec6 & 0.004 \\
-    sq7   & 0.004 & tmax3 & 0.003 & bio8  & 0.004 & tmean3 & 0.002 & Altitude & 0.004 & tmin4 & 0.003 \\
-    prec11 & 0.004 & tmax12 & 0.002 & tmax9 & 0.003 & tmin10 & 0.002 & tmean6 & 0.002 & bio1  & 0.002 \\
-    bio18 & 0.001 & tmin11 & 0.001 & tmean11 & 0.001 & tmin8 & 0     & tmax1 & 0.001 & tmax12 & 0.002 \\
-    \textbf{Bayes Factors} &       &       &       &       &       &       &       &       &       &       &  \\
-    \multicolumn{2}{c}{0.77165} & \multicolumn{2}{c}{0.51652} & \multicolumn{2}{c}{0.21120} & \multicolumn{2}{c}{0.24063} & \multicolumn{2}{c}{1.96010} & \multicolumn{2}{c}{0.24594} \\
-    \bottomrule
-    \end{tabular}%
-\end{table}%
+% Appendix S4. Gel image
+%-------------------------------------------------------------------
+\begin{figure*}[!t]
+  \begin{center}
+   \includegraphics[width=100mm]{FigS2Gel.png}
+   \flushleft{Appendix S4: Agarose gel image of amplification products using our primer sets. Genotypes are indicated at the top of the gel.} 
+  \end{center}
+\end{figure*}
+%-------------------------------------------------------------------
 
 \clearpage
+\pagenumbering{arabic}
+\chead{\small{Vann et al.---American Journal of Botany (\#\#)(\#): \#\#\#-\#\#\#. 2014. -- Appendix S5 -- Page \thepage}}
 
-% Table S4 Diversity stats in tb1 region based on SNP 50 genotyping data
-\begin{table}[htbp]
-  \centering
-  \caption{Diversity in the \emph{tb1} region based on the maize SNP50 genotyping data}
-    \begin{tabular}{ccccc}\\
-    \textbf{Population} & \textbf{\# Seg Sites} & \textbf{$\hat\theta_\pi)$ / bp} & \textbf{$\hat\theta_W$ / bp} & \textbf{Tajima's D} \\
-    \midrule
-    Ejutla A & 4     & 0.15217 & 0.11902 & 0.76191 \\
-    Ejutla B & 5     & 0.15258 & 0.14877 & 0.07412 \\
-    La Mesa & 3     & 0.12802 & 0.08926 & 1.09209 \\
-    San Lorenzo & 3     & 0.09098 & 0.08926 & 0.04845 \\
-    \bottomrule
-    \end{tabular}%
-\end{table}%
+% Appendix S5. NJ Trees
+%-------------------------------------------------------------------
+\begin{figure*}[!t]
+  \begin{center}
+   \includegraphics[width=150mm]{FigS3NJtrees.pdf}
+    \flushleft{Appendix S5: Neighbor-joining tree of the sequenced region in the 5' UTR (right; Region 1) and the 66,169 bp upstream region (left; Region 2) of \emph{tb1}. Individuals with genotype data are colored: Homozygous for the teosinte (no \emph{Hopscotch}) allele (red), homozygous for the maize (\emph{Hopscotch}) allele (blue), heterozygotes (purple). TILs (teosinte inbred lines) are colored in green, with stars indicating the 3 TILs known to have the \emph{Hopscotch} insertion. Black indicates individuals not genotyped for the \emph{Hopscotch} insertion.} 
+  \end{center}
+\end{figure*}
+%-------------------------------------------------------------------
 \end{document}
