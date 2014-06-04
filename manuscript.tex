@@ -1,34 +1,34 @@
-\documentclass[11pt]{article}
-\usepackage[letterpaper, margin=1in]{geometry} 
+\documentclass[11pt]{article} %indicating type of document, font size
+\usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
 \usepackage{hyperref}
-\usepackage[leftcaption]{sidecap}
+\usepackage[leftcaption]{sidecap} %package for adding side captions
 \sidecaptionvpos{figure}{c} %position side caption
-\usepackage{lineno}
+\usepackage{lineno} %package for adding line numbers
 \usepackage{lipsum}
 \usepackage{indentfirst}
 \usepackage{color}
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage[pdftex]{graphicx}  
-\usepackage[labelsep=period]{caption}
-\usepackage{natbib}
-\bibliographystyle{AJB}
+\usepackage[labelsep=period]{caption} %package for formatting figure captions, separation between figure number and caption is period per AJB formatting requirements
+\usepackage{natbib} % package for formatting citations
+\bibliographystyle{AJB} %indicating bibliography uses the AJB.bst file for formatting...journals often have these available but these can also be customized
 \usepackage{authblk}
 \usepackage[table]{xcolor} %for table line color alteration
 \usepackage{subscript}
 \renewcommand{\baselinestretch}{1.5}
-\renewcommand{\refname}{\centering{LITERATURE CITED}}
+\renewcommand{\refname}{\centering{LITERATURE CITED}} %changing title of references to Literature Cited as stipulated by AJB
 
-\newcommand{\jri}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} }
-\newcommand{\mbh}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} }
-\newcommand{\lev}[1]{\textcolor{green}{\emph{\scriptsize #1}} }
+\newcommand{\jri}[1]{\textcolor{blue}{ \emph{\scriptsize  #1}} } %introducting new command "\jri" for jeff ross-ibarra to make comments in blue italics
+\newcommand{\mbh}[1]{\textcolor{red}{ \emph{\scriptsize  #1}} } %same for matt hufford in red
+\newcommand{\lev}[1]{\textcolor{green}{\emph{\scriptsize #1}} } %same for laura vann in green
 
 %----------------------------------------
 %AUTHORS
 %----------------------------------------
 
 \makeatletter
-\renewcommand{\maketitle}{\bgroup\vspace*{1cm}\setlength{\parindent}{0pt}
+\renewcommand{\maketitle}{\bgroup\vspace*{1cm}\setlength{\parindent}{0pt}%special formatting for AJB for title page
 \begin{center}
   \textbf{\@title}
   
@@ -40,7 +40,7 @@
 \title{\LARGE{\bf{Natural variation in teosinte at the domestication locus \emph{teosinte branched1} (\emph{tb1})}}\footnotemark}
 
 
-\author[2]{Laura Vann}
+\author[2]{Laura Vann}%author information
 \author[2,3]{Thomas Kono}
 \author[2,4]{Tanja Pyh\"aj\"arvi}
 \author[2,5,7]{Matthew B. Hufford}
@@ -63,10 +63,10 @@
 	\pagewiselinenumbers
 	\renewcommand\linenumberfont{\normalfont\bfseries\small}
 
-\clearpage
+\clearpage%inserts page break
 \footnotetext{\flushleft{Manuscript received \line(1,0){120};   revision accepted \line(1,0){120}.}
 \vspace*{1cm}
-\subsection*{Acknowledgements}
+\subsection*{Acknowledgements}%subsection header
 The authors thank the Department of Plant Sciences at UC Davis for graduate student research funding to LEV and for research funds supporting the project, UC Mexus for a postdoctoral scholar grant to MBH and JR-I, and G. Coop for helpful discussion.
 }
 \clearpage
@@ -87,7 +87,7 @@ The authors thank the Department of Plant Sciences at UC Davis for graduate stud
 
 \emph{Premise of the study:} The \emph{teosinte branched1} (\emph{tb1}) gene is a major QTL controlling branching differences between maize and its wild progenitor, teosinte. The insertion of a transposable element (\emph{Hopscotch}) upstream of \emph{tb1} is known to enhance the gene's expression, causing reduced tillering in maize. Observations of the maize \emph{tb1} allele in teosinte and estimates of an insertion age of the \emph{Hopscotch} that predates domestication led us to investigate its prevalence and potential role in teosinte. 
 
-\vspace*{0.2cm}
+\vspace*{0.2cm}%introduces vertical space between abstract sections
 
 \emph{Methods:} Prevalence of the \emph{Hopscotch} element was assessed across an Americas-wide sample of 1110 maize and teosinte individuals using a co-dominant PCR assay.  Population genetic summaries were calculated for a subset of individuals from four teosinte populations in central Mexico. Phenotypic data were also collected from a single teosinte population where \emph{Hopscotch} was found segregating.
 
@@ -106,7 +106,7 @@ The authors thank the Department of Plant Sciences at UC Davis for graduate stud
 
 \parindent=20pt
 
-\begin{centering}
+\begin{centering}%centers section title
 \section*{INTRODUCTION}
 \end{centering}
 
@@ -187,15 +187,15 @@ In conclusion, our findings demonstrate that the \emph{Hopscotch} allele is more
 
 \clearpage
 
-\bibliography{refs}
+\bibliography{refs}%print bibliography
 
 % Table 1
 \begin{table}[htbp]
-\rowcolors{2}{gray!25}{white}
+\rowcolors{2}{gray!25}{white}%alternating row colors in table
   \centering
-  \caption{Pairwise F\textsubscript{ST} values from sequence and \emph{Hopscotch} genotyping data}
+  \caption{Pairwise F\textsubscript{ST} values from sequence and \emph{Hopscotch} genotyping data}%table caption
   
-    \begin{tabular}{cccc}\\\toprule
+    \begin{tabular}{cccc}\\\toprule%number of columns and line across top of table
     \textbf{Comparison} & \textbf{Region 1} & \textbf{Region 2} & \textbf{\emph{Hopscotch}} \\\midrule
     EjuA \& EjuB & 0     & 0     & 0 \\
     EjuA \& MSA & 0.326 & 0.328 & 0.186 \\
@@ -204,7 +204,7 @@ In conclusion, our findings demonstrate that the \emph{Hopscotch} allele is more
     EjuB \& SLO & 0.512  & 0.290 & 0.280 \\
     MSA \& SLO & 0.007  & 0 & 0.016 \\\bottomrule
     \end{tabular}
-  \label{Table1Fst}
+  \label{Table1Fst}%indicates link between table and mention in text
 \end{table}
 
 % Table 2 Diversity Statistics
