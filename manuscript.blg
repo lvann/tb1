@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: manuscript.aux
 The style file: AJB.bst
 Database file #1: refs.bib
-You've used 60 entries,
+You've used 61 entries,
             2929 wiz_defined-function locations,
-            1000 strings with 16883 characters,
-and the built_in function-call counts, 46734 in all, are:
-= -- 3452
-> -- 3205
+            1007 strings with 17283 characters,
+and the built_in function-call counts, 47957 in all, are:
+= -- 3527
+> -- 3326
 < -- 21
-+ -- 1078
-- -- 994
-* -- 3845
-:= -- 7369
-add.period$ -- 240
-call.type$ -- 60
-change.case$ -- 629
-chr.to.int$ -- 61
-cite$ -- 60
-duplicate$ -- 3180
-empty$ -- 2872
-format.name$ -- 1181
-if$ -- 9171
++ -- 1118
+- -- 1033
+* -- 3957
+:= -- 7561
+add.period$ -- 244
+call.type$ -- 61
+change.case$ -- 647
+chr.to.int$ -- 62
+cite$ -- 61
+duplicate$ -- 3256
+empty$ -- 2929
+format.name$ -- 1223
+if$ -- 9403
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 688
-newline$ -- 306
-num.names$ -- 240
-pop$ -- 1319
+missing$ -- 707
+newline$ -- 311
+num.names$ -- 244
+pop$ -- 1356
 preamble$ -- 1
-purify$ -- 571
+purify$ -- 588
 quote$ -- 0
-skip$ -- 1023
+skip$ -- 1047
 stack$ -- 0
-substring$ -- 2010
-swap$ -- 1602
+substring$ -- 2048
+swap$ -- 1644
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 534
+type$ -- 543
 warning$ -- 0
-while$ -- 237
+while$ -- 241
 width$ -- 0
-write$ -- 781
+write$ -- 794

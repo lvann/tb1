@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{61}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -371,6 +371,16 @@
 \newblock Genetic signals of origin, spread, and introgression in a large
   sample of maize landraces.
 \newblock \emph{P Natl Acad Sci Usa} 108: 1088--1092.
+
+\bibitem[{Warburton et~al.(2011)Warburton, Garrison, Taba, Charcosset, Mir,
+  Dumas, Madur, Dreisigacker, Bedoya, Prasanna, Xie, Hearne, and
+  Franco}]{Warburton2011}
+\textsc{Warburton, M.~L., W.~Garrison, S.~Taba, A.~Charcosset, C.~Mir,
+  F.~Dumas, D.~Madur, S.~Dreisigacker, C.~Bedoya, B.~Prasanna, C.~Xie,
+  S.~Hearne, and J.~Franco}. 2011.
+\newblock Gene flow among different teosinte taxa and into the domesticated
+  maize gene pool.
+\newblock \emph{Genetic Resources and Crop Evolution} 58: 1243--1261.
 
 \bibitem[{Weber et~al.(2007)Weber, Clark, Vaughn, Sanchez-Gonzalez, Yu,
   Yandell, Bradbury, and Doebley}]{Weber2007}
