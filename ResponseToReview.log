@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 AUG 2014 19:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 AUG 2014 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,12 +240,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -295,12 +295,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
@@ -392,12 +392,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
@@ -437,12 +437,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
@@ -470,12 +470,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[11]
 Missing character: There is no ï in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
@@ -510,7 +509,7 @@ Package natbib Warning: There were undefined citations.
 Here is how much of TeX's memory you used:
  2323 strings out of 493488
  31467 string characters out of 3141326
- 182432 words of memory out of 3000000
+ 183432 words of memory out of 3000000
  5645 multiletter control sequences out of 15000+200000
  7806 words of font info for 28 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -522,7 +521,7 @@ blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (12 pages, 104815 bytes).
+Output written on ResponseToReview.pdf (12 pages, 105035 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
