@@ -1,7 +1,18 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem[{Bauer et~al.(2013)Bauer, Falque, Walter, Bauland, Camisan, Campo,
+  Meyer, Ranc, Rincent, Schipprack, Altmann, Flament, Melchinger, Menz,
+  Moreno-Gonzalez, Ouzunova, Revilla, Charcosset, Martin, and
+  Schoen}]{bauer2013}
+\textsc{Bauer, E., M.~Falque, H.~Walter, C.~Bauland, C.~Camisan, L.~Campo,
+  N.~Meyer, N.~Ranc, R.~Rincent, W.~Schipprack, T.~Altmann, P.~Flament, A.~E.
+  Melchinger, M.~Menz, J.~Moreno-Gonzalez, M.~Ouzunova, P.~Revilla,
+  A.~Charcosset, O.~C. Martin, and C.-C. Schoen}. 2013.
+\newblock Intraspecific variation of recombination rate in maize.
+\newblock \emph{GENOME BIOLOGY} 14.
 
 \bibitem[{Remington et~al.(2001)Remington, Thornsberry, Matsuoka, Wilson,
   Whitt, Doebley, Kresovich, Goodman, and Buckler}]{remington2001}
