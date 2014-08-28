@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 AUG 2014 12:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 AUG 2014 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -188,80 +188,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
 [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
@@ -276,45 +276,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-[6]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-Missing character: There is no ï in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no € in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
@@ -324,63 +316,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 137.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 137.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 137.
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 145.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 145.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 145.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
@@ -394,8 +386,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ® in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
@@ -411,12 +401,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
@@ -442,30 +432,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-Missing character: There is no ï in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no € in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
@@ -474,6 +461,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no € in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
@@ -484,15 +474,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-(./ResponseToReview.bbl [13]) [14] (./ResponseToReview.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+(./ResponseToReview.bbl [14]) [15] (./ResponseToReview.aux) ) 
 Here is how much of TeX's memory you used:
- 2334 strings out of 493488
- 31655 string characters out of 3141326
- 184816 words of memory out of 3000000
- 5654 multiletter control sequences out of 15000+200000
+ 2352 strings out of 493488
+ 32024 string characters out of 3141326
+ 186150 words of memory out of 3000000
+ 5672 multiletter control sequences out of 15000+200000
  7799 words of font info for 28 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 24i,6n,32p,1620b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,32p,1764b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texliv
 e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
 /2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive
@@ -502,10 +512,10 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (14 pages, 138935 bytes).
+Output written on ResponseToReview.pdf (15 pages, 142756 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

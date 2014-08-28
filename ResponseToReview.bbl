@@ -1,7 +1,13 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem[{Bai and Lindhout(2007)}]{Bai2007}
+\textsc{Bai, Y. and P.~Lindhout}. 2007.
+\newblock Domestication and breeding of tomatoes: What have we gained and what
+  can we gain in the future?
+\newblock \emph{Annals of Botany} 100: 1085--1094.
 
 \bibitem[{Bauer et~al.(2013)Bauer, Falque, Walter, Bauland, Camisan, Campo,
   Meyer, Ranc, Rincent, Schipprack, Altmann, Flament, Melchinger, Menz,
@@ -19,6 +25,18 @@
 \newblock Harmonized World Soil Database, version 1.2.
 \newblock FAO, Rome, Italy and IIASA, Laxenburg, Austria.
 
+\bibitem[{Lukens and Doebley(1999)}]{LukensDoebley1999}
+\textsc{Lukens, L. and J.~Doebley}. 1999.
+\newblock Epistatic and environmental interactions for quantitative trait loci
+  involved in maize evolution.
+\newblock \emph{Genet Res} 74: 291--302.
+
+\bibitem[{Pyh{\"a}j{\"a}rvi et~al.(2013)Pyh{\"a}j{\"a}rvi, Hufford, and
+  Ross-Ibarra}]{Pyhajarvi2013}
+\textsc{Pyh{\"a}j{\"a}rvi, T., M.~Hufford, and J.~Ross-Ibarra}. 2013.
+\newblock Complex patterns of local adaptation in the wild relatives of maize.
+\newblock \emph{Genome Biology and Evolution} 5: 1594--1609.
+
 \bibitem[{Remington et~al.(2001)Remington, Thornsberry, Matsuoka, Wilson,
   Whitt, Doebley, Kresovich, Goodman, and Buckler}]{Remington2001}
 \textsc{Remington, D.~L., J.~M. Thornsberry, Y.~Matsuoka, L.~M. Wilson, S.~R.
@@ -27,5 +45,25 @@
   the maize genome.
 \newblock \emph{Proceedings of the National Academy of Sciences} 98:
   11479--11484.
+
+\bibitem[{Studer and Doebley(2012)}]{StuderDoebley2012}
+\textsc{Studer, A. and J.~Doebley}. 2012.
+\newblock Evidence for a natural allelic series at the maize domestication
+  locus teosinte branched1.
+\newblock \emph{Genetics} 19: 951--958.
+
+\bibitem[{Studer et~al.(2011)Studer, Zhao, Ross-Ibarra, and
+  Doebley}]{Studer2011}
+\textsc{Studer, A., Q.~Zhao, J.~Ross-Ibarra, and J.~Doebley}. 2011.
+\newblock Identification of a functional transposon insertion in the maize
+  domestication gene tb1.
+\newblock \emph{Nat Genet} 43: 1160--U164.
+
+\bibitem[{Whitton et~al.(1997)Whitton, Wolf, Arias, Snow, and
+  Riesberg}]{Whitton1997}
+\textsc{Whitton, J., D.~Wolf, D.~Arias, A.~Snow, and L.~Riesberg}. 1997.
+\newblock The persistence of cultivar alleles in wild populations of sunflowers
+  five generations after hybridization.
+\newblock \emph{Theoretical and Applied Genetcs} 95: 33--40.
 
 \end{thebibliography}
