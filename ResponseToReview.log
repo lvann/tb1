@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 AUG 2014 17:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 AUG 2014 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -480,12 +480,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
@@ -513,7 +513,7 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (15 pages, 142280 bytes).
+Output written on ResponseToReview.pdf (15 pages, 142348 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
