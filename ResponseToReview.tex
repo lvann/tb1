@@ -20,7 +20,7 @@ We would like to thank you and two anonymous reviewers for your helpful comments
 
 \noindent Sincerely,\\
 
-\noindent Jeffrey Ross-Ibarra and Matthew Hufford
+\noindent Matthew Hufford and Jeffrey Ross-Ibarra
 
 \section*{Response to Associate Editor:}
 
@@ -39,23 +39,18 @@ In addition, we have added explanation of the accession names in the supplementa
 Phenotyping experiments - These are curious experiments.  First, why did you not generate a population of individuals with known genotypes and then test for the effect of genotype on phenotype?  Why take a random sample and just hope that you will get the necessary number of individuals of each genotype?  How can you randomize the growing conditions with respect to genotype, if you don't know genotypes ahead of time but instead determine them after all the growing measurements are taken?\\
 
 \res{We agree that a planned grow-out with previously determined genotypes could be useful.  
-However, prior work has already shown that \emph{Hopscotch} has a phenotypic effect in isogenic and inbred backgrounds \citep{Studer2011}, and our interests lie in the effects of the \emph{Hopscotch} in genetic backgrounds occurring within nature.
+However, prior work has already shown that \emph{Hopscotch} has a phenotypic effect in isogenic and inbred backgrounds \citep{Studer2011}, and our interests lie in the effects of the \emph{Hopscotch} in genetic backgrounds occurring in nature.
 Moreover, our sampling of individuals from this population for our grow-out was not random.  
 We initially genotyped a single individual from each sampling site within the population and then targeted our sample to include individuals from sampling sites where individuals were homozygous or heterozygous for the \emph{Hopscotch} allele.
 Our reasoning in using this approach was that we wanted a high proportion of both \emph{Hopscotch} positive and \emph{Hopscotch} negative individuals for phenotypic comparisons and, given that the \emph{Hopscotch} allele is typically rare in teosinte, we wanted to enrich our sample for this allele. 
 We were overly successful in this approach and had a higher frequency of individuals with the \emph{Hopscotch} positive allele.
-We have clarified our sampling methodology on pages 8-9, lines 174-185. Finally, plants were situated randomly in the greenhouse prior to genotyping.
-Regardless of the fact that genotypes were eventually determined, this still represents a randomized experimental design.}
+We have clarified our sampling methodology on pages 8-9, lines 174-185. Finally, plants were situated randomly in the greenhouse prior to genotyping, which effectively represents a randomized experimental design.}
 
 Why are sample sizes not reported?  You provide total samples sizes (eg, 206 or 216 for Phenotyping 1, depending on whether you read the Methods or the Results), but not sample sizes for each genotypic class.\\
 
 \res{We have reported sample size information for all three genotypes on page 11 lines 266-267.} 
 
-It was not clear to me what ``to detect the observed effect" means in lines 12-13 of p. 9.  Your Phenotyping 1 results show no effect of genotype on tillering.  Thus, it is not clear what effect you are referring to.\\
-
-\lev{Matt, should we remove this? I left in the bit about the post-hoc power analyses because I didn't know if we wanted to leave it in even though we removed phenotyping 2}
-
-What was the purpose of the Phenotyping 2  experiment?  You already showed no effect of genotype on phenotype using populations where you are most likely to see segregation for the insertion, so it was not clear to me why sampling more broadly, especially from populations with no evidence of the Hopscotch insertion, would be expected to improve your understanding of this relationship.\\
+It was not clear to me what ``to detect the observed effect" means in lines 12-13 of p. 9.  Your Phenotyping 1 results show no effect of genotype on tillering.  Thus, it is not clear what effect you are referring to. What was the purpose of the Phenotyping 2  experiment?  You already showed no effect of genotype on phenotype using populations where you are most likely to see segregation for the insertion, so it was not clear to me why sampling more broadly, especially from populations with no evidence of the Hopscotch insertion, would be expected to improve your understanding of this relationship.\\
 
 \res{On Day 40 of the Phenotyping 1 experiment we saw a weak positive correlation between the \emph{Hopscotch} insertion and tillering index (p=0.0848).  
 Using data from Phenotyping 1, we conducted a power analysis to determine the number of individuals we would need in both homozygous genotypic classes to observe a significant result.
@@ -135,8 +130,6 @@ Page 5, lines 22 - 23: how many individuals per accession? A fixed number, or va
 
 \res{We have added a range of values (1-38 individuals) per population in the methods, pages 5-6, lines 85-90: ``We sampled 1,110 individuals from 350 accessions (247 maize landraces, 17 \emph{mexicana} populations, and 86 \emph{parviglumis} populations; ranging from 1-38 individuals per population, with an average of 11 individuals per population for \emph{parviglumis} and \emph{mexicana} and 2 individuals per landrace accession) and assessed the presence or absence of the \emph{Hopscotch} insertion (Appendix 1 and Appendix 2, See Supplemental Materials with the online version of this article)."}
 
-%JRI STOPPED HERE
-
 11) Page 5, Line 28: mention how big the hopscotch element is.  Can it be amplified in one amplicon? Again, this would be useful to know without having to look in appendix or supplements.\\
 
 \res{The sizes of amplicons are now mentioned explicitly in the Materials and Methods (page 6, lines 99-104) following primer sequences: 
@@ -163,6 +156,8 @@ HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCT
 16) Page 8 lines 20 - 21:" We created haplotype blocks using a custom Perl script that grouped SNPs separated by less than 5kb into haplotypes." Does LD data in your parviglumus support 5Kb?\\ 
 
 \res{While the recombination landscape will vary to some extent across individuals of teosinte and maize, broad-scale patterns are conserved \citep{bauer2013}.  We therefore relied on previous estimates of the decay of linkage disequilibrium based on data from 102 lines of maize that suggest LD (as measured by $r^2$) will decline to 0.1 within 2,000 bp \citep{Remington2001}.  Using this measure, we chose 5kb as a conservative estimate of the extent of linkage disequilibrium in our sample and the physical distance over which SNPs would have to be separated in order to be in weak linkage and not violate assumptions of the STRUCTURE model.}
+
+\jri{please make sure the perl script is on github or online elsewhere and we cite it as such.}
 
 17) Page 9 lines 2 - 3: ``Plants were watered three times a day by hand and with an automatic drip containing 10-20-10 fertilizer." This sounds odd; by hand or automatically? Or you turned on the drip by hand? In which case, it was not automatic\\
 
