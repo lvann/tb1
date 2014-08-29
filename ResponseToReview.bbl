@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -25,6 +25,24 @@
 \newblock Harmonized World Soil Database, version 1.2.
 \newblock FAO, Rome, Italy and IIASA, Laxenburg, Austria.
 
+\bibitem[{Gallavotti et~al.(2004)Gallavotti, Zhao, Kyozuka, Meeley, Ritter,
+  Doebley, Pe, and Schmidt}]{Gallavotti2004}
+\textsc{Gallavotti, A., Q.~Zhao, J.~Kyozuka, R.~Meeley, M.~Ritter, J.~Doebley,
+  M.~Pe, and R.~Schmidt}. 2004.
+\newblock The role of barren stalk1 in the architecture of maize.
+\newblock \emph{Nature} 432: 630--635.
+
+\bibitem[{Kebrom and Brutnell(2007)}]{KebromBrutnell2007}
+\textsc{Kebrom, T. and T.~Brutnell}. 2007.
+\newblock The molecular analysis of the shade avoidance syndrome in the grasses
+  has begun.
+\newblock \emph{Journal of Experimental Botany} 58: 3079--3089.
+
+\bibitem[{Kovach and McCouch(2008)}]{KovachMcCouch2008}
+\textsc{Kovach, M. and S.~McCouch}. 2008.
+\newblock Leveraging natural diversity: back through the bottleneck.
+\newblock \emph{Genome studies and Molecular Genetics} 11: 193--200.
+
 \bibitem[{Lukens and Doebley(1999)}]{LukensDoebley1999}
 \textsc{Lukens, L. and J.~Doebley}. 1999.
 \newblock Epistatic and environmental interactions for quantitative trait loci
@@ -45,6 +63,12 @@
   the maize genome.
 \newblock \emph{Proceedings of the National Academy of Sciences} 98:
   11479--11484.
+
+\bibitem[{Sigmon and Vollbrecht(2010)}]{SigmonVollbrecht2010}
+\textsc{Sigmon, B. and E.~Vollbrecht}. 2010.
+\newblock Evidence of selection at the ramosa1 locus during maize
+  domestication.
+\newblock \emph{Mol Ecol} 19: 1296--1311.
 
 \bibitem[{Studer and Doebley(2012)}]{StuderDoebley2012}
 \textsc{Studer, A. and J.~Doebley}. 2012.

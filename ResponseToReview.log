@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 AUG 2014 11:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 AUG 2014 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,10 +306,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  []
 
 
-Package natbib Warning: Citation `KovackMcCouch2008' on page 7 undefined on inp
-ut line 114.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
@@ -320,27 +316,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 
-Package natbib Warning: Citation `KovachMcCouch2008' on page 7 undefined on inp
-ut line 118.
-
-
-Package natbib Warning: Citation `Gallavotti2004; SigmonVollbrecht2010' on page
- 7 undefined on input line 118.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
-
-[7]
-
-Package natbib Warning: Citation `KebromBrutnell2007' on page 8 undefined on in
-put line 122.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
@@ -377,6 +360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
+[9]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 142.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -388,7 +372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
@@ -458,12 +442,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
@@ -501,43 +485,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-(./ResponseToReview.bbl [14])
-
-Package natbib Warning: There were undefined citations.
-
-[15] (./ResponseToReview.aux) ) 
+(./ResponseToReview.bbl [14]) [15] (./ResponseToReview.aux) ) 
 Here is how much of TeX's memory you used:
- 2358 strings out of 493488
- 32144 string characters out of 3141326
- 185150 words of memory out of 3000000
- 5677 multiletter control sequences out of 15000+200000
- 8107 words of font info for 29 fonts, out of 3000000 for 9000
+ 2364 strings out of 493488
+ 32327 string characters out of 3141326
+ 185372 words of memory out of 3000000
+ 5684 multiletter control sequences out of 15000+200000
+ 7799 words of font info for 28 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  24i,6n,32p,1764b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (15 pages, 150851 bytes).
+</usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ResponseToReview.pdf (15 pages, 143026 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
