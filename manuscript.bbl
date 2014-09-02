@@ -10,12 +10,6 @@
   crop-wild sunflower hybrids.
 \newblock \emph{Mol Ecol} 17: 666--677.
 
-\bibitem[{Bai and Lindhout(2007)}]{Bai2007}
-\textsc{Bai, Y. and P.~Lindhout}. 2007.
-\newblock Domestication and breeding of tomatoes: What have we gained and what
-  can we gain in the future?
-\newblock \emph{Annals of Botany} 100: 1085--1094.
-
 \bibitem[{Barrett(1983)}]{Barrett1983}
 \textsc{Barrett, S.} 1983.
 \newblock Crop mimicry in weeds.
@@ -126,6 +120,14 @@
   relatives.
 \newblock \emph{Annu Rev Ecol Syst} 30: 539--563.
 
+\bibitem[{Ellstrand et~al.(2010)Ellstrand, Heredia, Leak-Garcia, Heraty,
+  Burger, Yao, Nohzadeh-Malakshah, and Ridley}]{ellstrand2010crops}
+\textsc{Ellstrand, N.~C., S.~M. Heredia, J.~A. Leak-Garcia, J.~M. Heraty, J.~C.
+  Burger, L.~Yao, S.~Nohzadeh-Malakshah, and C.~E. Ridley}. 2010.
+\newblock Crops gone wild: evolution of weeds and invasives from domesticated
+  ancestors.
+\newblock \emph{Evolutionary Applications} 3: 494--504.
+
 \bibitem[{Falush et~al.(2003)Falush, Stephens, and Pritchard}]{Falush2003}
 \textsc{Falush, D., M.~Stephens, and J.~Pritchard}. 2003.
 \newblock Inference of population structure using multilocus genotype data:
@@ -144,6 +146,13 @@
 \newblock Allopatric genetic origins for sympatric host-plant shifts and race
   formation in rhagoletis.
 \newblock \emph{P Natl Acad Sci Usa} 100: 10314--10319.
+
+\bibitem[{Flint-Garcia et~al.(2009)Flint-Garcia, Bodnar, and
+  Scott}]{flint2009wide}
+\textsc{Flint-Garcia, S.~A., A.~L. Bodnar, and M.~P. Scott}. 2009.
+\newblock Wide variability in kernel composition, seed characteristics, and
+  zein profiles among diverse maize inbreds, landraces, and teosinte.
+\newblock \emph{Theoretical and applied genetics} 119: 1129--1142.
 
 \bibitem[{Fox and Weisberg(2011)}]{FoxWeisberg2011}
 \textsc{Fox, J. and S.~Weisberg}. 2011.
@@ -241,11 +250,6 @@
 \newblock Reverse evolution of armor plates in the threespine stickleback.
 \newblock \emph{Curr Biol} 18: 769--774.
 
-\bibitem[{Kovach and McCouch(2008)}]{KovachMcCouch2008}
-\textsc{Kovach, M. and S.~McCouch}. 2008.
-\newblock Leveraging natural diversity: back through the bottleneck.
-\newblock \emph{Genome studies and Molecular Genetics} 11: 193--200.
-
 \bibitem[{Li(2012)}]{Li2012}
 \textsc{Li, W.} 2012.
 \newblock Tassels replace upper ears1 encodes a putative transcription factor
@@ -283,6 +287,12 @@
 \textsc{Olsen, K. and B.~Gross}. 2010.
 \newblock Genetic perspectives on crop domestication.
 \newblock \emph{Trends in Plant Science} 15: 529--537.
+
+\bibitem[{Olsen and Wendel(2013)}]{OlsenWendel2013}
+\textsc{Olsen, K.~M. and J.~F. Wendel}. 2013.
+\newblock A bountiful harvest: Genomic insights into crop domestication
+  phenotypes.
+\newblock \emph{Annual Review of Plant Biology} 64: 47--70.
 
 \bibitem[{Piperno et~al.(2009)Piperno, Ranere, Holst, Iriarte, and
   Dickau}]{Piperno2009}
@@ -397,13 +407,6 @@
 \newblock grassy tillers1 promotes apical dominance in maize and responds to
   shade signals in the grasses.
 \newblock \emph{P Natl Acad Sci Usa} 108: E506--E512.
-
-\bibitem[{Whitton et~al.(1997)Whitton, Wolf, Arias, Snow, and
-  Riesberg}]{Whitton1997}
-\textsc{Whitton, J., D.~Wolf, D.~Arias, A.~Snow, and L.~Riesberg}. 1997.
-\newblock The persistence of cultivar alleles in wild populations of sunflowers
-  five generations after hybridization.
-\newblock \emph{Theoretical and Applied Genetcs} 95: 33--40.
 
 \bibitem[{Wilkes(1977)}]{Wilkes1977}
 \textsc{Wilkes, H.} 1977.

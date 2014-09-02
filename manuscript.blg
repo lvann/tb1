@@ -3,44 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: manuscript.aux
 The style file: AJB.bst
 Database file #1: refs.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "XXX"
 You've used 61 entries,
             2929 wiz_defined-function locations,
-            1007 strings with 17283 characters,
-and the built_in function-call counts, 47957 in all, are:
-= -- 3527
-> -- 3326
-< -- 21
-+ -- 1118
-- -- 1033
-* -- 3957
-:= -- 7561
+            1012 strings with 17512 characters,
+and the built_in function-call counts, 48197 in all, are:
+= -- 3540
+> -- 3362
+< -- 20
++ -- 1130
+- -- 1045
+* -- 3984
+:= -- 7599
 add.period$ -- 244
 call.type$ -- 61
-change.case$ -- 647
+change.case$ -- 651
 chr.to.int$ -- 62
 cite$ -- 61
-duplicate$ -- 3256
-empty$ -- 2929
-format.name$ -- 1223
-if$ -- 9403
+duplicate$ -- 3268
+empty$ -- 2933
+format.name$ -- 1233
+if$ -- 9441
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 707
+missing$ -- 711
 newline$ -- 311
 num.names$ -- 244
-pop$ -- 1356
+pop$ -- 1364
 preamble$ -- 1
-purify$ -- 588
+purify$ -- 592
 quote$ -- 0
-skip$ -- 1047
+skip$ -- 1049
 stack$ -- 0
-substring$ -- 2048
-swap$ -- 1644
+substring$ -- 2056
+swap$ -- 1651
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 543
 warning$ -- 0
-while$ -- 241
+while$ -- 243
 width$ -- 0
 write$ -- 794
+(There were 2 warnings)
