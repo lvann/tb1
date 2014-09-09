@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 SEP 2014 13:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 SEP 2014 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,12 +285,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -312,29 +312,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
 
 Package natbib Warning: Citation `KovackMcCouch2008' on page 7 undefined on inp
-ut line 113.
+ut line 115.
 
 
-Package natbib Warning: Citation `SigmonVollbrect2010' on page 7 undefined on i
-nput line 113.
+Package natbib Warning: Citation `Rabbit' on page 7 undefined on input line 115
+.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-[7]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
@@ -344,26 +334,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 132.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 132.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 132.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
@@ -375,17 +364,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 138.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 138.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 138.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
@@ -415,24 +406,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
  []
 
 
-Package natbib Warning: Citation `Chia2012' on page 11 undefined on input line 
-153.
-
-
-Package natbib Warning: Citation `Chia2012' on page 11 undefined on input line 
-153.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -458,22 +441,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
 
@@ -497,19 +480,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-(./ResponseToReview.bbl [13] [14])
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+(./ResponseToReview.bbl [14])
 
 Package natbib Warning: There were undefined citations.
 
 [15] (./ResponseToReview.aux) ) 
 Here is how much of TeX's memory you used:
- 2369 strings out of 493488
- 32401 string characters out of 3141326
- 185372 words of memory out of 3000000
- 5688 multiletter control sequences out of 15000+200000
+ 2377 strings out of 493488
+ 32606 string characters out of 3141326
+ 186790 words of memory out of 3000000
+ 5696 multiletter control sequences out of 15000+200000
  8107 words of font info for 29 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 24i,6n,32p,1764b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,32p,1770b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
@@ -519,7 +517,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (15 pages, 144112 bytes).
+Output written on ResponseToReview.pdf (15 pages, 146373 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream

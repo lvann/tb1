@@ -3,44 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ResponseToReview.aux
 The style file: AJB.bst
 Database file #1: refs.bib
-You've used 13 entries,
+I was expecting a `{' or a `('---line 965 of file refs.bib
+ : @article 
+ :          = {Rabbit,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "KovackMcCouch2008"
+Warning--I didn't find a database entry for "Rabbit"
+You've used 16 entries,
             2929 wiz_defined-function locations,
-            695 strings with 7461 characters,
-and the built_in function-call counts, 9550 in all, are:
-= -- 727
-> -- 608
-< -- 7
-+ -- 205
-- -- 187
-* -- 767
-:= -- 1509
-add.period$ -- 52
-call.type$ -- 13
-change.case$ -- 126
-chr.to.int$ -- 14
-cite$ -- 13
-duplicate$ -- 655
-empty$ -- 605
-format.name$ -- 235
-if$ -- 1883
+            718 strings with 8456 characters,
+and the built_in function-call counts, 13241 in all, are:
+= -- 954
+> -- 980
+< -- 8
++ -- 328
+- -- 307
+* -- 1103
+:= -- 2089
+add.period$ -- 64
+call.type$ -- 16
+change.case$ -- 181
+chr.to.int$ -- 17
+cite$ -- 16
+duplicate$ -- 886
+empty$ -- 770
+format.name$ -- 366
+if$ -- 2577
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 138
-newline$ -- 71
-num.names$ -- 52
-pop$ -- 268
+missing$ -- 196
+newline$ -- 86
+num.names$ -- 64
+pop$ -- 381
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 166
 quote$ -- 0
-skip$ -- 220
+skip$ -- 295
 stack$ -- 0
-substring$ -- 416
-swap$ -- 325
+substring$ -- 517
+swap$ -- 454
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 141
 warning$ -- 0
-while$ -- 50
+while$ -- 64
 width$ -- 0
-write$ -- 173
+write$ -- 212
+(There was 1 error message)

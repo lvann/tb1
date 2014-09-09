@@ -1,13 +1,7 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
-
-\bibitem[{Bai and Lindhout(2007)}]{Bai2007}
-\textsc{Bai, Y. and P.~Lindhout}. 2007.
-\newblock Domestication and breeding of tomatoes: What have we gained and what
-  can we gain in the future?
-\newblock \emph{Annals of Botany} 100: 1085--1094.
 
 \bibitem[{Bauer et~al.(2013)Bauer, Falque, Walter, Bauland, Camisan, Campo,
   Meyer, Ranc, Rincent, Schipprack, Altmann, Flament, Melchinger, Menz,
@@ -20,10 +14,39 @@
 \newblock Intraspecific variation of recombination rate in maize.
 \newblock \emph{GENOME BIOLOGY} 14.
 
+\bibitem[{Chia et~al.(2012)Chia, Song, Bradbury, Costich, de, Doebley, Elshire,
+  Gaut, Geller, Glaubitz, Gore, Guill, Holland, Hufford, Lai, Li, Liu, Lu,
+  McCombie, Nelson, Poland, Prasanna, Pyh{\"a}j{\"a}rvi, Rong, Sekhon, Sun,
+  Tenaillon, Tian, Wang, Xu, Zhang, Kaeppler, Ross-Ibarra, McMullen, Buckler,
+  Zhang, Xu, and Ware}]{Chia2012}
+\textsc{Chia, J., C.~Song, P.~Bradbury, D.~Costich, N.~de, Leon, J.~Doebley,
+  R.~Elshire, B.~Gaut, L.~Geller, J.~Glaubitz, M.~Gore, K.~Guill, J.~Holland,
+  M.~Hufford, J.~Lai, M.~Li, X.~Liu, Y.~Lu, R.~McCombie, R.~Nelson, J.~Poland,
+  B.~Prasanna, T.~Pyh{\"a}j{\"a}rvi, T.~Rong, R.~Sekhon, Q.~Sun, M.~Tenaillon,
+  F.~Tian, J.~Wang, X.~Xu, Z.~Zhang, S.~Kaeppler, J.~Ross-Ibarra, M.~McMullen,
+  E.~Buckler, G.~Zhang, Y.~Xu, and D.~Ware}. 2012.
+\newblock Maize hapmap2 identifies extant variation from a genome in flux.
+\newblock \emph{Nat Genet} 44: 803--U238.
+
+\bibitem[{Ellstrand et~al.(2010)Ellstrand, Heredia, Leak-Garcia, Heraty,
+  Burger, Yao, Nohzadeh-Malakshah, and Ridley}]{ellstrand2010crops}
+\textsc{Ellstrand, N.~C., S.~M. Heredia, J.~A. Leak-Garcia, J.~M. Heraty, J.~C.
+  Burger, L.~Yao, S.~Nohzadeh-Malakshah, and C.~E. Ridley}. 2010.
+\newblock Crops gone wild: evolution of weeds and invasives from domesticated
+  ancestors.
+\newblock \emph{Evolutionary Applications} 3: 494--504.
+
 \bibitem[{FAO/IIASA/ISRIC/ISSCAS/JRC(2012)}]{FAOHWSD}
 \textsc{FAO/IIASA/ISRIC/ISSCAS/JRC}. 2012.
 \newblock Harmonized World Soil Database, version 1.2.
 \newblock FAO, Rome, Italy and IIASA, Laxenburg, Austria.
+
+\bibitem[{Flint-Garcia et~al.(2009)Flint-Garcia, Bodnar, and
+  Scott}]{flint2009wide}
+\textsc{Flint-Garcia, S.~A., A.~L. Bodnar, and M.~P. Scott}. 2009.
+\newblock Wide variability in kernel composition, seed characteristics, and
+  zein profiles among diverse maize inbreds, landraces, and teosinte.
+\newblock \emph{Theoretical and applied genetics} 119: 1129--1142.
 
 \bibitem[{Gallavotti et~al.(2004)Gallavotti, Zhao, Kyozuka, Meeley, Ritter,
   Doebley, Pe, and Schmidt}]{Gallavotti2004}
@@ -49,20 +72,29 @@
   involved in maize evolution.
 \newblock \emph{Genet Res} 74: 291--302.
 
+\bibitem[{Olsen and Gross(2010)}]{OlsenGross2010}
+\textsc{Olsen, K. and B.~Gross}. 2010.
+\newblock Genetic perspectives on crop domestication.
+\newblock \emph{Trends in Plant Science} 15: 529--537.
+
+\bibitem[{Olsen and Wendel(2013)}]{OlsenWendel2013}
+\textsc{Olsen, K.~M. and J.~F. Wendel}. 2013.
+\newblock A bountiful harvest: Genomic insights into crop domestication
+  phenotypes.
+\newblock \emph{Annual Review of Plant Biology} 64: 47--70.
+
 \bibitem[{Pyh{\"a}j{\"a}rvi et~al.(2013)Pyh{\"a}j{\"a}rvi, Hufford, and
   Ross-Ibarra}]{Pyhajarvi2013}
 \textsc{Pyh{\"a}j{\"a}rvi, T., M.~Hufford, and J.~Ross-Ibarra}. 2013.
 \newblock Complex patterns of local adaptation in the wild relatives of maize.
 \newblock \emph{Genome Biology and Evolution} 5: 1594--1609.
 
-\bibitem[{Remington et~al.(2001)Remington, Thornsberry, Matsuoka, Wilson,
-  Whitt, Doebley, Kresovich, Goodman, and Buckler}]{Remington2001}
-\textsc{Remington, D.~L., J.~M. Thornsberry, Y.~Matsuoka, L.~M. Wilson, S.~R.
-  Whitt, J.~Doebley, S.~Kresovich, M.~M. Goodman, and E.~S. Buckler}. 2001.
-\newblock Structure of linkage disequilibrium and phenotypic associations in
-  the maize genome.
-\newblock \emph{Proceedings of the National Academy of Sciences} 98:
-  11479--11484.
+\bibitem[{Ross-Ibarra et~al.(2007)Ross-Ibarra, Morrell, and
+  Gaut}]{Ross-Ibarra2007}
+\textsc{Ross-Ibarra, J., P.~Morrell, and B.~Gaut}. 2007.
+\newblock Plant domestication, a unique opportunity to identify the genetic
+  basis of adaptation.
+\newblock \emph{P Natl Acad Sci Usa} 104: 8641--8648.
 
 \bibitem[{Sigmon and Vollbrecht(2010)}]{SigmonVollbrecht2010}
 \textsc{Sigmon, B. and E.~Vollbrecht}. 2010.
@@ -82,12 +114,5 @@
 \newblock Identification of a functional transposon insertion in the maize
   domestication gene tb1.
 \newblock \emph{Nat Genet} 43: 1160--U164.
-
-\bibitem[{Whitton et~al.(1997)Whitton, Wolf, Arias, Snow, and
-  Riesberg}]{Whitton1997}
-\textsc{Whitton, J., D.~Wolf, D.~Arias, A.~Snow, and L.~Riesberg}. 1997.
-\newblock The persistence of cultivar alleles in wild populations of sunflowers
-  five generations after hybridization.
-\newblock \emph{Theoretical and Applied Genetcs} 95: 33--40.
 
 \end{thebibliography}
