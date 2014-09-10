@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 SEP 2014 20:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 SEP 2014 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -358,12 +358,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[9]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 138.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -517,7 +516,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (15 pages, 146373 bytes).
+Output written on ResponseToReview.pdf (15 pages, 146444 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
