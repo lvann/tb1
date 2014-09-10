@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 MAY 2014 11:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 SEP 2014 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,12 +713,22 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
- [1
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
+] [2]pdfTeX warning (ext4): destination with the same identifier (name{page.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.277     R
+           IMMA0268 & 2     & 1 \\ [1
 
-]
-[4] [5] [6] <FigS1LocusCartoon.pdf, id=36, 794.97pt x 614.295pt>
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.337     R
+           IMMA0449 & 2     & 1 \\ [2] [3] [4]
+<FigS1LocusCartoon.pdf, id=34, 794.97pt x 614.295pt>
 File: FigS1LocusCartoon.pdf Graphic file (type pdf)
 
 <use FigS1LocusCartoon.pdf>
@@ -729,49 +739,64 @@ Overfull \hbox (42.39458pt too wide) in paragraph at lines 435--436
  [] 
  []
 
-[7 <./FigS1LocusCartoon.pdf>] <FigS2Gel.png, id=61, 214.8025pt x 297.11pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.441 \clearpage
+                 [1 <./FigS1LocusCartoon.pdf>]
+<FigS2Gel.png, id=58, 214.8025pt x 297.11pt>
 File: FigS2Gel.png Graphic file (type png)
-
-<use FigS2Gel.png>
+ <use FigS2Gel.png>
 Package pdftex.def Info: FigS2Gel.png used on input line 449.
 (pdftex.def)             Requested size: 284.52756pt x 393.58727pt.
- [8 <./FigS2Gel.png>]
-<FigS3NJtrees.pdf, id=69, 614.295pt x 794.97pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.455 \clearpage
+                 [1 <./FigS2Gel.png>]
+<FigS3NJtrees.pdf, id=65, 614.295pt x 794.97pt>
 File: FigS3NJtrees.pdf Graphic file (type pdf)
  <use FigS3NJtrees.pdf>
 Package pdftex.def Info: FigS3NJtrees.pdf used on input line 463.
 (pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
 
-LaTeX Warning: Float too large for page by 3.62585pt on input line 466.
+LaTeX Warning: Float too large for page by 31.43419pt on input line 467.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
-[9 <./FigS3NJtrees.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.469 \end{document}
+                     [1 <./FigS3NJtrees.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
  (./Supplement_mbh.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
 Package rerunfilecheck Info: File `Supplement_mbh.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
  ) 
 Here is how much of TeX's memory you used:
- 8429 strings out of 493488
- 124379 string characters out of 3141326
+ 8424 strings out of 493488
+ 124349 string characters out of 3141326
  365153 words of memory out of 3000000
  11612 multiletter control sequences out of 15000+200000
  5253 words of font info for 19 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,11n,43p,782b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,43p,805b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Supplement_mbh.pdf (9 pages, 426630 bytes).
+Output written on Supplement_mbh.pdf (9 pages, 428582 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
