@@ -3,15 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ResponseToReview.aux
 The style file: AJB.bst
 Database file #1: refs.bib
-I was expecting a `{' or a `('---line 965 of file refs.bib
- : @article 
- :          = {Rabbit,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "KovackMcCouch2008"
-Warning--I didn't find a database entry for "Rabbit"
 You've used 16 entries,
             2929 wiz_defined-function locations,
-            718 strings with 8456 characters,
+            714 strings with 8410 characters,
 and the built_in function-call counts, 13241 in all, are:
 = -- 954
 > -- 980
@@ -50,4 +44,3 @@ warning$ -- 0
 while$ -- 64
 width$ -- 0
 write$ -- 212
-(There was 1 error message)
