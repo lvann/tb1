@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 SEP 2014 15:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  10 SEP 2014 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -325,12 +325,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -381,12 +381,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -401,12 +401,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -431,12 +431,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -466,7 +466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
@@ -476,7 +476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
@@ -489,7 +489,7 @@ Here is how much of TeX's memory you used:
  5693 multiletter control sequences out of 15000+200000
  7799 words of font info for 28 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 24i,6n,32p,1772b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,32p,1772b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texliv
 e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
 /2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive
@@ -498,7 +498,7 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
 12/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ResponseToReview.pdf (15 pages, 136773 bytes).
+Output written on ResponseToReview.pdf (15 pages, 137008 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -28,24 +28,6 @@
 \newblock Linkage mapping of domestication loci in a large maize-teosinte
   backcross resource.
 \newblock \emph{Genetics} 177: 1915--1928.
-
-\bibitem[{Carneiro et~al.(2014)Carneiro, Rubin, Di~Palma, Albert, Alfoldi,
-  Barrio, Pielberg, Rafati, Sayyab, Turner-Maier, Younis, Afonso, Aken, Alves,
-  Barrell, Bolet, Boucher, Burbano, Campos, Chang, Duranthon, Fontanesi,
-  Garreau, Heiman, Johnson, Mage, Peng, Quencey, Rogel-Gaillard, Ruffier,
-  Searle, Villafuerte, Xiong, Young, Forsberg-Nillson, Good, Lander, Ferrand,
-  Lindblad-Toh, and Andersson}]{Rabbit}
-\textsc{Carneiro, M., C.-J. Rubin, F.~Di~Palma, F.~W. Albert, J.~Alfoldi, A.~M.
-  Barrio, G.~Pielberg, N.~Rafati, S.~Sayyab, J.~Turner-Maier, S.~Younis,
-  S.~Afonso, B.~Aken, J.~M. Alves, D.~Barrell, G.~Bolet, S.~Boucher, H.~A.
-  Burbano, R.~Campos, J.~L. Chang, V.~Duranthon, L.~Fontanesi, H.~Garreau,
-  D.~Heiman, J.~Johnson, R.~G. Mage, Z.~Peng, G.~Quencey, C.~Rogel-Gaillard,
-  M.~Ruffier, S.~Searle, R.~Villafuerte, A.~Xiong, S.~Young,
-  K.~Forsberg-Nillson, J.~M. Good, E.~S. Lander, N.~Ferrand, K.~Lindblad-Toh,
-  and L.~Andersson}. 2014.
-\newblock Rabbit genome analysis reveals a polygenic basis for phenotypic
-  change during domestication.
-\newblock \emph{Science} 345: 1074--1079.
 
 \bibitem[{Chia et~al.(2012)Chia, Song, Bradbury, Costich, de, Doebley, Elshire,
   Gaut, Geller, Glaubitz, Gore, Guill, Holland, Hufford, Lai, Li, Liu, Lu,
