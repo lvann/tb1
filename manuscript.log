@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2014 12:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2014 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,13 +485,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [25
 
 ]
-<Fig1MapBalsas.png, id=463, 614.295pt x 794.97pt>
+<Fig1MapBalsas.png, id=465, 614.295pt x 794.97pt>
 File: Fig1MapBalsas.png Graphic file (type png)
  <use Fig1MapBalsas.png>
 Package pdftex.def Info: Fig1MapBalsas.png used on input line 269.
 (pdftex.def)             Requested size: 375.80544pt x 486.3381pt.
 
-[26 <./Fig1MapBalsas.png>] <Fig2LDPlots.png, id=470, 794.0064pt x 613.3314pt>
+[26 <./Fig1MapBalsas.png>] <Fig2LDPlots.png, id=472, 794.0064pt x 613.3314pt>
 File: Fig2LDPlots.png Graphic file (type png)
 
 <use Fig2LDPlots.png>
@@ -502,14 +502,14 @@ Overfull \hbox (42.39458pt too wide) in paragraph at lines 281--282
  [] 
  []
 
-[27 <./Fig2LDPlots.png>] <Fig3Structure.png, id=476, 794.97pt x 614.295pt>
+[27 <./Fig2LDPlots.png>] <Fig3Structure.png, id=478, 794.97pt x 614.295pt>
 File: Fig3Structure.png Graphic file (type png)
 
 <use Fig3Structure.png>
 Package pdftex.def Info: Fig3Structure.png used on input line 293.
 (pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
  [28 <./Fig3Structure.png>]
-<Figure4BoxplotPheno1.png, id=482, 794.97pt x 614.295pt>
+<Figure4BoxplotPheno1.png, id=484, 794.97pt x 614.295pt>
 File: Figure4BoxplotPheno1.png Graphic file (type png)
 
 <use Figure4BoxplotPheno1.png>
@@ -524,20 +524,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
  8287 strings out of 493488
  124762 string characters out of 3141326
- 317282 words of memory out of 3000000
+ 317286 words of memory out of 3000000
  11395 multiletter control sequences out of 15000+200000
  9379 words of font info for 33 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,38p,2018b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,38p,2013b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -550,10 +546,10 @@ ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on manuscript.pdf (29 pages, 766795 bytes).
+Output written on manuscript.pdf (29 pages, 766769 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
+ 552 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
  107 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
