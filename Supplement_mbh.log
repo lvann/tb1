@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2014 13:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2014 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -586,20 +586,20 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 (./Supplement_mbh.aux)
 \openout1 = `Supplement_mbh.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -636,7 +636,7 @@ LaTeX Font Info:    ... okay on input line 34.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 33.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -645,9 +645,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count126
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./Supplement_mbh.out) (./Supplement_mbh.out)
 \@outlinefile=\write3
@@ -722,10 +722,10 @@ Package caption Info: End \AtBeginDocument code.
 File: FigS1LocusCartoon.png Graphic file (type png)
 
 <use FigS1LocusCartoon.png>
-Package pdftex.def Info: FigS1LocusCartoon.png used on input line 428.
+Package pdftex.def Info: FigS1LocusCartoon.png used on input line 427.
 (pdftex.def)             Requested size: 512.1496pt x 395.67992pt.
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 428--429
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 427--428
  [] 
  []
 
@@ -733,33 +733,33 @@ Overfull \hbox (42.39458pt too wide) in paragraph at lines 428--429
 <FigS2GelPeerJ.png, id=45, 903.375pt x 1249.66875pt>
 File: FigS2GelPeerJ.png Graphic file (type png)
  <use FigS2GelPeerJ.png>
-Package pdftex.def Info: FigS2GelPeerJ.png used on input line 441.
+Package pdftex.def Info: FigS2GelPeerJ.png used on input line 440.
 (pdftex.def)             Requested size: 284.52756pt x 393.59053pt.
 
 [8 <./FigS2GelPeerJ.png>] <FigS3NJtrees.png, id=52, 614.295pt x 794.97pt>
 File: FigS3NJtrees.png Graphic file (type png)
 
 <use FigS3NJtrees.png>
-Package pdftex.def Info: FigS3NJtrees.png used on input line 454.
+Package pdftex.def Info: FigS3NJtrees.png used on input line 453.
 (pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
 
-LaTeX Warning: Float too large for page by 31.43419pt on input line 458.
+LaTeX Warning: Float too large for page by 31.43419pt on input line 457.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
 [9 <./FigS3NJtrees.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
  (./Supplement_mbh.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `Supplement_mbh.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 460.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
  8429 strings out of 493488
  124404 string characters out of 3141326
- 365153 words of memory out of 3000000
+ 365150 words of memory out of 3000000
  11612 multiletter control sequences out of 15000+200000
  5253 words of font info for 19 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -769,7 +769,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Supplement_mbh.pdf (9 pages, 1453051 bytes).
+Output written on Supplement_mbh.pdf (9 pages, 1452348 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
