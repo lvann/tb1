@@ -1,6 +1,16 @@
-\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
+\newcommand{\jri}[1]{\noindent \textcolor{red}{{#1}} \\}
+\newcommand{\lev}[1]{\noindent \textcolor{magenta}{{#1}} \\}
+\newcommand{\mbh}[1]{\noindent \textcolor{Dandelion}{{#1}}\\}
+\usepackage{lipsum}
+\usepackage{url}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{multirow}
+\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
+
 
 \title{Reviewer comments from PeerJ}
 \textbf{Reviewer 1 (Anonymous)}\\
@@ -12,20 +22,29 @@ Populations of crop wild relatives often carry alleles associated with domestica
 The paper is generally well written, and the conclusions are basically sound. Addressing the points below would improve the paper. \\
 
 1) The terminology on “accessions,” “individuals,” and “populations” is confusing (e.g., 67-71). Please clarify the difference between individuals and accessions (e.g., line 70 — is this referring to the number of individuals per accession? How are individuals of one accession related? Are these full sibs from the same maternal plant?..) \\
+\lev{okay we can do this...}
 
 2) Is the “Locality” designation in Table S1 the same as “population” as used in the text? Please clarify and/or be consistent with this terminology.\\
+\lev{Yes, can clarify}
 
 3) Fig. 1 should indicate the boundaries of the Mexican states that are used in describing population locations in the text (Jalisco, Colima, etc.). The four focal populations from Jalisco state should also be labeled in this figure (i.e., San Lorenzo, La Mesa, Ejutla A, Ejutla B).\\
+\lev{I think this would make figure super busy and it's already verging on super busy. Maybe compromise on labelling the four pops within their pie charts.} 
 
 4) It would be helpful to include Fig. S1 in the main text of the paper and to label the two sequenced regions (Region 1 and 2) in the figure itself (not just in the caption). \\
+\lev{Okay can do this}.
 
 5) Fig. S2. Annotate this figure to show the size (bp) of each band in the 1 kb ladder. The caption should also define the abbreviations used in the labels. \\
+\lev{this will be too much. I can label the brightest band (1kb) and the top and bottom bands}. 
 
 6) What does “No Hop/Pif” indicate in Fig. S2? It doesn’t have the three predicted bands of a TE heterozygote, and lane 6 seems to be empty altogether. Please clarify. \\
 
+\lev{Maybe in the text I can clarify total bands for individuals. I.e. if an individual is Hop/Hop, it will have a total of two bands that are split between the two PCRs, whereas if you are a heterozygote you will have 3 split between two PCRs. I wonder if we should ditch this figure entirely and I can draw up a cartoon one?}
+
 7) Line 118. Figure S1 should be cited here, not Table S1. \\
+\lev{Okay can fix}. 
 
 8) Line 150. Why were only 100 bootstrap replicates used for the NJ analysis? 1000 is more typical.\\
+\lev{I do not know the answer to this. I don't think that 1000 bootstraps would give us really a difference.}
 
 9) Lines 164-175. It would be helpful to provide some more detail on the methods used in defining haplotypes in the STRUCTURE introgression analysis. If I understand correctly, SNPs within 5 kb windows were used to define haplotypes for that window. Were the haplotypes then used to define diploid genotypes for each individual in the STRUCTURE input file? If so, how was phasing performed in defining the haplotypes? Is the output in Fig. 3 showing maize population assignment (i.e., membership coefficient values) for adjacent 5 kb windows? Was the STRUCTURE analysis performed only for the 8 Mb region shown in Fig. 3, or do the results presented in Table 4 reflect the entire chromosome? \\
 
