@@ -1,19 +1,34 @@
 \documentclass[11pt]{article}
 \usepackage[letterpaper, margin=1in]{geometry} %package that allows changes in margins and header/footers
+\newcommand{\res}[1]{\noindent \textcolor{blue}{{#1}} \\}
 \newcommand{\jri}[1]{\noindent \textcolor{red}{{#1}} \\}
-\newcommand{\lev}[1]{\noindent \textcolor{magenta}{{#1}} \\}
+\newcommand{\lev}[1]{\noindent \textcolor{green}{{#1}} \\}
 \newcommand{\mbh}[1]{\noindent \textcolor{Dandelion}{{#1}}\\}
 \usepackage{lipsum}
 \usepackage{url}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{multirow}
 \renewcommand{\baselinestretch}{1.5}
+\usepackage{natbib} % package for formatting citations
+%\bibliographystyle{AJB} %indicating bibliography uses the AJB.bst file for 
 
 \begin{document}
 
+\noindent Dear Dr.Vision and editorial staff at the \emph{PeerJ}, \\
 
-\title{Reviewer comments from PeerJ}
-\textbf{Reviewer 1 (Anonymous)}\\
+We would like to thank you and two anonymous reviewers for your helpful comments and suggestions regarding our previously-submitted manuscript (#2014:12:3442:0:0:REVIEW).  In the attached revision, we have addressed the majority of issues raised, and have included a detailed response to reviewers below.  In our submitted manuscript, we report results of a genotyping assay surveying several hundred wild and domesticated maize individuals for presence of the domesticated maize allele at \emph{tb1}, Sanger sequencing of a targeted subset of these samples to assess evidence of selection on the domesticated allele in wild populations, a phenotyping experiment to gauge the effects of the domesticated allele in a wild population, and reanalysis of existing genome-wide SNP data to place the signature of selection at this locus in a wider context.  This manuscript reports a substantial amount of novel work and explores, in a meaningful way, the concept of domestication from standing variation and the potential ecological relevance of domesticated alleles in wild populations.\\\
+
+\noindent Sincerely,\\
+
+\noindent Matthew Hufford and Jeffrey Ross-Ibarra
+
+\section*{Response to Editor:}
+
+1) The reviewers comments seems to be largely in agreement and self-explanatory. Please be sure to address the comment regarding the validity of the PCR assays raised by Reviewer 2.
+
+\res{We have addressed the comments from Reviewer 2 regarding the validity of the PCR assays. Sequencing of PCR products was never performed as primer combinations for each of the 2 PCRs gave us the expected sized bands. Primers were designed off of previously sequenced teosinte and maize sequences \lev{these were from John Doebley, do we need to say this? I don' think they were published ever} and were initially tested in both maize and teosinte for validity.  We have clarified this point in text \lev{text, line numbers here} as well added additional labelling to the gel image (Figure 2 \lev{check to make sure figure number doesn't change during edits}). 
+
+\section*{Response to Reviewer 1}
 
 \underline{Comments for the author}\\
 
@@ -21,7 +36,7 @@ Populations of crop wild relatives often carry alleles associated with domestica
 
 The paper is generally well written, and the conclusions are basically sound. Addressing the points below would improve the paper. \\
 
-1) The terminology on accessions, individuals, and populations is confusing (e.g., 67-71). Please clarify the difference between individuals and accessions (e.g., line 70� is this referring to the number of individuals per accession? How are individuals of one accession related? Are these full sibs from the same maternal plant?..) \\
+1) The terminology on accessions, individuals, and populations is confusing (e.g., 67-71). Please clarify the difference between individuals and accessions (e.g., line 70‚ is this referring to the number of individuals per accession? How are individuals of one accession related? Are these full sibs from the same maternal plant?..) \\
 \lev{okay we can do this...}
 \mbh{yep, pretty straight-forward}
 
@@ -119,7 +134,8 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 \jri{sloppy my ass. <censored> reviewer!}
 \lev{ :) }
 
-\textbf{Reviewer 2 (Anonymous)}
+
+\section*{Response to Reviewer 2} 
 
 \underline{Basic reporting}\\
 
@@ -130,7 +146,7 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 \mbh{I might mention something briefly about \emph{parviglumis} being a ruderal species that can occur at high density (cite my \emph{Molecular Ecology} manuscript), but, no, I would not add a whole paragraph on the ecologies of the teosintes.}
 \jri{this sounds OK. a wee bit of self-citation there hufford?}
 
-2) The authors refer several times to a previous study they performed: Pyhäjärvi et al., 2013. This is fine, but it is not always easy to understand which results are new and which come from this previous study. For instance, on line 158, it is stated 'we had whole genome SNP data come from Pyhäjärvi et al., 2013. Similarly, Table 1 on line 217 should be moved right after 'populations (0.23) on line 216 to avoid confusion.\\
+2) The authors refer several times to a previous study they performed: Pyh√§j√§rvi et al., 2013. This is fine, but it is not always easy to understand which results are new and which come from this previous study. For instance, on line 158, it is stated 'we had whole genome SNP data come from Pyh√§j√§rvi et al., 2013. Similarly, Table 1 on line 217 should be moved right after 'populations (0.23) on line 216 to avoid confusion.\\
 
 \lev{Okay I can check to make sure citations and data stuff from tanja are clear}
 
@@ -210,5 +226,7 @@ The authors state that they sampled 1,110 individuals from 350 accessions, with 
 \lev{Sure greenhouse is different than outside, but we can't control for variation outside whereas we can in a greenhouse. I don't understand their point. Greenhouse is best we could do here since they wouldn't all fit in a growth chamber.}
 
 \mbh{I'd point out that the effect of \emph{tb1} on tillering has been verified a number of times in a number of environments (probably in a greenhouse setting) and cite studies like Briggs, etc...}
+
+\bibliography{refs}
 
 \end{document}
