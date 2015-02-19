@@ -87,7 +87,7 @@ Based on these results we hypothesize that the \emph{Hopscotch} (\emph{i.e.}, th
 \end{centering}
 
 \textbf{Sampling and genotyping---}We sampled 1,110 individuals from 350 \track{populations} (247 maize landraces, 17 \emph{mexicana} populations, and 86 \emph{parviglumis} populations) and assessed the presence or absence of the \emph{Hopscotch} insertion (Table S1 and Table S2, See Supplemental Materials with the online version of this article). Numbers of individuals sampled \track{per population} ranged from 1-43 for \emph{parviglumis}, 1-35 for \emph{mexicana}, and 1-18 for the maize landrace populations. DNA was extracted from leaf tissue using a modified CTAB approach \citep{DoyleDoyle1990, Maloof1984}. We designed primers using PRIMER3 \citep{RozenSkaletsky2000} implemented in Geneious \citep{Kearse2012} to amplify the entire \emph{Hopscotch} element, as well as an internal primer allowing us to simultaneously check for possible PCR bias between presence and absence of the \emph{Hopscotch} insertion due to its large size ($\sim$5kb). Two PCRs were performed for each individual, one with primers flanking the \emph{Hopscotch} (HopF/HopR) and one with a flanking primer and an internal primer (HopF/HopIntR). Primer sequences are HopF, {\small 5'-TCGTTGATGCTTTGATGGATGG-3'}; 
-HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCTCTCATGAGATCC-3'} (Fig. S1 and Fig. S2, See Supplemental Materials with the online version of this article). Homozygotes show a single band for absence of the element ($\sim$300bp) and two bands for presence of the element ($\sim$5kb, amplification of the entire element, and $\sim$1.1kb, amplification of part of the element), whereas heterozygotes show all three bands (Table S2, See Supplemental Materials with the online version of this article). Since we developed a PCR protocol for each allele, if only one PCR resolved well, we scored one allele for that individual rather than infer the diploid genotype. We used Phusion High Fidelity Enzyme (Thermo Fisher Scientific Inc., Waltham, Massachusetts, USA) and the following conditions for amplifications: 98$^{\circ}$C for 3 min, 30 cycles of 98$^{\circ}$C for 15 s, 65$^{\circ}$C for 30 s, and 72$^{\circ}$C for 3 min 30 s, with a final extension of 72$^{\circ}$C for 10 min. PCR products were visualized on a 1\% agarose gel and scored for presence/absence of the \emph{Hopscotch} based on band size.
+HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCTCTCATGAGATCC-3'} (Fig. S1 and \track{Fig. 1}, See Supplemental Materials with the online version of this article). Homozygotes show a single band for absence of the element ($\sim$300bp) and two bands for presence of the element ($\sim$5kb, amplification of the entire element, and $\sim$1.1kb, amplification of part of the element), whereas heterozygotes show all three bands (Table S2, See Supplemental Materials with the online version of this article). Since we developed a PCR protocol for each allele, if only one PCR resolved well, we scored one allele for that individual rather than infer the diploid genotype. We used Phusion High Fidelity Enzyme (Thermo Fisher Scientific Inc., Waltham, Massachusetts, USA) and the following conditions for amplifications: 98$^{\circ}$C for 3 min, 30 cycles of 98$^{\circ}$C for 15 s, 65$^{\circ}$C for 30 s, and 72$^{\circ}$C for 3 min 30 s, with a final extension of 72$^{\circ}$C for 10 min. PCR products were visualized on a 1\% agarose gel and scored for presence/absence of the \emph{Hopscotch} based on band size.
 
 \textbf{Genotyping analysis---}To calculate differentiation between populations (F\textsubscript{ST}) and subspecies (F\textsubscript{CT}) we used HierFstat \citep{Goudet2005}. These analyses only included populations ($n = 32$) in which eight or more chromosomes were sampled. To test the hypothesis that the \emph{Hopscotch} insertion may be adaptive under certain environmental conditions, we looked for significant associations between \emph{Hopscotch} frequency and environmental variables using the software BayEnv \citep{Coop2010}. BayEnv creates a covariance matrix of relatedness between populations and then tests a null model that allele frequencies in populations are determined by the covariance matrix of relatedness alone against the alternative model that allele frequencies are determined by a combination of the covariance matrix and an environmental variable, producing a posterior probability (\emph{i.e.,} Bayes Factor; \citealt{Coop2010}). We used teosinte (ssp. \emph{parviglumis} and ssp. \emph{mexicana}) genotyping and covariance data from \citet{Pyhajarvi2013} for BayEnv, with the \emph{Hopscotch} insertion coded as an additional biallelic marker. SNP data from \citet{Pyhajarvi2013} were obtained using the MaizeSNP50 BeadChip and Infinium HD Assay (Illumina, San Diego, CA, USA). Environmental data were obtained from \url{www.worldclim.org} and soil data were downloaded from the Harmonized World Soil Database \citep{FAOHWSD} at \url{www.harvestchoice.org}.  Environmental data represent average values for the last several decades (climatic data) or are likely stable over time (soil data) and therefore represent conditions important for local adaptation of our samples.  Information from these data sets was summarized by principle component analysis following \citet{Pyhajarvi2013}.
 
@@ -253,11 +253,24 @@ The authors thank Graham Coop for helpful discussion and Lauryn Brown, Joshua He
 
 \clearpage
 
-%Figure 1 Map 
+%Figure 1 Locus Cartoon
+%-------------------------------------------------------------------
+\begin{figure*}[!t]
+  \begin{center}
+   \includegraphics[width=180mm]{Fig1LocusCartoon.png}
+   \flushleft{Figure 1. Representation of the upstream regulatory region of \emph{tb1}, showing the \emph{tb1} coding region (green) and the \emph{Hopscotch} insertion (red). Arrows show the location of primer sets; in black, primers used for amplification and sequencing (Region 1; within the 5' UTR, and Region 2; 66,169 bp upstream from the tb1 ORF); in blue, primers used to genotype the \emph{Hopscotch} insertion.}
+  \end{center}
+\label{Fig1Cartoon}
+\end{figure*}
+%-------------------------------------------------------------------
+
+\clearpage
+
+%Figure 2 Map 
 %--------------------------------------------
 \begin{figure*}[!t]
 \begin{center}
-   \includegraphics[width=0.8\textwidth]{Fig1MapBalsas.png}
+   \includegraphics[width=0.8\textwidth]{Fig2MapBalsas.png}
    \end{center}
     \caption{Map showing the frequency of the \emph{Hopscotch} allele in populations of \emph{parviglumis} where we sampled more than 6 individuals. Size of circles reflects number of individuals sampled. The Balsas River is shown, as the Balsas River Basin is believed to be the center of domestication of maize.} 
 \label{Fig1Map}
@@ -265,38 +278,38 @@ The authors thank Graham Coop for helpful discussion and Lauryn Brown, Joshua He
 %--------------------------------------------
 \clearpage
 
-% Figure 2. LD plots
+% Figure 3. LD plots
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
   \begin{center}
-   \includegraphics[width=180mm]{Fig2LDPlots.png}
+   \includegraphics[width=180mm]{Fig3LDPlots.png}
    \end{center}
     \caption{Linkage disequilibrium for SNPs in Mb 261-268 on chromosome 1. The yellow rectangle indicates the location of the \emph{Hopscotch} insertion and the green rectangle represents the \emph{tb1} ORF. A) Ejutla A; B) Ejutla B; C) La Mesa; D) San Lorenzo. The upper triangle above the black diagonal is colored based on the $r^{2}$ value between SNPs while the bottom triangle is colored based on p-value for the corresponding  $r^{2}$ value.}
-\label{Fig2LD}
+\label{Fig3LD}
 \end{figure*}
 %-------------------------------------------------------------------
 \clearpage
 
-% Figure 3 STRUCTURE Plot 4 Pops
+% Figure 4 STRUCTURE Plot 4 Pops
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
   \begin{center}
-   \includegraphics[width=160mm]{Fig3Structure.png}
+   \includegraphics[width=160mm]{Fig4Structure.png}
      \end{center}
     \caption{STRUCTURE assignment to maize across a section of chromosome 1. The dotted lines mark the beginning of the sequenced region 66kb upstream (Region 2) and the end of the \emph{tb1} ORF.}
-\label{Fig3Structure}
+\label{Fig4Structure}
 \end{figure*}
 %-------------------------------------------------------------------
 \clearpage
 
-% Figure 4 Phenotyping BoxPlots
+% Figure 5 Phenotyping BoxPlots
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
   \begin{center}
-   \includegraphics[width=160mm]{Figure4BoxplotPheno1.png}
+   \includegraphics[width=160mm]{Figure5BoxplotPheno1.png}
    \end{center}
     \caption{Box-plots showing tillering index in greenhouse grow-outs for phenotyping. White indicates individuals homozygous for the \emph{Hopscotch}, light grey represents heterozygotes, and dark grey represents homozygotes for the teosinte (No \emph{Hopscotch}) allele. Within boxes, dark black lines represent the median, and the edges of the boxes are the first and third quartiles. Outliers are displayed as dots, the maximum value excluding outliers is shown with the top whisker, while the minimum excluding outliers is shown with the bottom whisker.}
-\label{Fig4Boxplots}
+\label{Fig5Boxplots}
 \end{figure*}
 %-------------------------------------------------------------------
 
