@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: PeerJResponse.aux
+The style file: AJB.bst
+Database file #1: refs.bib
+You've used 14 entries,
+            2929 wiz_defined-function locations,
+            696 strings with 7161 characters,
+and the built_in function-call counts, 8712 in all, are:
+= -- 717
+> -- 410
+< -- 6
++ -- 140
+- -- 121
+* -- 658
+:= -- 1385
+add.period$ -- 56
+call.type$ -- 14
+change.case$ -- 109
+chr.to.int$ -- 15
+cite$ -- 14
+duplicate$ -- 623
+empty$ -- 631
+format.name$ -- 162
+if$ -- 1746
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 122
+newline$ -- 76
+num.names$ -- 56
+pop$ -- 232
+preamble$ -- 1
+purify$ -- 96
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 460
+swap$ -- 292
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 123
+warning$ -- 0
+while$ -- 55
+width$ -- 0
+write$ -- 185

@@ -8,13 +8,26 @@
 \usepackage{url}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{multirow}
-\renewcommand{\baselinestretch}{1.5}
+\usepackage{hyperref}
+\usepackage[leftcaption]{sidecap} %package for adding side captions
+\sidecaptionvpos{figure}{c} %position side caption
+\usepackage{lineno} %package for adding line numbers
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage[pdftex]{graphicx}  
+\usepackage[labelsep=period]{caption} %package for formatting figure captions, separation between figure number and caption is period
 \usepackage{natbib} % package for formatting citations
-%\bibliographystyle{AJB} %indicating bibliography uses the AJB.bst file for 
+\bibliographystyle{AJB} %indicating bibliography uses the AJB.bst file for formatting...journals often have these available but these can also be customized
+\usepackage{authblk}
+\usepackage[table]{xcolor} %for table line color alteration
+\usepackage{subscript}
+\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
 
-\noindent Dear Dr.Vision and editorial staff at the \emph{PeerJ}, \\
+\noindent Dear Dr.Vision and editorial staff at \emph{PeerJ}, \\
 
 We would like to thank you and two anonymous reviewers for your helpful comments and suggestions regarding our previously-submitted manuscript (\#2014:12:3442:0:0:REVIEW).  In the attached revision, we have addressed the majority of issues raised, and have included a detailed response to reviewers below.  In our submitted manuscript, we report results of a genotyping assay surveying several hundred wild and domesticated maize individuals for presence of the domesticated maize allele at \emph{tb1}, Sanger sequencing of a targeted subset of these samples to assess evidence of selection on the domesticated allele in wild populations, a phenotyping experiment to gauge the effects of the domesticated allele in a wild population, and reanalysis of existing genome-wide SNP data to place the signature of selection at this locus in a wider context.  This manuscript reports a substantial amount of novel work and explores, in a meaningful way, the concept of domestication from standing variation and the potential ecological relevance of domesticated alleles in wild populations.\\\
 
@@ -26,7 +39,7 @@ We would like to thank you and two anonymous reviewers for your helpful comments
 
 1) The reviewers comments seems to be largely in agreement and self-explanatory. Please be sure to address the comment regarding the validity of the PCR assays raised by Reviewer 2.
 
-\res{We have addressed the comments from Reviewer 2 regarding the validity of the PCR assays. Sequencing of PCR products was never performed as primer combinations for each of the 2 PCRs gave us the expected sized bands. Primers were designed off of previously sequenced teosinte and maize sequences provided by John Doebley, and were initially tested in both maize and teosinte for validity.  We have clarified this point in text \lev{text, line numbers here} as well added additional labelling to the gel image (Figure 2).} 
+\res{We have addressed comments from Reviewer 2 regarding the validity of the PCR assays. Sequencing of PCR products were not sequenced, but primer combinations for each of the 2 PCRs produced the expected sized bands. Primers were designed using previously sequenced teosinte and maize sequences provided by John Doebley, and were initially tested in both maize and teosinte for validity.  We have clarified this point in the text \lev{text, line numbers here} and have added additional labeling to the gel image (Figure 2).} 
 
 \section*{Response to Reviewer 1}
 
@@ -48,11 +61,15 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 
 \res{We feel that the addition of state lines makes the figure too busy and difficult to read. However, we have added labels to the 4 focal Jalisco populations (La Mesa (MSA), San Lorenzo (SLO), Ejutla A (EjuA), and Ejutla B (EjuB)).}
 
+\mbh{I don't think state lines would make the figure too busy.  Is the issue that you no longer have access to ArcGIS, LV?  Jeff, do you think it's worth trying to redo this in R or do you think Todd will be fine with this response?}
+
 4) It would be helpful to include Fig. S1 in the main text of the paper and to label the two sequenced regions (Region 1 and 2) in the figure itself (not just in the caption). \\
 
-\res{Thank you for the suggestion. We have included Fig. S1 in the main manuscript, now labelled Fig. 1, and have added labels for the two sequenced regions, Region 1 and Region 2.}
+\res{Thank you for the suggestion. We have included Fig. S1 in the main manuscript, now labeled Fig. 1, and have added labels for the two sequenced regions, Region 1 and Region 2.}
 
 \lev{Hi guys, I'm having trouble getting the figures to renumber in order and haven't been able to figure out what's going on, if either of you knows how to fix or has a suggestion.}
+
+\mbh{I fixed this}
 
 5) Fig. S2. Annotate this figure to show the size (bp) of each band in the 1 kb ladder. The caption should also define the abbreviations used in the labels. \\
 
@@ -60,35 +77,38 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 
 6) What does No Hop/Pif indicate in Fig. S2? It doesn't have the three predicted bands of a TE heterozygote, and lane 6 seems to be empty altogether. Please clarify. \\
 
-\res{We have edited Fig. S2 to be more clear and include appropriate labels and explanations.}
+\res{We have edited Fig. S2 (now Fig. S1) to be more clear and to include appropriate labels and explanations.}
 
 7) Line 118. Figure S1 should be cited here, not Table S1. \\
 
-\res{We are referring to Table S1 and Table S2. We have relocated the table references to be more clear, page 8, lines 198-200: ``The genotype at the \emph{Hopscotch} insertion was confirmed with two PCRs for 837 individuals of the 1,100 screened (Table S1 and Table S2, See Supplemental Materials with the online version of this article).}
+\res{We are referring to Table S1 and Table S2. We have edited our reference to the tables to be more clear, page 8, lines 198-200: ``The genotype at the \emph{Hopscotch} insertion was confirmed with two PCRs for 837 individuals of the 1,100 screened (Table S1 and Table S2, See Supplemental Materials with the online version of this article)."}
 
 8) Line 150. Why were only 100 bootstrap replicates used for the NJ analysis? 1000 is more typical.\\
 \lev{I do not know the answer to this. I don't think that 1000 bootstraps would give us really a difference.}
 \mbh{if you still have the input file for this analysis, should be a quick fix and show we're doing everything we can to address reviewer concerns}
 \jri{agreed, should be easy to redo. while agree this is silly and i don't think 1000 will change anything, but since it's easy to do it's hard to argue against doing it.}
 \lev{I do not have the files as this is something that Tom did with the sequence data that he gathered}
+\mbh{o.k., should we ask Tom for this? The only argument we can make for not doing this is that 100 bootstraps are commonly used, but this makes us sound pretty unaccommodating}
 
 9) Lines 164-175. It would be helpful to provide some more detail on the methods used in defining haplotypes in the STRUCTURE introgression analysis. If I understand correctly, SNPs within 5 kb windows were used to define haplotypes for that window. Were the haplotypes then used to define diploid genotypes for each individual in the STRUCTURE input file? If so, how was phasing performed in defining the haplotypes? Is the output in Fig. 3 showing maize population assignment (i.e., membership coefficient values) for adjacent 5 kb windows? Was the STRUCTURE analysis performed only for the 8 Mb region shown in Fig. 3, or do the results presented in Table 4 reflect the entire chromosome? \\
 
-\res{Data were previously phased using fastPHASE (\citet{Pyhajarvi2013, Scheet2006}). We have added clarifying statements to the text of this section, pages 5, lines 104-105. Figure 4 is showing maize population assignment for adjacent 5 kb windows. The STRUCTURE analysis was performed for the entirety of chromosome 1; however, the figure only shows a zoomed in portion to highlight the section of chromosome 1 that contains the \emph{tb1} region. The results in Table 4 reflect the entire chromosome.}
+\res{Data were previously phased using the program fastPHASE (\citet{Pyhajarvi2013, Scheet2006}). We have added clarifying statements to the text of this section, pages 5, lines 104-105. \mbh{please go through and recheck these line numbers just prior to submitting revisions} Figure 4 is showing maize population assignment for adjacent 5 kb windows. The STRUCTURE analysis was performed for the entirety of chromosome 1; however, the figure only shows a zoomed in portion to highlight the section of chromosome 1 that contains the \emph{tb1} region. The results in Table 4 reflect the entire chromosome.}
 
 11) Line 186. How does the 1-foot spacing of plants in the phenotyping experiment compare to conditions used in the experiments of Lukens and Doebley that documented density-dependent tillering? It could be worth bringing this up in the discussion of the negative phenotyping results (i.e., Fig 4 and Discussion, p. 13). \\
 
-\res{We have edited our discussion to reflect a brief discussion of the work by \citet{DoebleyLukens1999}, page 12, lines 344-346: ``We have found no significant effect of the \emph{Hopscotch} insertion on tillering index or tiller number, a result that is discordant with its clear phenotypic effects in maize. It is possible that the planting density of our seedlings (plants spaced 12" apart) was too high and led to an overall increase in tillering as previously seen in \citet{LukensDoebley1999}, which would have affected our measurements of tillering index."}
+\res{We have edited our discussion to include a brief mention of the work by \citet{LukensDoebley1999}, page 12, lines 344-346: ``We have found no significant effect of the \emph{Hopscotch} insertion on tillering index or tiller number, a result that is discordant with its clear phenotypic effects in maize. It is possible that the planting density of our seedlings (plants spaced 12 inches apart) was too high, leading to an overall decrease in tillering as previously seen in \citet{LukensDoebley1999}.  This factor may have limited our capacity to observe variation in tillering index."}
 
 \lev{My guess is that later on our plants were crowded, but early on in the measurements they should not have been shading each other, and tillering then would not have been affected in the early measurements. What do you guys think?}
 
+\mbh{I read the Lukens and Doebley paper and I think what you had previously was backwards...higher density = less tillering, not more.  If we saw less overall tillering due to high density, this could have compromised our ability to detect significant differences between genotypes.}
+
 12) Line 223. Indicate here that these four populations are parviglumis and are from Jalisco state. \\
 
-\res{We have editied the text to provide further clarification, page 8, lines 211-213: ``o investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region and any evidence of selection on this locus, we sequenced two small ($<$1kb) regions upstream of the \emph{tb1} ORF in four populations from the Jalisco region."}
+\res{We have editied the text to provide further clarification, page 8, lines 211-213: ``To investigate patterns of sequence diversity and linkage disequilibrium (LD) in the \emph{tb1} region and any evidence of selection on this locus, we sequenced two small ($<$1kb) regions upstream of the \emph{tb1} ORF in four populations from the Jalisco region."}
 
 13) Line 228. Why is Table S2 cited here? That table doesn't include any information on nucleotide diversity estimators.\\
 
-\res{We have removed this from the citation.}
+\res{We have removed reference to Table S2 from the citation.}
 
 14) Table 2 and the corresponding text (p. 9) should indicate which Tajima's D values, if any, are statistically significant. If none are statistically significant, then this should be pointed out in the text. \\
 
@@ -96,6 +116,7 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 
 \mbh{We don't and it's kind of a strange/silly request...Jeff and I will deal with this}
 \jri{ i can do the simple but dumb calculation if you guys want for response to reviewers, but disagree we should include in manuscript. we mention they are at the tail of the empirical distribution from wright et al don't we?}
+\mbh{I agree this is a silly request and that we shouldn't include in the manuscript; yes, we indicate Taj.D for our pops is in the extreme tail based on comparison to both Wright et al. and Tiffin and Moeller}
 
 15) Lines 231-232. Suggested rewording: 'in all populations except La Mesa, where a slightly negative value suggests a slight excess of low frequency variants'\\
 
@@ -107,7 +128,7 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 
 17) Fig. 3 could be moved to online supplementary data, since the key information with respect to the tb1 region is already presented in Table 4. \\
 
-\res{We appreciate your suggestion but have decided to leave Figure 3 in the main text, as we feel it provides a nice visual representation for the numbers and take home message presented from the STRUCTURE analysis.}
+\res{We appreciate this suggestion but have decided to leave Figure 3 in the main text, as we feel it provides a nice visual representation for the numbers and take home message presented from the STRUCTURE analysis.}
 
 18) Discussion, lines 306-8. 'The Hopscotch allele is more prevalent in parviglumis than in mexicana in our sample, suggesting a different history of the allele amongst teosinte subspecies.' This inference is contradicted by the complete lack of differentiation between the subspecies for the TE (Fct = 0; Results, lines 213-217). This should be addressed. I don't see any evidence presented that the TE differences between the subspecies are statistically significant. Given the unbalanced geographical sampling of the two subspecies (see Table S1), I would also question whether these samples are appropriate for comparing TE frequencies in this way. \\
 
@@ -128,11 +149,11 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 
 1) In the Introduction, the authors give some background about teosinte, but do so mainly as the precursor of maize, not so much as a wild species. For instance, they do not give much information about the ecological differences between parviglumis and mexicana, or about what is known for this species in terms of population structure, population density or ecological behavior. This should be added. In particular, the authors state that the tb1 gene is suspected to play a role in shade avoidance, so information on population density should be highlighted: Is it similar in all teosinte populations? Does it vary with altitude? With other ecological data? Does it vary between parviglumis and mexicana?\\
 
-\res{We have added a few sentences discussing population density of distribution of both \emph{Zea mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mexicana} to the introduction. This addition is reflected in the text on page 2, lines 22-26: ``Additionally, large, naturally-occurring populations of both \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mexicana} (hereafter, \emph{mexicana}) can be found throughout Mexico \citep{Wilkes1977, Hufford2013}. \emph{parviglumis}, with \emph{parviglumis} abundant in the lowlands of Mexico and \emph{mexicana} abundant in the highlands. Furthermore, both \emph{parviglumis} and \emph{mexicana} occur at high densities and genetic diversity of these taxa is estimated to be high \citep{Hufford2012a, Ross-Ibarra2009}."}
+\res{We have added a few sentences discussing population density and distribution of both \emph{Zea mays} ssp. \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mexicana} to the introduction. This addition is reflected in the text on page 2, lines 22-26: ``Additionally, large, naturally-occurring populations of both \emph{parviglumis} and \emph{Zea mays} ssp. \emph{mexicana} (hereafter, \emph{mexicana}) can be found throughout Mexico \citep{Wilkes1977, Hufford2013}, with \emph{parviglumis} distributed in the lowlands of Mexico and \emph{mexicana} in the highlands. Furthermore, both \emph{parviglumis} and \emph{mexicana} can occur at high densities and genetic diversity of these taxa is estimated to be high \citep{Hufford2012a, Ross-Ibarra2009}."}
 
 2) The authors refer several times to a previous study they performed: Pyh√§j√§rvi et al., 2013. This is fine, but it is not always easy to understand which results are new and which come from this previous study. For instance, on line 158, it is stated 'we had whole genome SNP data come from Pyh√§j√§rvi et al., 2013. Similarly, Table 1 on line 217 should be moved right after 'populations (0.23) on line 216 to avoid confusion.\\
 
-\res{We have edited the reference to Table 1 and have edited the text to be more clear about which data were used where and how they were obtained: page 5, lines 97-100: ``We used teosinte (ssp. \emph{parviglumis} and ssp. \emph{mexicana}) genotyping and covariance data from \citet{Pyhajarvi2013} for BayEnv, with the \emph{Hopscotch} insertion coded as an additional biallelic marker. \track{SNP data from \citet{Pyhajarvi2013} were obtained using the MaizeSNP50 BeadChip and Infinium HD Assay (Illumina, San Diego, CA, USA) and phased using fastPHASE \citep{Scheet2006}. Environmental data were previously obtained for \citet{Pyhajarvi2013} from \url{www.worldclim.org} and soil data were downloaded from the Harmonized World Soil Database \citep{FAOHWSD} at \url{www.harvestchoice.org}."} and page 9, lines 230-234: ``We investigated the possibility of introgression as an explanation for the frequency of the \emph{Hopscotch} allele in populations of teosinte using previously collected SNP data from \citep{Pyhajarvi2013}."}
+\res{We have edited the reference to Table 1 and have edited the text to be more clear about which data were used where and how they were obtained: page 5, lines 97-100: ``We used teosinte (ssp. \emph{parviglumis} and ssp. \emph{mexicana}) genotyping and covariance data from \citet{Pyhajarvi2013} for BayEnv, with the \emph{Hopscotch} insertion coded as an additional biallelic marker. SNP data from \citet{Pyhajarvi2013} were obtained using the MaizeSNP50 BeadChip and Infinium HD Assay (Illumina, San Diego, CA, USA) and phased using the program fastPHASE \citep{Scheet2006}. Environmental data were previously obtained for \citet{Pyhajarvi2013} from \url{www.worldclim.org} and soil data were downloaded from the Harmonized World Soil Database \citep{FAOHWSD} at \url{www.harvestchoice.org}." and page 9, lines 230-234: ``We investigated the possibility of introgression as an explanation for the frequency of the \emph{Hopscotch} allele in populations of teosinte using previously collected SNP data from \citep{Pyhajarvi2013}."}
 
 3) In the Results section, some titles like "Genotyping" "Sequencing" or "Phenotyping" are too vague, and sound more like Materials and Methods than to Results. They should be modified in order to highlight what question is addressed.\\
 
@@ -147,18 +168,20 @@ The paper is generally well written, and the conclusions are basically sound. Ad
 6) The biological question is to characterize whether the Hopscotch transposable element at tb1 (which enhances expression of tb1) plays a role in the ecology of teosinte, especially in high-density populations. To do so, they characterize the distribution of this element in parviglumis, mexicana and maize landraces and they examine the phenotypic effects of the insertion in parviglumis.
 The authors state that they sampled 1,110 individuals from 350 accessions, with between 1-18 and 1-43 individuals per population. However, they do not provide explanation on (i) how these populations were chosen and (ii) why a different number of individual was sampled per accession (visible also in suppl. Tables S1 and S2). This should be explained.\\
 
-\res{We sampled all individuals and populations that were available to us, which while it did not allow for even sample sizes across populations, did allow us to calculate \emph{Hopscotch} frequency in a subset of populations, as well as the geographic distribution of the \emph{Hopscotch} across many independent sampling locations. We have added a clarifying statement to the text regarding our sampling: page 4, lines 63-68: ``We sampled all individuals and populations that were available to us, consisting of 1,110 individuals from 350 \track{populations} (247 maize landraces, 17 \emph{mexicana} populations, and 86 \emph{parviglumis} populations) and assessed the presence or absence of the \emph{Hopscotch} insertion (Table S1 and Table S2, See Supplemental Materials with the online version of this article). Numbers of individuals sampled \track{per population} ranged from 1-43 for \emph{parviglumis}, 1-35 for \emph{mexicana}, and 1-18 for the maize landrace populations. Available samples did not allow us to sample evenly from populations, but did allow us to calculate \emph{Hopscotch} frequency in a subset of populations, as well as elucidate the geographic distribution of the \emph{Hopscotch} across multiple independent sampling sites."}
+\res{We sampled all individuals and populations that were available to us, which while it did not allow for even sample sizes across populations, did allow us to calculate \emph{Hopscotch} frequency in a subset of populations, as well as the geographic distribution of the \emph{Hopscotch} across many independent sampling locations. We have added a clarifying statement to the text regarding our sampling: page 4, lines 63-68: ``We sampled all individuals and populations that were available to us, consisting of 1,110 individuals from 350 populations (247 maize landraces, 17 \emph{mexicana} populations, and 86 \emph{parviglumis} populations) and assessed the presence or absence of the \emph{Hopscotch} insertion (Table S1 and Table S2, See Supplemental Materials with the online version of this article). Numbers of individuals sampled per population ranged from 1-43 for \emph{parviglumis}, 1-35 for \emph{mexicana}, and 1-18 for the maize landrace populations. Available samples did not allow us to sample evenly from populations, but did allow us to calculate \emph{Hopscotch} frequency in a subset of populations, as well as elucidate the geographic distribution of the \emph{Hopscotch} across multiple independent sampling sites."}
 
 5) In Suppl. Table S1, some of the parviglumis accessions are listed as "Breeders line". Can these be considered as natural populations? The authors should explain where they were originally collected. In Suppl. Table S2, the USDA (or other provider) ID corresponding to each accession should be provided, as it is done in suppl. Table S1.\\
 
 \lev{I don't have access to this info. Can one of you guys help?}
 
+\mbh{Jeff, can you help here?}
+
 6) The authors write that the PCR amplification to investigate presence of the Hopscotch element leads to two amplification products: one for the entire element, (5kb) and one for amplification of part of the element only (1.1kb). Why is this? How do the authors explain the origin of the 1.1kb band? The sentence with "and" on line 83, suggests that the two bands are produced in one single homozygous plant. If some accessions really amplify two bands, is the primer located in the LTR? If it is a typo and the "and" on line 83 should be replaced by a "or" is the element truncated in some accessions, leading to a 1.1kb band instead of the 5kb one? This should be clarified.\\
 
-\res{There are three primers that make up the two primer sets used to genotype individuals for the \emph{Hopscotch} element. The primers are HopF, located upstream of the element; IntHopR, located within the LTR; and HopR, located downstream of the element. HopF and HopR are used as one reaction, resulting in either a 5kb product (the whole element) or a small band ~300bp (sequence on eitheir end of the element). HopF and IntHopR are used to amplify a portion of th element (~1.1kb). Smaller bands preferentially amplify over larger bands when in the same reaction, so we chose to add the HopF/IntHopR PCR reaction as a way to get around PCR bias when amplifying both a larger (5kb) and smaller (300bp) band at the same time during the HopF/HopR reaction. A plant homozygous for the \emph{Hopscotch} insertion will produce one 5kb band in the HopF/HopR reaction and one 1.1kb band in the HopF/HopIntR reaction. A heterozygous individuals will have two bands for the HopF/HopR reaction (one 5kb and one 300bp) as well as a 1.1kb band for the HopF/HopIntRR reaction, totaling 3 bands. The two reactions were run in separate wells on an agarose gel to allow for scoring.}
+\res{There are three primers that make up the two primer sets used to genotype individuals for the \emph{Hopscotch} element. The primers are HopF, located upstream of the element; IntHopR, located within the LTR; and HopR, located downstream of the element. HopF and HopR are used as one reaction, resulting in either a 5kb product (the whole element) or a small band ~300bp (sequence on either end of the element). HopF and IntHopR are used to amplify a portion of the element (~1.1kb). Smaller bands preferentially amplify over larger bands when in the same reaction, so we chose to add the HopF/IntHopR PCR reaction as a way to get around PCR bias when amplifying both a larger (5kb) and smaller (300bp) band at the same time during the HopF/HopR reaction. A plant homozygous for the \emph{Hopscotch} insertion will produce one 5kb band in the HopF/HopR reaction and one 1.1kb band in the HopF/HopIntR reaction. A heterozygous individuals will have two bands for the HopF/HopR reaction (one 5kb and one 300bp) as well as a 1.1kb band for the HopF/HopIntRR reaction, totaling 3 bands. The two reactions were run in separate wells on an agarose gel to allow for scoring.}
 
 \res{We have added some clarifying text to the manuscript: page 4, lines 75-86: ``Two PCRs were performed for each individual, one with primers flanking the \emph{Hopscotch} (HopF/HopR) and one with a flanking primer (HopF) and an internal primer (HopIntR). Primer sequences are HopF, {\small 5'-TCGTTGATGCTTTGATGGATGG-3'}; 
-HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCTCTCATGAGATCC-3'} (Fig. S1 and \track{\ref{Fig1Cartoon}}, See Supplemental Materials with the online version of this article). Homozygotes for the no-\emph{Hopscotch} allele show a single band for absence of the element ($\sim$300bp) produced by the HopF/HopR primer set, and 0 bands for the HopF/HopIntR primer set since they lack the LTR where the internal primer sequence is. Homozygotes for the \emph{Hopscotch} allele also show one band at 5kb for the HopF/HopR PCR product as well as one band at 1.1kb for the HopF/HopIntR PCR. Heterozygotes for the \emph{Hopscotch} allele show three bands total; both a 300bp band and a 5kb band for the HopF/HopR PCR and a 1.1Kb band for the HopF/HopIntR PCR (Table S2, See Supplemental Materials with the online version of this article)."}
+HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCTCTCATGAGATCC-3'} (Fig. 1 and Fig. S1, See Supplemental Materials with the online version of this article). Homozygotes for the no-\emph{Hopscotch} allele show a single band for absence of the element ($\sim$300bp) produced by the HopF/HopR primer set, and 0 bands for the HopF/HopIntR primer set since they lack the LTR where the internal primer sequence is located. Homozygotes for the \emph{Hopscotch} allele also show one band at 5kb for the HopF/HopR PCR product as well as one band at 1.1kb for the HopF/HopIntR PCR. Heterozygotes for the \emph{Hopscotch} allele show three bands total; both a 300bp band and a 5kb band for the HopF/HopR PCR and a 1.1Kb band for the HopF/HopIntR PCR (Table S2, See Supplemental Materials with the online version of this article)."}
 
 
 
@@ -166,7 +189,7 @@ HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCT
 
 7) From Figure S1, the middle primer seems to be right in the middle of the element, which suggests it was not designed in the LTR region. Is this true? In which part of the retrotransposon was the primer designed? The authors should add position of the retrotransposon LTRs and coding regions on this figure. \\
 
-\res{The HopIntR primer is within the LTR element and was designed off of previously sequence data provided by John Doebley.}
+\res{The HopIntR primer is within the LTR element and was designed off of published sequence data provided by John Doebley.}
 
 8) In suppl. Figure S1, the names "HopF/HopR/HopIntR" should be added, as well as corresponding expected amplification sizes.\\
 
@@ -178,7 +201,7 @@ HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCT
 
 10) Bottom gel resolution is poor. On the right for low molecular weight bands, it is difficult to assess that there is a single band (lane 7). A 1\% gel and 1kb ladder are clearly not adequate for 300bp band detection.\\
 
-\res{It is not feasible for us to redo the gel at this point in time; however, we have editied the figure and the figure legend to be more clear.}
+\res{We have edited the figure and the figure legend to be more clear.  While the 300bp band is somewhat diffuse, we feel it is clear that there is a single band of the appropriate, expected size.}
 
 11) It is not stated whether PCR products were sequenced to check for correct amplification. Were some of the PCR products sequenced? If not, this should be done.\\
 
@@ -188,13 +211,11 @@ HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCT
 
 12) The authors write: "Environmental data represent average values for the last several decades (climatic data) or are likely stable over time (soil data)". Does this mean that soil data was not averaged over the last decades? How was it estimated? The fact that soil parameters are "likely" stable over time actually quite depends on what we consider as "soil". Does this include micro-organisms? A bit more detail should be given.\\
 
-\res{Soil data is from the Harmonized World Soil Database \url{http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/} and include measurements for ``organic Carbon, pH, water storage capacity, soil depth, cation exchange capacity of the soil and the clay fraction, total exchangeable nutrients, lime and gypsum contents, sodium exchange percentage, salinity, textural class and granulometry."}
+\res{Soil data are from the Harmonized World Soil Database \url{http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/} and include measurements for ``organic Carbon, pH, water storage capacity, soil depth, cation exchange capacity of the soil and the clay fraction, total exchangeable nutrients, lime and gypsum contents, sodium exchange percentage, salinity, textural class and granulometry."}
 
 13) Figure 1: This figure should show 37 populations of parviglumis and 4 populations of mexicana (see page 8, lines 211 to 213). But the figure legends indicates only parviglumis. It should include mexicana populations, and they should be differentiated by an appropriate color code. In some cases, several circles seem to derive from one circle, suggesting they correspond to several populations from the same location. On the left hand side, it is unexpected to globally have a null frequency of "No Hopscotch" while several populations have a large fraction of "Hopscotch". This means that, within 25 miles, the frequency of the "Hopscotch" allele varies greatly. The authors should discuss this point. Names of the parviglumis populations used for the rest of the study (La Mesa, San Lorenzo, Ejutla1 and Ejutla2) should be indicated.\\
 
-\mbh{the reviewer is indicating they are surprised that there are such marked differences in Hop frequency in such a small area in the populations on the lefthand side of the map.  You can cite my dissertation and the Tiffin and Moeller paper as finding that populations in this area were highly differentiated and that populations with Hop were much more closely related to each other than they were to pops without Hop...just some very different histories in these populations and little gene flow between them}
-
-\res{We only included \emph{parviglumis} in this graph because we wanted to highlight the difference in frequency within the Jalisco region, even between populations that are geographically very close to each other. Reviewer 2 is correct in stating that there is a large difference in the frequency of the \emph{Hopscotch} allele within 25 miles. Previous studies by \citet{Hufford2010; Moeller01072007} have shown that populations in this area are highly differentiated and likely have different evolutionary histories.}
+\res{We only included \emph{parviglumis} in this graph because we wanted to highlight the difference in frequency within the Jalisco region, even between populations that are geographically very close to each other. Reviewer 2 is correct in stating that there is a large difference in the frequency of the \emph{Hopscotch} allele within 25 miles. Previous studies by \citet{Hufford2010, Moeller01072007} have shown that populations in this area are highly differentiated and likely have different evolutionary histories.}
 
 \res{We have edited the figure to include the names of the four populations in the Jalisco region that we intend to highlight: La Mesa, San Lorenzo, Ejulta A, and Ejutla B.}
 
@@ -203,11 +224,11 @@ HopR, {\small 5'-AACAGTATGATTTCATGGGACCG-3'}; and HopIntR, {\small  5'-CCTCCACCT
 
 14) Results of the PCR amplifications are not well enough described and of high enough quality to be able to conclude whether the retrotransposon detection is valid or not (see "Experimental Design"). The authors should improve labelling of suppl. Figure S2 and, if needed, run the PCR amplicons on a more concentrated gel and with appropriate ladder.\\
 
-\res{We have editied the figure and the legend and corresponding text reference to be more clear about the expected banding patterns for the 3 genotypes.}
+\res{We have edited the figure and the legend and corresponding text reference to be more clear about the expected banding patterns for the 3 genotypes.}
 
 15) Based on the association genetics study performed, the authors find an absence of association between the Hopscotch insertion and tillering index. At 40 days, they even find a weak but significant correlation, but in the unexpected direction (homozygotes for the Hopscotch insertion have a higher tillering). The authors discuss that this could be due to variation at other unlinked loci. However, they do not discuss on the effect of the environment on tillering. Considering the experiment was performed in greenhouse conditions while teosintes grow in much different environmental conditions, the genotype x environment interaction could differ greatly to this obtained in teosinte natural environmental conditions. This should be discussed.\\
 
-\res{The effects of \emph{tb1} on tillering in maize have been verified a number of times in different environments \citet{Briggs2007, Clark2006, StuderDoebley2012, Studer2011}. We feel that any effect of growing teosinte in a greenhouse setting as opposed to as a field trial would not be so large as to mask the effects of \emph{tb1} on tillering.}
+\res{The effects of \emph{tb1} on tillering in maize have been verified a number of times in different environments \citet{Briggs2007, Clark2006, StuderDoebley2012, Studer2011}. We feel that any effect of growing teosinte in a greenhouse setting as opposed to a a field trial would not be so large as to mask the effects of \emph{tb1} on tillering.}
 
 
 \bibliography{refs}

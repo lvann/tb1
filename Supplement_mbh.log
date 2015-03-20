@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2014 17:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 MAR 2015 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,28 +718,47 @@ Package caption Info: End \AtBeginDocument code.
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
 
 ]
-[4] [5] [6] <FigS1LocusCartoon.png, id=36, 561.297pt x 433.62pt>
-File: FigS1LocusCartoon.png Graphic file (type png)
+[4] [5] [6]
 
-<use FigS1LocusCartoon.png>
-Package pdftex.def Info: FigS1LocusCartoon.png used on input line 427.
-(pdftex.def)             Requested size: 512.1496pt x 395.67992pt.
+LaTeX Warning: File `FigS1LocusCartoon.png' not found on input line 427.
+
+
+./Supplement_mbh.tex:427: Package pdftex.def Error: File `FigS1LocusCartoon.png
+' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.427 ...phics[width=180mm]{FigS1LocusCartoon.png}
+                                                  
+? 
 
 Overfull \hbox (42.39458pt too wide) in paragraph at lines 427--428
  [] 
  []
 
-[7 <./FigS1LocusCartoon.png>]
-<FigS2GelPeerJ.png, id=45, 903.375pt x 1249.66875pt>
-File: FigS2GelPeerJ.png Graphic file (type png)
- <use FigS2GelPeerJ.png>
-Package pdftex.def Info: FigS2GelPeerJ.png used on input line 440.
-(pdftex.def)             Requested size: 284.52756pt x 393.59053pt.
+[7] <FigS2GelPeerJ_pretty.png, id=43, 754.82pt x 860.21375pt>
+File: FigS2GelPeerJ_pretty.png Graphic file (type png)
 
-[8 <./FigS2GelPeerJ.png>] <FigS3NJtrees.png, id=52, 614.295pt x 794.97pt>
+<use FigS2GelPeerJ_pretty.png>
+Package pdftex.def Info: FigS2GelPeerJ_pretty.png used on input line 440.
+(pdftex.def)             Requested size: 284.52756pt x 324.24634pt.
+
+./Supplement_mbh.tex:441: Misplaced alignment tab character &.
+l.441 ...or the element; 3 (HopF/HopR; 5kb band) &
+                                                   4 (HopF/HopIntR; 1.1kb) a...
+
+? 
+./Supplement_mbh.tex:441: Misplaced alignment tab character &.
+l.441 ...r the element; and 5 (HopF/HopR; 300bp) &
+                                                   6 (HopF/HopIntR; N/A)  ar...
+
+? 
+[8 <./FigS2GelPeerJ_pretty.png>]
+<FigS3NJtrees.png, id=51, 614.295pt x 794.97pt>
 File: FigS3NJtrees.png Graphic file (type png)
-
-<use FigS3NJtrees.png>
+ <use FigS3NJtrees.png>
 Package pdftex.def Info: FigS3NJtrees.png used on input line 453.
 (pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
 
@@ -757,22 +776,23 @@ Package rerunfilecheck Info: File `Supplement_mbh.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
- 8429 strings out of 493488
- 124404 string characters out of 3141326
+ 8427 strings out of 493488
+ 124356 string characters out of 3141326
  365150 words of memory out of 3000000
- 11612 multiletter control sequences out of 15000+200000
- 5253 words of font info for 19 fonts, out of 3000000 for 9000
+ 11609 multiletter control sequences out of 15000+200000
+ 5421 words of font info for 20 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,11n,43p,803b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Supplement_mbh.pdf (9 pages, 1452348 bytes).
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Supplement_mbh.pdf (9 pages, 887182 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
