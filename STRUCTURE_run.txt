@@ -1,0 +1,8 @@
+﻿#$ -S /bin/bash
+#$ -N structure_ejua.50000.rep3
+#$ -cwd
+
+i=$SGE_TASK_ID
+
+./structure  -K 2 -m $1 -e $2 -i $3 -o $3.50000.rep3
+structure_ejua.sh (END)
