@@ -1,0 +1,1 @@
+﻿./bayenv 1 10 -37569 1000000 /home/levann/bin/BayEnv/LV_snps.txt /home/levann/bin/BayEnv/10parv_4PCsAltTemp 8 /home/levann/bin/BayEnv/10parv_covmatrix_for_bayenv.txt
