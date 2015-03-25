@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PeerJResponse.aux
 The style file: AJB.bst
 Database file #1: refs.bib
-You've used 14 entries,
+You've used 15 entries,
             2929 wiz_defined-function locations,
-            696 strings with 7161 characters,
-and the built_in function-call counts, 8712 in all, are:
-= -- 717
-> -- 410
-< -- 6
-+ -- 140
-- -- 121
-* -- 658
-:= -- 1385
-add.period$ -- 56
-call.type$ -- 14
-change.case$ -- 109
-chr.to.int$ -- 15
-cite$ -- 14
-duplicate$ -- 623
-empty$ -- 631
-format.name$ -- 162
-if$ -- 1746
+            704 strings with 7301 characters,
+and the built_in function-call counts, 9203 in all, are:
+= -- 761
+> -- 421
+< -- 7
++ -- 144
+- -- 124
+* -- 687
+:= -- 1467
+add.period$ -- 60
+call.type$ -- 15
+change.case$ -- 115
+chr.to.int$ -- 16
+cite$ -- 15
+duplicate$ -- 661
+empty$ -- 674
+format.name$ -- 166
+if$ -- 1847
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 122
-newline$ -- 76
-num.names$ -- 56
-pop$ -- 232
+missing$ -- 129
+newline$ -- 81
+num.names$ -- 60
+pop$ -- 243
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 101
 quote$ -- 0
-skip$ -- 205
+skip$ -- 217
 stack$ -- 0
-substring$ -- 460
-swap$ -- 292
+substring$ -- 492
+swap$ -- 308
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 123
+type$ -- 132
 warning$ -- 0
-while$ -- 55
+while$ -- 59
 width$ -- 0
-write$ -- 185
+write$ -- 198
